@@ -81,7 +81,12 @@ header {
   border-radius: 12px;
   .leftImg {
     border-radius: 12px 0px 0px 12px;
+    height: 60vh;
+    object-fit: cover;
   }
+}
+.border-radius-12 {
+  border-radius: 12px;
 }
 .circle {
   border-radius: 100%;
@@ -90,15 +95,43 @@ header {
   height: 40px;
 }
 .ImageCard {
-  background: linear-gradient(
-      180deg,
-      rgba(114, 9, 183, 0) 0%,
-      rgba(24, 60, 86, 1) 100%
-    ),
-    url(../imgs/blog.jpg) center/cover no-repeat;
   min-height: 80vh;
   border-radius: 12px;
-  .h-80 {
-    height: 80vh;
+}
+.h-80 {
+  height: 80vh;
+}
+.swiper-slide {
+  .leftImg {
+    object-fit: cover;
+    height: 60vh;
+    border-radius: 12px 0px 0px 12px;
+
   }
+}
+.swiper-button-prev,
+.swiper-button-next {
+  width: 40px !important;
+  height: 40px !important;
+  background-color: #276678; /* Dark blue color */
+  border-radius: 50px;
+  color: #fff !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &::after {
+    content: none !important;
+  }
+}
+
+.swiper-button-prev {
+  left: -7px !important; /* Adjust position as needed */
+}
+
+.swiper-button-next {
+  right: -7px !important; /* Adjust position as needed */
+}
+
+.swiper-container {
+  padding: 10px;
 }

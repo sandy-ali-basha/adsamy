@@ -54,10 +54,12 @@
       <section class="bg-white first">
         <div class="row">
           <div class="col-md-6">
-            <img src="./imgs/blog.jpg" class="w-100 leftImg" alt="" />
+            <img src="./imgs/image3.jpg" class="w-100 leftImg" alt="" />
           </div>
           <div class="col-md-6 ">
-            <div class="p-2 my-3 pe-4">
+            <div
+              class="p-2 h-100 d-flex flex-column justify-content-around pe-4"
+            >
               <div class="chip">FEATURED</div>
               <h3 class="text-primary mt-4 fw-bold">
                 Cheap Airline Tickets Great Way To Save
@@ -88,7 +90,7 @@
         <div class="box mt-5 d-flex justify-content-between ">
           <div>
             <h2 class="text-dark-primary fw-bold">Popular Articles</h2>
-            <p class="text-dark-secondary">
+            <p class="text-dark-secondary w-75">
               we share commone trends, Lorem ipsum dolor, sit amet consectetur
               adipisicing elit. Pariatur, perspiciatis!
             </p>
@@ -100,9 +102,17 @@
             view all <i class="fa-solid fa-arrow-right text-white ms-3"></i>
           </button>
         </div>
-        <div class="row mt-5">
-          <div class="col-md-6">
-            <div class="ImageCard">
+        <div class="row mt-4">
+          <div class="col-md-6  mt-2">
+            <div
+              class="ImageCard"
+              style="background: linear-gradient(
+              180deg,
+              rgba(114, 9, 183, 0) 0%,
+              rgba(24, 60, 86, 1) 100%
+            ), 
+            url(../imgs/image1.jpg) center/cover no-repeat;"
+            >
               <div class="p-5 d-flex flex-column justify-content-between h-80 ">
                 <div class="chip text-primary bg-white">FEATURED</div>
                 <div>
@@ -126,8 +136,16 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="ImageCard">
+          <div class="col-md-6 mt-2">
+            <div
+              class="ImageCard"
+              style="background: linear-gradient(
+              180deg,
+              rgba(114, 9, 183, 0) 0%,
+              rgba(24, 60, 86, 1) 100%
+            ), 
+            url(../imgs/image2.jpg) center/cover no-repeat;"
+            >
               <div class="p-5 d-flex flex-column justify-content-between h-80 ">
                 <div class="chip text-primary bg-white">FEATURED</div>
                 <div>
@@ -153,21 +171,142 @@
           </div>
         </div>
       </section>
-      <!-- all articles
-        -->
+      <!-- case studies  -->
       <section>
         <div class="box mt-5 d-flex justify-content-between ">
           <div>
-            <h2 class="text-dark-primary fw-bold">Popular Articles</h2>
+            <h2 class="text-dark-primary fw-bold w-75">case studies</h2>
             <p class="text-dark-secondary">
               we share commone trends, Lorem ipsum dolor, sit amet consectetur
               adipisicing elit. Pariatur, perspiciatis!
             </p>
           </div>
+
+          <button
+            class="btn btn-outlined text-white border-white fs-small mt-auto"
+          >
+            view all <i class="fa-solid fa-arrow-right text-white ms-3"></i>
+          </button>
+        </div>
+        <div class="position-relative mt-5">
+          <div class="mySwiper swiper-container ">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide bg-white border-radius-12 ">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="./imgs/image1.jpg" class="w-100 leftImg" alt="" />
+                  </div>
+                  <div class="col-md-6 ">
+                    <div
+                      class="p-2 h-100 d-flex flex-column justify-content-around pe-4"
+                    >
+                      <div class="chip">FEATURED</div>
+                      <h3 class="text-primary mt-4 fw-bold">
+                        5 Minute Cleanup
+                      </h3>
+                      <p class="text-secondary mt-4">
+                        One of the easiest cleaning habits I’ve found when
+                        you’re overwhelmed with mess and lack of time, is a 5
+                        Minute Cleanup! Here’s how I do it in partnership with
+                        Ecowell’s Lulu Wet/Dry Vacuum…
+                      </p>
+                      <div class="d-flex justify-content-between mt-2">
+                        <div class="d-flex gap-4">
+                          <img src="./imgs/profile.jpg" class="circle" alt="" />
+                          <div class="my-auto">
+                            <a href="http://" class="text-primary"
+                              >Viola Monisa</a
+                            >
+                            <div class="d-flex gap-2">
+                              <i class="fa-solid fa-check p-1"></i>
+                              <div class="text-secondary">verfied user</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div>02 May</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide bg-white border-radius-12 ">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="./imgs/image2.jpg"
+                      class="w-100 leftImg "
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-md-6 ">
+                    <div
+                      class="p-2 pe-4 h-100 d-flex flex-column justify-content-around"
+                    >
+                      <div class="chip">FEATURED</div>
+                      <h3 class="text-primary mt-4 fw-bold">
+                        Four Healthy 5 Minute Breakfast Ideas
+                      </h3>
+                      <p class="text-secondary mt-4">
+                        What if you spent just a few extra minutes to have a
+                        family breakfast? I’m sharing a few fun and delicious
+                        ideas to help make that happen for your family.
+                      </p>
+                      <div class="d-flex justify-content-between mt-2">
+                        <div class="d-flex gap-4">
+                          <img src="./imgs/profile.jpg" class="circle" alt="" />
+                          <div class="my-auto">
+                            <a href="http://" class="text-primary"
+                              >Viola Monisa</a
+                            >
+                            <div class="d-flex gap-2">
+                              <i class="fa-solid fa-check p-1"></i>
+                              <div class="text-secondary">verfied user</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div>02 May</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Custom Navigation Buttons -->
+            <div class="swiper-button-prev">
+              <i class="fa-solid fa-arrow-left"></i>
+            </div>
+            <div class="swiper-button-next">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- all articles
+        -->
+      <section>
+        <div class="box mt-5 d-flex justify-content-between ">
+          <div>
+            <h2 class="text-dark-primary fw-bold">All Articles</h2>
+            <p class="text-dark-secondary">
+              Recently, I’ve been converted to sparkly water. Not the flavored
+              kind, just pure sparkling water. It’s my favorite drink:
+              refreshing and special that feels well deserved at the end of a
+              the day.
+            </p>
+          </div>
         </div>
         <div class="row mt-5">
           <div class="col-md-6 mt-4">
-            <div class="ImageCard">
+            <div
+              class="ImageCard"
+              style="background: linear-gradient(
+                180deg,
+                rgba(114, 9, 183, 0) 0%,
+                rgba(24, 60, 86, 1) 100%
+              ), 
+              url(../imgs/image3.jpg) center/cover no-repeat;"
+            >
               <div class="p-5 d-flex flex-column justify-content-between h-80 ">
                 <div class="chip text-primary bg-white">FEATURED</div>
                 <div>
@@ -192,13 +331,20 @@
             </div>
           </div>
           <div class="col-md-6 mt-4">
-            <div class="ImageCard">
+            <div
+              class="ImageCard"
+              style="background: linear-gradient(
+              180deg,
+              rgba(114, 9, 183, 0) 0%,
+              rgba(24, 60, 86, 1) 100%
+            ), 
+            url(../imgs/image4.jpg) center/cover no-repeat;"
+            >
               <div class="p-5 d-flex flex-column justify-content-between h-80 ">
                 <div class="chip text-primary bg-white">FEATURED</div>
                 <div>
                   <h3 class="text-white mt-4 ">
-                    How to prevent and protect yourself from carbon monoxide and
-                    your family.
+                    How to Make Tissue Paper Poppies
                   </h3>
                   <div class="text-white text-end">02 May</div>
 
@@ -217,7 +363,15 @@
             </div>
           </div>
           <div class="col-md-4 mt-4">
-            <div class="ImageCard">
+            <div
+              class="ImageCard"
+              style="background: linear-gradient(
+              180deg,
+              rgba(114, 9, 183, 0) 0%,
+              rgba(24, 60, 86, 1) 100%
+            ), 
+            url(../imgs/image5.jpg) center/cover no-repeat;"
+            >
               <div class="p-5 d-flex flex-column justify-content-between h-80 ">
                 <div class="chip text-primary bg-white">FEATURED</div>
                 <div>
@@ -228,7 +382,7 @@
                   <div class="text-white text-end">02 May</div>
 
                   <div class="d-flex gap-4 mt-2">
-                    <img src="./imgs/profile.jpg" class="circle" alt="" />
+                    <img src="./imgs/image5.jpg" class="circle" alt="" />
                     <div class="my-auto">
                       <a href="#" class="text-white">Viola Monisa</a>
                       <div class="d-flex gap-2 mt-1">
@@ -242,18 +396,25 @@
             </div>
           </div>
           <div class="col-md-4 mt-4">
-            <div class="ImageCard">
+            <div
+              class="ImageCard"
+              style="background: linear-gradient(
+              180deg,
+              rgba(114, 9, 183, 0) 0%,
+              rgba(24, 60, 86, 1) 100%
+            ), 
+            url(../imgs/image6.jpg) center/cover no-repeat;"
+            >
               <div class="p-5 d-flex flex-column justify-content-between h-80 ">
-                <div class="chip text-primary bg-white">FEATURED</div>
+                <div class="chip text-secondary bg-white">NEW</div>
                 <div>
                   <h3 class="text-white mt-4 ">
-                    How to prevent and protect yourself from carbon monoxide and
-                    your family.
+                    Secrets to the Best Baguette Sandwich
                   </h3>
                   <div class="text-white text-end">02 May</div>
 
                   <div class="d-flex gap-4 mt-2">
-                    <img src="./imgs/profile.jpg" class="circle" alt="" />
+                    <img src="./imgs/blog.jpg" class="circle" alt="" />
                     <div class="my-auto">
                       <a href="#" class="text-white">Viola Monisa</a>
                       <div class="d-flex gap-2 mt-1">
@@ -267,18 +428,25 @@
             </div>
           </div>
           <div class="col-md-4 mt-4">
-            <div class="ImageCard">
+            <div
+              class="ImageCard"
+              style="background: linear-gradient(
+              180deg,
+              rgba(114, 9, 183, 0) 0%,
+              rgba(24, 60, 86, 1) 100%
+            ), 
+            url(../imgs/image7.jpg) center/cover no-repeat;"
+            >
               <div class="p-5 d-flex flex-column justify-content-between h-80 ">
-                <div class="chip text-primary bg-white">FEATURED</div>
+                <div class="chip text-secondary bg-white">New</div>
                 <div>
                   <h3 class="text-white mt-4 ">
-                    How to prevent and protect yourself from carbon monoxide and
-                    your family.
+                    Gluten Free Chocolate Chip Zucchini and Sweet Potato Muffins
                   </h3>
-                  <div class="text-white text-end">02 May</div>
+                  <div class="text-white text-end">05 May</div>
 
                   <div class="d-flex gap-4 mt-2">
-                    <img src="./imgs/profile.jpg" class="circle" alt="" />
+                    <img src="./imgs/image4.jpg" class="circle" alt="" />
                     <div class="my-auto">
                       <a href="#" class="text-white">Viola Monisa</a>
                       <div class="d-flex gap-2 mt-1">
@@ -292,10 +460,13 @@
             </div>
           </div>
         </div>
-
-        <button class="btn btn-outlined text-white border-white fs-small mt-5 mx-auto">
-          view all <i class="fa-solid fa-arrow-right text-white ms-3"></i>
-        </button>
+        <div class="text-center mb-5">
+          <button
+            class="btn btn-outlined text-white border-white fs-small mt-5 mx-auto"
+          >
+            view all <i class="fa-solid fa-arrow-right text-white ms-3"></i>
+          </button>
+        </div>
       </section>
     </div>
     <!-- bootstrap -->
@@ -315,5 +486,21 @@
       src="https://kit.fontawesome.com/5b9061b1a3.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper('.mySwiper', {
+            loop: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            slidesPerView: 1,
+            effect: 'fade',
+            fadeEffect: {
+            crossFade: true
+                      },
+            } );
+        console.log("dkjf")
+    </script>
   </body>
 </html>
