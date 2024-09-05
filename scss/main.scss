@@ -1,4 +1,5 @@
-@import "./breakpoints", "./colors", "../fonts/Poppins/stylesheet.css";
+@import "./breakpoints", "./colors", "../fonts/Poppins/stylesheet.css",
+  "contact_us";
 * {
   box-sizing: border-box;
   margin: 0;
@@ -8,7 +9,10 @@
   transition: all 0.5s;
   accent-color: #172b43;
 }
-body {
+.text-yellow {
+  color: #fdd306;
+}
+.Blog {
   background: #212121;
 }
 .text-primary {
@@ -106,7 +110,6 @@ header {
     object-fit: cover;
     height: 60vh;
     border-radius: 12px 0px 0px 12px;
-
   }
 }
 .swiper-button-prev,

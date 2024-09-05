@@ -1,0 +1,40 @@
+.ContactUs {
+  //   background: rgba(240, 240, 240, 1) url("../imgs/image1.jpg") center/cover
+  //     no-repeat;
+  background: rgba(240, 240, 240, 1);
+  color: rgba(51, 51, 51, 1);
+  .contactBox {
+    background-color: rgba(234, 234, 234, 1);
+    input,
+    textarea,
+    select {
+      border-radius: 0px !important;
+    }
+  }
+  hr {
+    height: 4px;
+    opacity: 1;
+    background-color: rgba(84, 89, 95, 1) !important;
+    border: none;
+  }
+  .btn {
+    border-radius: 0px 0px 10px 10px;
+    background: rgba(64, 84, 178, 1);
+    color: white;
+  }
+  .text-secondary {
+    color: rgba(84, 89, 95, 1);
+  }
+  .icon {
+    color: rgba(64, 84, 178, 1);
+  }
+  .profileImg {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+  }
+}
+.vh-70 {
+    height: 70vh;
+  }
+  

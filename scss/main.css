@@ -4,6 +4,46 @@
 *
 **/
 @import "../fonts/Poppins/stylesheet.css";
+.ContactUs {
+  background: rgb(240, 240, 240);
+  color: rgb(51, 51, 51);
+}
+.ContactUs .contactBox {
+  background-color: rgb(234, 234, 234);
+}
+.ContactUs .contactBox input,
+.ContactUs .contactBox textarea,
+.ContactUs .contactBox select {
+  border-radius: 0px !important;
+}
+.ContactUs hr {
+  height: 4px;
+  opacity: 1;
+  background-color: rgb(84, 89, 95) !important;
+  border: none;
+}
+.ContactUs .btn {
+  border-radius: 0px 0px 10px 10px;
+  background: rgb(64, 84, 178);
+  color: white;
+}
+.ContactUs .text-secondary {
+  color: rgb(84, 89, 95);
+}
+.ContactUs .icon {
+  color: rgb(64, 84, 178);
+}
+.ContactUs .profileImg {
+  width: 70px;
+  height: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.vh-70 {
+  height: 70vh;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -13,7 +53,11 @@
   accent-color: #172b43;
 }
 
-body {
+.text-yellow {
+  color: #fdd306;
+}
+
+.Blog {
   background: #212121;
 }
 
