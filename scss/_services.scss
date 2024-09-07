@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+.services {
+  background: hsl(0deg 0% 94.12%);
+}
+.bg-yellow {
+  background: #fdd306;
+}
+.bg-secondary-light {
+  background-color: rgba(217, 217, 217, 1);
+}
+.fw-600 {
+  font-weight: 600;
+}
+.fw-700 {
+  font-weight: 700;
+}
+
+.outlineFont {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 700;
+  -webkit-text-stroke: 2px rgba(13, 75, 116, 1);
+  color: #fdd306;
+  font-size: 5rem;
+}
+.whyAttend {
+  li {
+    list-style-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"/></svg>');
+  }
+}
+.bg-light-yellow {
+  background: rgba(255, 249, 218, 1);
+}
+.RequestCard {
+  .col-md-6 {
+    &:nth-child(1) {
+      border-top-left-radius: 12px;
+      border-bottom-left-radius: 12px;
+    }
+    &:nth-child(2) {
+      border-top-right-radius: 12px;
+      border-bottom-right-radius: 12px;
+    }
+  }
+}
+.PartnerCard {
+  background: hsl(50.27deg 100% 92.75%);
+}
+.bg-gold {
+  background: #e4c669;
+}
+.services {
+  .btn-primary {
+    background: $text_primary;
+  }
+}
+.partner-img {
+  width: 10vw;
+}
+.font-Inter {
+  font-family: Inter;
+}
+.vh-50 {
+  height: 50vh;
+}
