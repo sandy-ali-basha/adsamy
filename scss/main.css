@@ -90,7 +90,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border: 7px solid rgba(255, 255, 255, 0.6156862745);
+  background: rgba(0, 0, 139, 0);
+  border: 7px solid rgba(255, 255, 255, 0.6156862745) !important;
   width: 100px;
   aspect-ratio: 1;
   border: none;
@@ -100,27 +101,19 @@
 }
 .webDesign .play-btn i {
   color: rgba(255, 255, 255, 0.6156862745);
-  font-size: 30px;
+  font-size: 50px;
+  width: 100%;
 }
-.webDesign .custom-controls {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-  display: flex;
-  align-items: center;
-}
-.webDesign .custom-controls span {
-  margin-left: 10px;
-}
-.webDesign .swiper-button-prev,
-.webDesign .swiper-button-next {
+.webDesign .web-swiper-button-prev,
+.webDesign .web-swiper-button-next {
   color: #333;
 }
-.webDesign .swiper-button-prev {
-  left: 0;
-}
-.webDesign .swiper-button-next {
-  right: 0;
+.webDesign .web-swiper-button-prev,
+.webDesign .web-swiper-button-next {
+  position: initial !important;
+  margin-top: 0px;
+  right: auto !important;
+  left: auto !important;
 }
 .webDesign .likes {
   display: flex;

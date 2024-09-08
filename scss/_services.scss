@@ -81,7 +81,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 7px solid #ffffff9d;
+    background: #00008b00;
+    border: 7px solid #ffffff9d !important;
     width: 100px;
     aspect-ratio: 1;
     border: none;
@@ -92,32 +93,21 @@
 
   .play-btn i {
     color: #ffffff9d;
-    font-size: 30px;
+    font-size: 50px;
+    width: 100%;
   }
 
-  .custom-controls {
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-    display: flex;
-    align-items: center;
-  }
-
-  .custom-controls span {
-    margin-left: 10px;
-  }
-
-  .swiper-button-prev,
-  .swiper-button-next {
+  .web-swiper-button-prev,
+  .web-swiper-button-next {
     color: #333;
   }
 
-  .swiper-button-prev {
-    left: 0;
-  }
-
-  .swiper-button-next {
-    right: 0;
+  .web-swiper-button-prev,
+  .web-swiper-button-next {
+    position: initial !important;
+    margin-top: 0px;
+    right: auto !important;
+    left: auto !important;
   }
 
   .likes {
