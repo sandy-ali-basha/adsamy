@@ -52,19 +52,27 @@
         <img src="./imgs/partners/partner (9).png" class="partner-img" alt="" />
       </div>
       <div class="container py-5">
-        <section class="row webDesign">
-          <div class="col-md-6">
-            <div class="swiper mySwiper">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
+        <div class="swiper mySwiper position-relative">
+          <div class="swiper-wrapper ">
+            <div class="swiper-slide">
+         
+              <section class="row webDesign">
+                <div class="col-md-6">
                   <div class="video-card">
-                    <img
-                      src="https://via.placeholder.com/350x200"
-                      alt="Video Thumbnail"
-                      class="card-img-top"
-                    />
-                    <button class="play-btn">
+                    <video
+                      id="video1"
+                      poster="https://via.placeholder.com/351x200"
+                      controls
+                      class="w-100"
+                    >
+                      <source src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4" type="video/mp4" />
+                      Your browser does not support the video tag.
+                    </video>
+                    <button class="play-btn" id="playButton1">
                       <i class="fas fa-play"></i>
+                    </button>
+                    <button class="play-btn " style="display: none;" id="pausButton1">
+                      <i class="fas fa-pause"></i>
                     </button>
                   </div>
                   <div
@@ -80,59 +88,54 @@
                     </div>
                   </div>
                 </div>
-                <div class="swiper-slide">
-                  <div class="video-card">
-                    <img
-                      src="https://via.placeholder.com/350x201"
-                      alt="Video Thumbnail"
-                      class="card-img-top"
-                    />
-                    <button class="play-btn">
-                      <i class="fas fa-play"></i>
-                    </button>
-                  </div>
-                  <div
-                    class="d-flex justify-content-between position-relative py-3"
-                  >
-                    <div class="custom-controls d-flex gap-4">
-                      <div class="likes fs-4 text-secondary">
-                        <i class="far fa-heart fa-solid "></i><span>23</span>
-                      </div>
-                      <div class="views fs-4 text-secondary">
-                        <i class="far fa-eye  fa-solid"></i><span>4.2K</span>
-                      </div>
-                    </div>
-                  </div>
+                <div class="col-md-6">
+                  <h2>Lorem, ipsum.</h2>
+                  <p class="fs-5">Lorem ipsum dolor sit amet.</p>
+                  <p class="fs-6 fw-bold">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Omnis quod distinctio assumenda magni iure aut impedit
+                    asperiores qui tempore deleniti, voluptatem nisi pariatur
+                    tenetur expedita eligendi sunt, fugit maxime fuga.
+                  </p>
                 </div>
-              </div>
-              <div
-                class="position-relative d-flex gap-2 justify-content-end"
-                style="top:-50px;"
-              >
-                <div class="web-swiper-button-prev swiper-button-prev">
-                  <i class="text-white fa-solid fa-arrow-left"></i>
-                </div>
-                <div class="web-swiper-button-next swiper-button-next">
-                  <i class="text-white fa-solid fa-arrow-right"></i>
-                </div>
-              </div>
+              </section>
+              <script>
+                const pausButton = document.getElementById('pausButton1');
+                const playButton = document.getElementById('playButton1');
+                const video = document.getElementById('video1');
+
+                playButton.addEventListener('click', function() {
+                    playButton.style.display = 'none'; 
+                    pausButton.style.display = 'block'; 
+                    video.play(); // Play the video
+                });
+                pausButton.addEventListener('click', function() {
+                    playButton.style.display = 'block'; 
+                    pausButton.style.display = 'none'; 
+                    video.pause(); // paus the video
+                });
+
+                // When video is played, hide the play button
+                video.addEventListener('play', function() {
+                    playButton.style.display = 'none';
+                });
+              </script>
             </div>
           </div>
-          <div class="col-md-6">
-            <h2>Web Design & Development</h2>
-            <p class="fs-5">
-              We are a young and creative company and we offer you fresh
-            </p>
-            <p class="fs-6 fw-bold">
-              We Give You Complete Control Of Your Shipments. Lorem ipsum
-              viverra feugiat. Pellen tesque libero ut justo, ultrices in
-              ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Non quae, fugiat. Live Monitoring
-              Lorem ipsum viverra feugiat libero. Worldwide Service Lorem ipsum
-              viverra feugiat libero.
-            </p>
+          <div
+            class="position-relative d-flex gap-2 justify-content-end"
+            style="    top: -33px;
+            width: 80px;
+            left: 35vw;"
+          >
+            <div class="web-swiper-button-prev swiper-button-prev">
+              <i class="text-white fa-solid fa-arrow-left"></i>
+            </div>
+            <div class="web-swiper-button-next swiper-button-next">
+              <i class="text-white fa-solid fa-arrow-right"></i>
+            </div>
           </div>
-        </section>
+        </div>
       </div>
       <section class="row py-5  bg-secondary-light">
         <div class="col-md-6">
