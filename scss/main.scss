@@ -138,3 +138,25 @@ header {
 .swiper-container {
   padding: 10px;
 }
+
+//* aboutus css
+.vh-65 {
+  height: 65vh;
+}
+.work-next {
+  right: 1.5vw !important;
+}
+.work-prev {
+  left: 1.5vw !important;
+}
+.MISSIONSwiper {
+  padding-bottom: 5vh !important;
+}
+.swiper-MISSIONS-pagination {
+  padding-left: 5vw;
+
+  .swiper-pagination-bullet {
+    transform: scale(1.5);
+    background: #fdd306;
+  }
+}
