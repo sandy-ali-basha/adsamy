@@ -145,17 +145,25 @@
 
     <script>
       const swiper = new Swiper('.marketingSwiper', {
-            loop: true,
-            pagination: {
+        loop: true,
+        pagination: {
           el: ".marketingSwiper-pagination",
           clickable: true,
         },
-            slidesPerView: 1,
-            effect: 'fade',
-            fadeEffect: {
-            crossFade: true
-                      },
-            } );
+        slidesPerView: 1,
+        effect: 'fade',
+        fadeEffect: {
+          crossFade: true
+        },
+      });
+    
+      // Add click event to .right-img to move to the next slide
+      document.querySelectorAll('.right-img').forEach(img => {
+        img.addEventListener('click', () => {
+          swiper.slideNext();
+        });
+      });
     </script>
+    
   </body>
 </html>
