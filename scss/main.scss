@@ -1,5 +1,5 @@
 @import "./breakpoints", "./colors", "../fonts/Poppins/stylesheet.css",
-  "services", "contact_us";
+  "services", "contact_us", "./section";
 * {
   box-sizing: border-box;
   margin: 0;
@@ -157,6 +157,14 @@ header {
 
   .swiper-pagination-bullet {
     transform: scale(1.5);
+    background: #fdd306;
+  }
+}
+.marketingSwiper-pagination {
+  .swiper-pagination-bullet {
+    transform: scale(2);
+    margin-left: 10px !important;
+    margin-bottom: 2vh !important;
     background: #fdd306;
   }
 }

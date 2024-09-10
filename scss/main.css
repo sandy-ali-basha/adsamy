@@ -164,6 +164,45 @@
   height: 70vh;
 }
 
+.marketingSwiper {
+  height: 100vh;
+}
+
+.click-btn {
+  background: #172b43;
+}
+
+.slider-imgs .left-img {
+  width: 75%;
+  border: 5px solid white;
+  border-radius: 30px;
+}
+@media only screen and (max-width: 767px) {
+  .slider-imgs .left-img {
+    width: 60vw !important;
+  }
+}
+.slider-imgs .right-img {
+  right: -13vw;
+  width: 22vw;
+  bottom: 14%;
+  border-radius: 30px;
+  position: absolute;
+}
+@media only screen and (max-width: 767px) {
+  .slider-imgs .right-img {
+    position: relative;
+    width: 40vw;
+    right: -5vw;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .slide-row {
+    flex-direction: column-reverse;
+  }
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -349,5 +388,12 @@ header .search input::placeholder {
 }
 .swiper-MISSIONS-pagination .swiper-pagination-bullet {
   transform: scale(1.5);
+  background: #fdd306;
+}
+
+.marketingSwiper-pagination .swiper-pagination-bullet {
+  transform: scale(2);
+  margin-left: 10px !important;
+  margin-bottom: 2vh !important;
   background: #fdd306;
 }/*# sourceMappingURL=main.css.map */

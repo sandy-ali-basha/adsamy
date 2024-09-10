@@ -1,0 +1,34 @@
+.marketingSwiper {
+    height: 100vh;
+  }
+  .click-btn {
+    background: #172b43;
+  }
+  .slider-imgs {
+    .left-img {
+      width: 75%;
+      border: 5px solid white;
+      border-radius: 30px;
+      @media only screen and (max-width: 767px) {
+        width: 60vw !important;
+      }
+    }
+    .right-img {
+      right: -13vw;
+      width: 22vw;
+      bottom: 14%;
+      border-radius: 30px;
+      position: absolute;
+      @media only screen and (max-width: 767px) {
+        position: relative;
+        width: 40vw;
+        right: -5vw;
+      }
+    }
+  }
+  .slide-row {
+    @media only screen and (max-width: 767px) {
+      flex-direction: column-reverse;
+    }
+  }
+  
