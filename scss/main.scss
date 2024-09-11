@@ -168,3 +168,30 @@ header {
     background: #fdd306;
   }
 }
+.getQuotation {
+  .qetquotationBtn {
+    position: fixed;
+    right: -68px;
+    bottom: 77px;
+    transform: rotate(90deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .img {
+      width: 50px;
+      border-radius: 50px;
+      object-fit: cover;
+      aspect-ratio: 1;
+      border: 3px solid #d6d4d2;
+    }
+    .text {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 5px 10px;
+      background: #d6d4d2;
+      border-radius: 2px;
+      font-weight: 700;
+    }
+  }
+}

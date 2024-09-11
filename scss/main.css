@@ -396,4 +396,31 @@ header .search input::placeholder {
   margin-left: 10px !important;
   margin-bottom: 2vh !important;
   background: #fdd306;
+}
+
+.getQuotation .qetquotationBtn {
+  position: fixed;
+  right: -68px;
+  bottom: 77px;
+  transform: rotate(90deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.getQuotation .qetquotationBtn .img {
+  width: 50px;
+  border-radius: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  aspect-ratio: 1;
+  border: 3px solid #d6d4d2;
+}
+.getQuotation .qetquotationBtn .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  background: #d6d4d2;
+  border-radius: 2px;
+  font-weight: 700;
 }/*# sourceMappingURL=main.css.map */
