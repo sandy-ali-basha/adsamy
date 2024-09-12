@@ -216,3 +216,14 @@ header {
 .LatestProject {
   background: url("../imgs/SectionSection.png") center/cover no-repeat;
 }
+// * filter
+.filters ul li {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.filters {
+  .active.btn {
+    background-color: #fdd306 !important;
+  }
+}
