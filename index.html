@@ -1444,9 +1444,15 @@
             <div class="filters">
               <ul class="nav mb-1">
                 <li data-filter="*" class="active btn btn-secondary">All</li>
-                <li data-filter=".MobileApp" class="btn btn-secondary">Mobile App Design</li>
-                <li data-filter=".WebDesign" class="btn btn-secondary">Web Design</li>
-                <li data-filter=".GraphicDesign" class="btn btn-secondary">Graphic Design</li>
+                <li data-filter=".MobileApp" class="btn btn-secondary">
+                  Mobile App Design
+                </li>
+                <li data-filter=".WebDesign" class="btn btn-secondary">
+                  Web Design
+                </li>
+                <li data-filter=".GraphicDesign" class="btn btn-secondary">
+                  Graphic Design
+                </li>
               </ul>
               <p>
                 We share common trends, strategies, ideas, opinions, and stories
@@ -1574,6 +1580,25 @@
                 </div>
               </div>
             </div>
+            <nav aria-label="Page navigation example">
+              <ul class="pagination justify-content-center">
+                <li class="page-item">
+                  <a class="page-link" href="#" id="prev"><i class="fa-solid fa-chevron-left"></i></a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link" href="#" id="page1">1</a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link" href="#" id="page2">2</a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link" href="#" id="page3">3</a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link" href="#" id="next"><i class="fa-solid fa-chevron-right"></i></a>
+                </li>
+              </ul>
+            </nav>
           </div>
         </div>
       </div>
@@ -1624,20 +1649,75 @@
     <script src="./js/isotope.js"></script>
 
     <script>
-      $(document).ready(function() {
+          $(document).ready(function() {
         var $grid = $('.grid').isotope({
           itemSelector: '.item',
           layoutMode: 'fitRows'
         });
 
-        // filter items on button click
+        var itemsPerPage = 6;
+        var currentPage = 1;
+        var totalItems = $('.item').length;
+        var totalPages = Math.ceil(totalItems / itemsPerPage);
+
+        // Pagination logic
+        function showItems(page) {
+          var start = (page - 1) * itemsPerPage;
+          var end = start + itemsPerPage;
+
+          $('.item').hide();
+          $('.item').slice(start, end).show();
+
+          $grid.isotope('layout');
+        }
+
+        function updatePagination() {
+          if (currentPage === 1) {
+            $('#prev').parent().addClass('disabled');
+          } else {
+            $('#prev').parent().removeClass('disabled');
+          }
+
+          if (currentPage === totalPages) {
+            $('#next').parent().addClass('disabled');
+          } else {
+            $('#next').parent().removeClass('disabled');
+          }
+        }
+
+        // Initial items display
+        showItems(currentPage);
+        updatePagination();
+
+        // Pagination click events
+        $('.pagination').on('click', '.page-link', function(e) {
+          e.preventDefault();
+
+          if ($(this).attr('id') === 'prev' && currentPage > 1) {
+            currentPage--;
+          } else if ($(this).attr('id') === 'next' && currentPage < totalPages) {
+            currentPage++;
+          } else if ($(this).attr('id').includes('page')) {
+            currentPage = parseInt($(this).text());
+          }
+
+          showItems(currentPage);
+          updatePagination();
+        });
+
+        // Filter items on button click
         $('.filters').on('click', 'li', function() {
           var filterValue = $(this).attr('data-filter');
           $grid.isotope({ filter: filterValue });
 
-          // add active class to the current filter
+          // Add active class to the current filter
           $('.filters li').removeClass('active');
           $(this).addClass('active');
+
+          // Reset to page 1 for filtered items
+          currentPage = 1;
+          showItems(currentPage);
+          updatePagination();
         });
       });
     </script>
