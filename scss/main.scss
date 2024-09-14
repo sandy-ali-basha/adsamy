@@ -1,5 +1,7 @@
 @import "./breakpoints", "./colors", "../fonts/Poppins/stylesheet.css",
   "services", "contact_us", "./section";
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -230,3 +232,30 @@ header {
 $pagination-border-color: #dcdcdc;
 
 $pagination-color: #666666;
+.accordion {
+  border-radius: 12px !important;
+}
+.accordion-flush .accordion-item .accordion-button {
+  border-radius: 12px;
+}
+.accordion-item {
+  border-radius: 12px;
+}
+.accordion-button:not(.collapsed) {
+  color: white !important;
+  background-color: #004e98 !important;
+}
+.accordion-button::after {
+  font-family: "Font Awesome 5 Free";
+}
+.accordion-button.collapsed::after {
+  font-size: 10px !important;
+  border-radius: 50px;
+  border: 1px solid #252422;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z"/></svg>');
+  background-position: center;
+  background-size: 60%;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3Csvg width%3D%2222%22 height%3D%2222%22 viewBox%3D%220 0 22 22%22 fill%3D%22none%22 xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Crect x%3D%220.5%22 y%3D%220.5%22 width%3D%2221%22 height%3D%2221%22 rx%3D%2210.5%22 stroke%3D%22white%22/%3E%3Crect x%3D%226%22 y%3D%2210%22 width%3D%2210%22 height%3D%222%22 fill%3D%22white%22/%3E%3C/svg%3E") !important;
+}

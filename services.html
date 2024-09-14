@@ -64,13 +64,20 @@
                       controls
                       class="w-100"
                     >
-                      <source src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4" type="video/mp4" />
+                      <source
+                        src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
+                        type="video/mp4"
+                      />
                       Your browser does not support the video tag.
                     </video>
                     <button class="play-btn" id="playButton1">
                       <i class="fas fa-play"></i>
                     </button>
-                    <button class="play-btn " style="display: none;" id="pausButton1">
+                    <button
+                      class="play-btn "
+                      style="display: none;"
+                      id="pausButton1"
+                    >
                       <i class="fas fa-pause"></i>
                     </button>
                   </div>
@@ -104,13 +111,13 @@
                 const video = document.getElementById('video1');
 
                 playButton.addEventListener('click', function() {
-                    playButton.style.display = 'none'; 
-                    pausButton.style.display = 'block'; 
+                    playButton.style.display = 'none';
+                    pausButton.style.display = 'block';
                     video.play(); // Play the video
                 });
                 pausButton.addEventListener('click', function() {
-                    playButton.style.display = 'block'; 
-                    pausButton.style.display = 'none'; 
+                    playButton.style.display = 'block';
+                    pausButton.style.display = 'none';
                     video.pause(); // paus the video
                 });
 
@@ -310,6 +317,102 @@
         </div>
         <div class="text-center">
           <div class="btn btn-primary mt-5 px-4 py-2    ">Apply Now</div>
+        </div>
+      </section>
+      <!-- accourdion -->
+      <section class="container py-5">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+                What is 360 Marketing?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                A 360 marketing strategy is a comprehensive plan that focuses on
+                reaching the target audience from multiple platforms and
+                channels. This type of strategy generally combines both
+                traditional marketing and digital marketing channels as it
+                infuses within the entire customer journey. Basically, a 360
+                marketing strategy will ensure that customers have a positive
+                experience of communication regardless of their location or what
+                device they may or may not be using. For instance, you may see a
+                Coca-Cola ad on a billboard on your way to work. On your lunch
+                break, you may see another ad while scrolling through Facebook.
+                When you get home and sit down to relax and watch television,
+                you may encounter yet another (but more thorough) advertisement.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo"
+                aria-expanded="false"
+                aria-controls="flush-collapseTwo"
+              >
+                Accordion Item #2
+              </button>
+            </h2>
+            <div
+              id="flush-collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingTwo"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Inventore architecto nisi esse nam eaque doloremque distinctio
+                voluptatum. Adipisci illum reiciendis accusamus dolor laborum
+                corporis repudiandae, quam exercitationem deserunt iure sed!
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+              >
+                Accordion Item #3
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Placeholder content for this accordion, which is intended to
+                demonstrate the <code>.accordion-flush</code> class. This is the
+                third item's accordion body. Nothing more exciting happening
+                here in terms of content, but just filling up the space to make
+                it look, at least at first glance, a bit more representative of
+                how this would look in a real-world application.
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>
