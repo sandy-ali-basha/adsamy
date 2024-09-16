@@ -261,13 +261,60 @@ $pagination-color: #666666;
   background-image: url("data:image/svg+xml,%3Csvg width%3D%2222%22 height%3D%2222%22 viewBox%3D%220 0 22 22%22 fill%3D%22none%22 xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Crect x%3D%220.5%22 y%3D%220.5%22 width%3D%2221%22 height%3D%2221%22 rx%3D%2210.5%22 stroke%3D%22white%22/%3E%3Crect x%3D%226%22 y%3D%2210%22 width%3D%2210%22 height%3D%222%22 fill%3D%22white%22/%3E%3C/svg%3E") !important;
 }
 // login
-.submitBtn{
+.submitBtn {
   background: $text_primary;
 }
 .divider:after,
 .divider:before {
-content: "";
-flex: 1;
-height: 1px;
-background: #eee;
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+
+/*Left Side Buttons Start*/
+.sticky-left-container {
+  padding: 0px;
+  margin: 0px;
+  position: fixed;
+  left: -158px;
+  top: 40%;
+  width: 200px;
+  z-index: 2;
+}
+.sticky-left li {
+  list-style-type: none;
+  background-color: none;
+  color: $text_primary;
+  height: 43px;
+  padding: 0px;
+  margin: 0px 0px 1px 0px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+}
+.sticky-left li:hover {
+  margin-right: -150px;
+  background: #f1eff3;
+  border-radius: 25px 25px 25px 0;
+}
+.sticky-left li i {
+  float: right;
+  border-radius: 50%;
+  margin: 5px 5px;
+  margin-left: 10px;
+  width: 32px;
+  height: 32px;
+  font-size: 22px;
+  text-align: center;
+  padding: 5px;
+}
+.sticky-left li p {
+  padding: 0px;
+  float: right;
+  margin: 0px;
+  text-transform: uppercase;
+  line-height: 43px;
 }
