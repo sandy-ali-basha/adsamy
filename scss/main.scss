@@ -128,17 +128,18 @@ header {
     content: none !important;
   }
 }
+.Blog {
+  .swiper-button-prev {
+    left: -7px !important; /* Adjust position as needed */
+  }
 
-.swiper-button-prev {
-  left: -7px !important; /* Adjust position as needed */
-}
+  .swiper-button-next {
+    right: -7px !important; /* Adjust position as needed */
+  }
 
-.swiper-button-next {
-  right: -7px !important; /* Adjust position as needed */
-}
-
-.swiper-container {
-  padding: 10px;
+  .swiper-container {
+    padding: 10px;
+  }
 }
 
 //* aboutus css
