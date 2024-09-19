@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
 *
 * Testing
@@ -259,6 +260,113 @@
     top: auto;
     right: auto;
   }
+}
+
+.privacyPolicy .header {
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.privacyPolicy .header h2 {
+  position: relative;
+  padding-left: 13vw; /* Space for the SVG */
+  padding-right: 13vw; /* Space for the SVG */
+  color: white;
+  text-align: center;
+}
+.privacyPolicy .header h2::before {
+  content: "";
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translateY(-50%);
+  width: 3vw;
+  height: 3vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.privacyPolicy .header h2::after {
+  content: "";
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+  position: absolute;
+  right: 0%;
+  bottom: 0;
+  transform: translateY(50%);
+  width: 3vw;
+  height: 3vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bg-dark-blue {
+  background: #183c56;
+  color: white;
+}
+
+.circle {
+  aspect-ratio: 1;
+  color: white;
+}
+.circle:hover {
+  background: white;
+  color: #183c56;
+}
+
+.contactFormInput {
+  border-bottom: 1px solid #183c56 !important;
+  border-radius: 0px !important;
+}
+.contactFormInput:focus-visible {
+  box-shadow: none;
+}
+
+.custom-radio {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+  border: 2px solid #0a2e43; /* Dark blue border */
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.custom-radio:checked {
+  background-color: #0a2e43; /* Dark blue background */
+}
+
+.form-check-input:checked[type=radio] {
+  background-image: none !important;
+}
+
+.custom-radio:checked::after {
+  content: "✔"; /* Unicode for the tick */
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+}
+
+.btn-blue {
+  background: #183c56;
+  color: white;
+}
+
+.text-secondary-blue {
+  color: #a4c1ff;
+}
+
+.text-secondary {
+  color: #dbe7ff !important;
 }
 
 * {

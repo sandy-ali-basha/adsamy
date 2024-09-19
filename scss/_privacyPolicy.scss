@@ -1,0 +1,103 @@
+.privacyPolicy {
+  .header {
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h2 {
+      position: relative;
+      padding-left: 13vw; /* Space for the SVG */
+      padding-right: 13vw; /* Space for the SVG */
+      color: white;
+      text-align: center;
+
+      &::before {
+        content: "";
+        border-top: 2px solid white;
+        border-left: 2px solid white;
+        position: absolute;
+        left: 0;
+        top: 0;
+        transform: translateY(-50%);
+        width: 3vw;
+        height: 3vw;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+      &::after {
+        content: "";
+        border-bottom: 2px solid white;
+        border-right: 2px solid white;
+        position: absolute;
+        right: 0%;
+        bottom: 0;
+        transform: translateY(50%);
+        width: 3vw;
+        height: 3vw;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+}
+.bg-dark-blue {
+  background: $text_primary;
+  color: white;
+}
+.circle {
+  aspect-ratio: 1;
+  color: white;
+  &:hover {
+    background: white;
+    color: $text_primary;
+  }
+}
+.contactFormInput {
+  border-bottom: 1px solid $text_primary !important;
+  border-radius: 0px !important;
+  &:focus-visible {
+    box-shadow: none;
+  }
+}
+.custom-radio {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  -webkit-appearance: none;
+  appearance: none;
+  border: 2px solid #0a2e43; /* Dark blue border */
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.custom-radio:checked {
+  background-color: #0a2e43; /* Dark blue background */
+}
+.form-check-input:checked[type="radio"] {
+  background-image: none !important;
+}
+
+.custom-radio:checked::after {
+  content: "✔"; /* Unicode for the tick */
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+}
+.btn-blue {
+  background: $text_primary;
+  color: white;
+}
+.text-secondary-blue {
+  color: #a4c1ff;
+}
+.text-secondary {
+  color: #dbe7ff !important;
+}
+.AdsamyInNumbers{
+  
+}
