@@ -1,5 +1,5 @@
 @import "./breakpoints", "./colors", "../fonts/Poppins/stylesheet.css",
-  "services", "contact_us", "./section","./privacyPolicy";
+  "services", "contact_us", "./section", "./privacyPolicy";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
 * {
@@ -42,24 +42,25 @@ a {
   background-color: $text_primary;
   border-radius: 2px;
 }
+.Blog {
+  header {
+    background: url(../imgs/headers.jpg) center/cover no-repeat;
+    height: 90vh;
 
-header {
-  background: url(../imgs/headers.jpg) center/cover no-repeat;
-  height: 90vh;
-
-  border-radius: 0px 0px 250px 250px / 0px 0px 70px 70px;
-  h2 {
-    font-weight: 600;
-  }
-  .search {
-    border-radius: 12px;
-    .btn {
-      border-radius: 12px;
+    border-radius: 0px 0px 250px 250px / 0px 0px 70px 70px;
+    h2 {
+      font-weight: 600;
     }
-    input {
-      border: none !important;
-      &::placeholder {
-        color: #9ea6b4;
+    .search {
+      border-radius: 12px;
+      .btn {
+        border-radius: 12px;
+      }
+      input {
+        border: none !important;
+        &::placeholder {
+          color: #9ea6b4;
+        }
       }
     }
   }

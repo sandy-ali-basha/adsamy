@@ -369,6 +369,74 @@
   color: #dbe7ff !important;
 }
 
+.AdsamyInNumbers .title {
+  font-weight: 600;
+  color: #172b43;
+}
+.AdsamyInNumbers h2,
+.AdsamyInNumbers h3 {
+  color: #246aff;
+  text-align: center;
+}
+.AdsamyInNumbers h2 {
+  font-size: 75px;
+  font-weight: 700;
+}
+.AdsamyInNumbers p {
+  text-align: center;
+  color: #252c40;
+}
+
+.text-blue {
+  color: #246aff;
+}
+
+.text-light {
+  color: #a4c1ff !important;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.border {
+  border-color: #cddeff !important;
+  border-radius: 14px;
+  border-width: 2px !important;
+}
+
+.TESTIMONIALSSwiper .swiper-slide {
+  width: 27vw;
+}
+
+.vw-10 {
+  width: 10vw;
+}
+
+.bg-light-secondary {
+  background: #f4f4f4;
+}
+
+.custom-btn {
+  color: #4b92db;
+  border: 1px solid #4B92DB;
+  font-weight: 400;
+}
+
+.aboutTitle {
+  position: relative;
+  padding: 10px;
+}
+.aboutTitle::after {
+  content: "";
+  width: 150px;
+  background-color: white;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  margin-left: 10px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -419,27 +487,27 @@ a {
   border-radius: 2px;
 }
 
-header {
+.Blog header {
   background: url(../imgs/headers.jpg) center/cover no-repeat;
   height: 90vh;
   border-radius: 0px 0px 250px 250px/0px 0px 70px 70px;
 }
-header h2 {
+.Blog header h2 {
   font-weight: 600;
 }
-header .search {
+.Blog header .search {
   border-radius: 12px;
 }
-header .search .btn {
+.Blog header .search .btn {
   border-radius: 12px;
 }
-header .search input {
+.Blog header .search input {
   border: none !important;
 }
-header .search input::-moz-placeholder {
+.Blog header .search input::-moz-placeholder {
   color: #9ea6b4;
 }
-header .search input::placeholder {
+.Blog header .search input::placeholder {
   color: #9ea6b4;
 }
 
