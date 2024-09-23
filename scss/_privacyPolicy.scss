@@ -126,6 +126,10 @@
 }
 .w-30 {
   width: 30%;
+
+  @include media("<=tablet") {
+    width: 50%;
+  }
 }
 .border {
   border-color: #cddeff !important;
@@ -135,6 +139,9 @@
 .TESTIMONIALSSwiper {
   .swiper-slide {
     width: 27vw;
+    @include media("<=tablet") {
+      width: 80vw;
+    }
   }
 }
 .vw-10 {

@@ -398,6 +398,11 @@
 .w-30 {
   width: 30%;
 }
+@media (max-width: 992px) {
+  .w-30 {
+    width: 50%;
+  }
+}
 
 .border {
   border-color: #cddeff !important;
@@ -407,6 +412,11 @@
 
 .TESTIMONIALSSwiper .swiper-slide {
   width: 27vw;
+}
+@media (max-width: 992px) {
+  .TESTIMONIALSSwiper .swiper-slide {
+    width: 80vw;
+  }
 }
 
 .vw-10 {
