@@ -161,3 +161,42 @@
     margin-left: 10px;
   }
 }
+.aboutSubTitle {
+  position: relative;
+  &::before {
+    content: "";
+    width: 150px;
+    background-color: white;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    margin-right: 10px;
+    right: 100%;
+  }
+}
+.blue-card {
+  background: #25456c;
+  height: 40vh;
+  padding: 30px;
+  .cardNumber {
+    position: absolute;
+    transform: rotate(90deg);
+    right: 30px;
+    &::after {
+      content: "";
+      width: 100px;
+      background-color: white;
+      height: 1px;
+      position: absolute;
+      top: 50%;
+      margin-right: 10px;
+      left: 165%;
+    }
+  }
+}
+.light-gray-logo {
+  background: #7a868d;
+  img {
+    width: 5vw;
+  }
+}
