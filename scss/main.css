@@ -482,11 +482,72 @@
   left: 165%;
 }
 
+.bg-light-gray {
+  background: #5e6a71;
+}
+
 .light-gray-logo {
   background: #7a868d;
 }
 .light-gray-logo img {
-  width: 5vw;
+  width: 7vw;
+}
+
+.find-us {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("../imgs/finUs.png") center/cover no-repeat;
+}
+
+.MoreSwiper {
+  cursor: grab;
+}
+.MoreSwiper .swiper-slide {
+  transition: all 0.5s;
+  height: 50vh;
+}
+.MoreSwiper .swiper-slide img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+}
+.MoreSwiper .swiper-slide .text-hover {
+  display: none !important;
+  position: absolute;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  text-wrap: nowrap;
+}
+.MoreSwiper .swiper-slide .text-hover a {
+  border-bottom: 2px solid #ff644c;
+}
+@media (min-width: 992px) {
+  .MoreSwiper .swiper-slide:hover {
+    transform: translateY(-2.5vh);
+    height: 55vh;
+    width: 25vw !important;
+  }
+  .MoreSwiper .swiper-slide:hover .text-hover {
+    display: flex !important;
+  }
+  .MoreSwiper .swiper-slide:hover::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: linear-gradient(180deg, rgba(10, 21, 64, 0) 0%, #0a1540 100%);
+  }
 }
 
 * {

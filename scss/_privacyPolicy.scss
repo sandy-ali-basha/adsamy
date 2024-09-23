@@ -201,9 +201,71 @@
     }
   }
 }
+.bg-light-gray {
+  background: #5e6a71;
+}
 .light-gray-logo {
   background: #7a868d;
   img {
-    width: 5vw;
+    width: 7vw;
+  }
+}
+.find-us {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("../imgs/finUs.png") center/cover no-repeat;
+}
+.MoreSwiper {
+  cursor: grab;
+  .swiper-slide {
+    transition: all 0.5s;
+    height: 50vh;
+    img {
+      object-fit: cover;
+      height: 100%;
+    }
+    .text-hover {
+      display: none !important;
+      position: absolute;
+      z-index: 5;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      left: 0px;
+      right: 0px;
+      top: 0px;
+      bottom: 0px;
+      text-wrap: nowrap;
+      a {
+        border-bottom: 2px solid #ff644c;
+      }
+    }
+    @include media(">=tablet") {
+      &:hover {
+        .text-hover {
+          display: flex !important;
+        }
+        &::after {
+          content: "";
+          position: absolute;
+          left: 0px;
+          right: 0px;
+          top: 0px;
+          bottom: 0px;
+          background: linear-gradient(
+            180deg,
+            rgba(10, 21, 64, 0) 0%,
+            #0a1540 100%
+          );
+        }
+
+        transform: translateY(-2.5vh);
+        height: 55vh;
+        width: 25vw !important;
+      }
+    }
   }
 }
