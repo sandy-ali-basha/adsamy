@@ -15,7 +15,6 @@
   color: #fdd306;
 }
 .Blog {
-  background: #212121;
 }
 .text-primary {
   color: $text_primary !important;
@@ -230,7 +229,11 @@ a {
 .filters {
   .active.btn {
     background-color: #fdd306 !important;
+    border-color: #fdd306 !important;
   }
+}
+.bg-yellow {
+  background-color: #fdd306 !important;
 }
 $pagination-border-color: #dcdcdc;
 

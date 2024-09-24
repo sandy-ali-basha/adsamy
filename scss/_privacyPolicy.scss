@@ -269,16 +269,19 @@
     }
   }
 }
-.bg-light-20{
+.bg-light-20 {
   background: rgba(255, 255, 255, 0.2);
 }
 .search-bar {
   padding: 10px;
-box-shadow: 0px 2.5px 18px hsla(0, 0%, 0%, 0.17);
-  border: #D2D4DA;
+  box-shadow: 0px 2.5px 18px hsla(0, 0%, 0%, 0.17);
+  border: #d2d4da;
 }
 
 .search-button {
   background-color: #007bff;
   color: white;
+}
+.btn-close {
+  filter: invert(1);
 }

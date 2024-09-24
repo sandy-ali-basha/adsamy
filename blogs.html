@@ -1,0 +1,1933 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- for social media sharing links  -->
+    <meta name="theme-color" content="#439299" />
+    <meta property="og:description" content="description" />
+    <meta property="og:title" content="Adsamy" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="website link" />
+    <meta property="og:image" content="website image" />
+    <!-- bootstrap  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- scss -->
+    <link rel="stylesheet" href="./scss/main.css" />
+
+    <!-- swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <title>ADSAMY</title>
+  </head>
+  <body class="Blog" style=" background: #212121;">
+    <nav class="navbar navbar-expand-lg bg-dark-blue text-white py-2">
+      <div class="container-fluid">
+        <!-- Toggler for Offcanvas (Visible on mobile only) -->
+        <button
+          class="navbar-toggler d-lg-none"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars text-white"></i>
+        </button>
+
+        <!-- Normal Navbar (Visible on large screens only) -->
+        <div
+          class="collapse navbar-collapse d-none d-lg-flex"
+          id="navbarTogglerDemo02"
+        >
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="navbar-brand" href="#">
+                <img
+                  src="/imgs/navProfile.png"
+                  alt="Logo"
+                  width="50"
+                  height="50"
+                  class="d-inline-block align-text-top rounded-circle"
+                />
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold" href="./home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold" href="./about-us.html"
+                >About Us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold" href="./services.html"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-white fw-bold"
+                href=" "
+                >Gallery</a
+              >
+            </li>
+          </ul>
+          <a class="navbar-brand" href="#">
+            <img
+              src="/imgs/logo.png"
+              alt="Logo"
+              width="130"
+              class="d-inline-block align-text-top"
+            />
+          </a>
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold" href="./work.html"
+                >Works</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold" href="./blogs.html"
+                >Blogs</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold" href="./contactUs.html"
+                >Contact Us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold" href="#">العربية</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Offcanvas (Visible on mobile only) -->
+        <div
+          class="offcanvas offcanvas-end d-lg-none bg-dark-blue"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              <a class="navbar-brand" href="#">
+                <img
+                  src="/imgs/logo.png"
+                  alt="Logo"
+                  width="130"
+                  class="d-inline-block align-text-top"
+                />
+              </a>
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white fw-bold"
+                  href="https://sandy-ali-basha.github.io/adsamy/PrivecyPolicy.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white fw-bold"
+                  href="https://sandy-ali-basha.github.io/adsamy/contactUs.html"
+                  >About Us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white fw-bold" href="./services.html"
+                  >Services</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white fw-bold" href="#">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white fw-bold" href="./work.html"
+                  >Works</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white fw-bold" href="./blog.html"
+                  >Blogs</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white fw-bold" href="./contactUs.html"
+                  >Contact Us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white fw-bold" href="#">العربية</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <header
+      class="d-flex flex-column justify-content-center align-items-center gap-3"
+    >
+      <h2 class="text-white fs-1">Our Newsroom</h2>
+      <div
+        class="Box d-flex gap-2 justify-content-center align-items-center w-50 bg-white p-2 ps-4 search"
+      >
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" class="form-control" placeholder="search article" />
+        <div class="btn btn-primary">Search</div>
+      </div>
+      <div class="popularTags d-flex justify-content-between gap-3 ">
+        <p class="text-white">Popular Tags:</p>
+        <div class="d-flex gap-2">
+          <div class="btn btn-glass text-white fs-6">Design</div>
+          <div class="btn btn-glass text-white fs-6">User Experince</div>
+          <div class="btn btn-glass text-white fs-6">User Interface</div>
+        </div>
+      </div>
+    </header>
+    <div class="container px-5">
+      <section class="bg-white first">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="./imgs/image3.jpg" class="w-100 leftImg" alt="" />
+          </div>
+          <div class="col-md-6 ">
+            <div
+              class="p-2 h-100 d-flex flex-column justify-content-around pe-4"
+            >
+              <div class="chip">FEATURED</div>
+              <h3 class="text-primary mt-4 fw-bold">
+                Cheap Airline Tickets Great Way To Save
+              </h3>
+              <p class="text-secondary mt-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+                quasi quos voluptas cum iusto eius harum earum! Repudiandae, rem
+                ipsa....
+              </p>
+              <div class="d-flex justify-content-between mt-2">
+                <div class="d-flex gap-4">
+                  <img src="./imgs/profile.jpg" class="circle" alt="" />
+                  <div class="my-auto">
+                    <a href="http://" class="text-primary">Viola Monisa</a>
+                    <div class="d-flex gap-2">
+                      <i class="fa-solid fa-check p-1"></i>
+                      <div class="text-secondary">verfied user</div>
+                    </div>
+                  </div>
+                </div>
+                <div>02 May</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="box mt-5 d-flex justify-content-between ">
+          <div>
+            <h2 class="text-dark-primary fw-bold">Popular Articles</h2>
+            <p class="text-dark-secondary w-75">
+              we share commone trends, Lorem ipsum dolor, sit amet consectetur
+              adipisicing elit. Pariatur, perspiciatis!
+            </p>
+          </div>
+
+          <button
+            class="btn btn-outlined text-white border-white fs-small mt-auto"
+          >
+            view all <i class="fa-solid fa-arrow-right text-white ms-3"></i>
+          </button>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-6  mt-2">
+            <div
+              class="ImageCard"
+              style="background: linear-gradient(
+              180deg,
+              rgba(114, 9, 183, 0) 0%,
+              rgba(24, 60, 86, 1) 100%
+            ), 
+            url(../imgs/image1.jpg) center/cover no-repeat;"
+            >
+              <div class="p-5 d-flex flex-column justify-content-between h-80 ">
+                <div class="chip text-primary bg-white">FEATURED</div>
+                <div>
+                  <h3 class="text-white mt-4 ">
+                    How to prevent and protect yourself from carbon monoxide and
+                    your family.
+                  </h3>
+                  <div class="text-white text-end">02 May</div>
+
+                  <div class="d-flex gap-4 mt-2">
+                    <img src="./imgs/profile.jpg" class="circle" alt="" />
+                    <div class="my-auto">
+                      <a href="#" class="text-white">Viola Monisa</a>
+                      <div class="d-flex gap-2 mt-1">
+                        <i class="fa-solid fa-check p-1"></i>
+                        <div class="text-dark-secondary ">verified user</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mt-2">
+            <div
+              class="ImageCard"
+              style="background: linear-gradient(
+              180deg,
+              rgba(114, 9, 183, 0) 0%,
+              rgba(24, 60, 86, 1) 100%
+            ), 
+            url(../imgs/image2.jpg) center/cover no-repeat;"
+            >
+              <div class="p-5 d-flex flex-column justify-content-between h-80 ">
+                <div class="chip text-primary bg-white">FEATURED</div>
+                <div>
+                  <h3 class="text-white mt-4 ">
+                    How to prevent and protect yourself from carbon monoxide and
+                    your family.
+                  </h3>
+                  <div class="text-white text-end">02 May</div>
+
+                  <div class="d-flex gap-4 mt-2">
+                    <img src="./imgs/profile.jpg" class="circle" alt="" />
+                    <div class="my-auto">
+                      <a href="#" class="text-white">Viola Monisa</a>
+                      <div class="d-flex gap-2 mt-1">
+                        <i class="fa-solid fa-check p-1"></i>
+                        <div class="text-dark-secondary ">verified user</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- case studies  -->
+      <section>
+        <div class="box mt-5 d-flex justify-content-between ">
+          <div>
+            <h2 class="text-dark-primary fw-bold w-75">case studies</h2>
+            <p class="text-dark-secondary">
+              we share commone trends, Lorem ipsum dolor, sit amet consectetur
+              adipisicing elit. Pariatur, perspiciatis!
+            </p>
+          </div>
+
+          <button
+            class="btn btn-outlined text-white border-white fs-small mt-auto"
+          >
+            view all <i class="fa-solid fa-arrow-right text-white ms-3"></i>
+          </button>
+        </div>
+        <div class="position-relative mt-5">
+          <div class="mySwiper swiper-container ">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide bg-white border-radius-12 ">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="./imgs/image1.jpg" class="w-100 leftImg" alt="" />
+                  </div>
+                  <div class="col-md-6 ">
+                    <div
+                      class="p-2 h-100 d-flex flex-column justify-content-around pe-4"
+                    >
+                      <div class="chip">FEATURED</div>
+                      <h3 class="text-primary mt-4 fw-bold">
+                        5 Minute Cleanup
+                      </h3>
+                      <p class="text-secondary mt-4">
+                        One of the easiest cleaning habits I’ve found when
+                        you’re overwhelmed with mess and lack of time, is a 5
+                        Minute Cleanup! Here’s how I do it in partnership with
+                        Ecowell’s Lulu Wet/Dry Vacuum…
+                      </p>
+                      <div class="d-flex justify-content-between mt-2">
+                        <div class="d-flex gap-4">
+                          <img src="./imgs/profile.jpg" class="circle" alt="" />
+                          <div class="my-auto">
+                            <a href="http://" class="text-primary"
+                              >Viola Monisa</a
+                            >
+                            <div class="d-flex gap-2">
+                              <i class="fa-solid fa-check p-1"></i>
+                              <div class="text-secondary">verfied user</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div>02 May</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide bg-white border-radius-12 ">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="./imgs/image2.jpg"
+                      class="w-100 leftImg "
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-md-6 ">
+                    <div
+                      class="p-2 pe-4 h-100 d-flex flex-column justify-content-around"
+                    >
+                      <div class="chip">FEATURED</div>
+                      <h3 class="text-primary mt-4 fw-bold">
+                        Four Healthy 5 Minute Breakfast Ideas
+                      </h3>
+                      <p class="text-secondary mt-4">
+                        What if you spent just a few extra minutes to have a
+                        family breakfast? I’m sharing a few fun and delicious
+                        ideas to help make that happen for your family.
+                      </p>
+                      <div class="d-flex justify-content-between mt-2">
+                        <div class="d-flex gap-4">
+                          <img src="./imgs/profile.jpg" class="circle" alt="" />
+                          <div class="my-auto">
+                            <a href="http://" class="text-primary"
+                              >Viola Monisa</a
+                            >
+                            <div class="d-flex gap-2">
+                              <i class="fa-solid fa-check p-1"></i>
+                              <div class="text-secondary">verfied user</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div>02 May</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Custom Navigation Buttons -->
+            <div class="swiper-button-prev">
+              <i class="fa-solid fa-arrow-left"></i>
+            </div>
+            <div class="swiper-button-next">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- all articles
+        -->
+      <section>
+        <div class="box mt-5 d-flex justify-content-between ">
+          <div>
+            <h2 class="text-dark-primary fw-bold">All Articles</h2>
+            <p class="text-dark-secondary">
+              Recently, I’ve been converted to sparkly water. Not the flavored
+              kind, just pure sparkling water. It’s my favorite drink:
+              refreshing and special that feels well deserved at the end of a
+              the day.
+            </p>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-6 mt-4">
+            <div
+              class="ImageCard"
+              style="background: linear-gradient(
+                180deg,
+                rgba(114, 9, 183, 0) 0%,
+                rgba(24, 60, 86, 1) 100%
+              ), 
+              url(../imgs/image3.jpg) center/cover no-repeat;"
+            >
+              <div class="p-5 d-flex flex-column justify-content-between h-80 ">
+                <div class="chip text-primary bg-white">FEATURED</div>
+                <div>
+                  <h3 class="text-white mt-4 ">
+                    How to prevent and protect yourself from carbon monoxide and
+                    your family.
+                  </h3>
+                  <div class="text-white text-end">02 May</div>
+
+                  <div class="d-flex gap-4 mt-2">
+                    <img src="./imgs/profile.jpg" class="circle" alt="" />
+                    <div class="my-auto">
+                      <a href="#" class="text-white">Viola Monisa</a>
+                      <div class="d-flex gap-2 mt-1">
+                        <i class="fa-solid fa-check p-1"></i>
+                        <div class="text-dark-secondary ">verified user</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4">
+            <div
+              class="ImageCard"
+              style="background: linear-gradient(
+              180deg,
+              rgba(114, 9, 183, 0) 0%,
+              rgba(24, 60, 86, 1) 100%
+            ), 
+            url(../imgs/image4.jpg) center/cover no-repeat;"
+            >
+              <div class="p-5 d-flex flex-column justify-content-between h-80 ">
+                <div class="chip text-primary bg-white">FEATURED</div>
+                <div>
+                  <h3 class="text-white mt-4 ">
+                    How to Make Tissue Paper Poppies
+                  </h3>
+                  <div class="text-white text-end">02 May</div>
+
+                  <div class="d-flex gap-4 mt-2">
+                    <img src="./imgs/profile.jpg" class="circle" alt="" />
+                    <div class="my-auto">
+                      <a href="#" class="text-white">Viola Monisa</a>
+                      <div class="d-flex gap-2 mt-1">
+                        <i class="fa-solid fa-check p-1"></i>
+                        <div class="text-dark-secondary ">verified user</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div
+              class="ImageCard"
+              style="background: linear-gradient(
+              180deg,
+              rgba(114, 9, 183, 0) 0%,
+              rgba(24, 60, 86, 1) 100%
+            ), 
+            url(../imgs/image5.jpg) center/cover no-repeat;"
+            >
+              <div class="p-5 d-flex flex-column justify-content-between h-80 ">
+                <div class="chip text-primary bg-white">FEATURED</div>
+                <div>
+                  <h3 class="text-white mt-4 ">
+                    How to prevent and protect yourself from carbon monoxide and
+                    your family.
+                  </h3>
+                  <div class="text-white text-end">02 May</div>
+
+                  <div class="d-flex gap-4 mt-2">
+                    <img src="./imgs/image5.jpg" class="circle" alt="" />
+                    <div class="my-auto">
+                      <a href="#" class="text-white">Viola Monisa</a>
+                      <div class="d-flex gap-2 mt-1">
+                        <i class="fa-solid fa-check p-1"></i>
+                        <div class="text-dark-secondary ">verified user</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div
+              class="ImageCard"
+              style="background: linear-gradient(
+              180deg,
+              rgba(114, 9, 183, 0) 0%,
+              rgba(24, 60, 86, 1) 100%
+            ), 
+            url(../imgs/image6.jpg) center/cover no-repeat;"
+            >
+              <div class="p-5 d-flex flex-column justify-content-between h-80 ">
+                <div class="chip text-secondary bg-white">NEW</div>
+                <div>
+                  <h3 class="text-white mt-4 ">
+                    Secrets to the Best Baguette Sandwich
+                  </h3>
+                  <div class="text-white text-end">02 May</div>
+
+                  <div class="d-flex gap-4 mt-2">
+                    <img src="./imgs/blog.jpg" class="circle" alt="" />
+                    <div class="my-auto">
+                      <a href="#" class="text-white">Viola Monisa</a>
+                      <div class="d-flex gap-2 mt-1">
+                        <i class="fa-solid fa-check p-1"></i>
+                        <div class="text-dark-secondary ">verified user</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div
+              class="ImageCard"
+              style="background: linear-gradient(
+              180deg,
+              rgba(114, 9, 183, 0) 0%,
+              rgba(24, 60, 86, 1) 100%
+            ), 
+            url(../imgs/image7.jpg) center/cover no-repeat;"
+            >
+              <div class="p-5 d-flex flex-column justify-content-between h-80 ">
+                <div class="chip text-secondary bg-white">New</div>
+                <div>
+                  <h3 class="text-white mt-4 ">
+                    Gluten Free Chocolate Chip Zucchini and Sweet Potato Muffins
+                  </h3>
+                  <div class="text-white text-end">05 May</div>
+
+                  <div class="d-flex gap-4 mt-2">
+                    <img src="./imgs/image4.jpg" class="circle" alt="" />
+                    <div class="my-auto">
+                      <a href="#" class="text-white">Viola Monisa</a>
+                      <div class="d-flex gap-2 mt-1">
+                        <i class="fa-solid fa-check p-1"></i>
+                        <div class="text-dark-secondary ">verified user</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mb-5">
+          <button
+            class="btn btn-outlined text-white border-white fs-small mt-5 mx-auto"
+          >
+            view all <i class="fa-solid fa-arrow-right text-white ms-3"></i>
+          </button>
+        </div>
+      </section>
+    </div>
+    <!-- our team  -->
+
+    <section class="container bg-light pt-4">
+      <p class="text-center">OUR TEAM</p>
+      <h2 class="text-center fs-bold font-Inter">Our Creative Team.</h2>
+      <div class="swiper  workSwiper mt-4">
+        <div class="swiper-wrapper " style="padding-bottom: 10vh;">
+          <div class="swiper-slide">
+            <div
+              class="team-item position-relative border-radius-12 vh-65"
+              style="background: url(https://picsum.photos/450) center/cover no-repeat;"
+            >
+              <div
+                class="white-box bg-white d-flex align-items-center justify-content-between p-3 border-radius-12 position-absolute w-75 rounded"
+                style="bottom:-10vh;left: 12.5%;"
+              >
+                <div class="">
+                  <p class="font-Inter"><strong>Sarah Jhonson</strong></p>
+                  <p><small>Sales Manager</small></p>
+                </div>
+                <div class="icons gap-2 d-flex">
+                  <a href="http://"
+                    ><i class="fa-brands fa-facebook-f text-yellow"></i
+                  ></a>
+
+                  <a href="http://"
+                    ><i class="fa-brands fa-twitter text-yellow"></i
+                  ></a>
+                  <a href="http://"
+                    ><i class="fa-brands fa-linkedin-in text-yellow"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="team-item position-relative border-radius-12 vh-65"
+              style="background: url(https://picsum.photos/450) center/cover no-repeat;"
+            >
+              <div
+                class="white-box bg-white d-flex align-items-center justify-content-between p-3 border-radius-12 position-absolute w-75 rounded"
+                style="bottom:-10vh;left: 12.5%;"
+              >
+                <div class="">
+                  <p class="font-Inter"><strong>Sarah Jhonson</strong></p>
+                  <p><small>Sales Manager</small></p>
+                </div>
+                <div class="icons gap-2 d-flex">
+                  <a href="http://"
+                    ><i class="fa-brands fa-facebook-f text-yellow"></i
+                  ></a>
+
+                  <a href="http://"
+                    ><i class="fa-brands fa-twitter text-yellow"></i
+                  ></a>
+                  <a href="http://"
+                    ><i class="fa-brands fa-linkedin-in text-yellow"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="team-item position-relative border-radius-12 vh-65"
+              style="background: url(https://picsum.photos/450) center/cover no-repeat;"
+            >
+              <div
+                class="white-box bg-white d-flex align-items-center justify-content-between p-3 border-radius-12 position-absolute w-75 rounded"
+                style="bottom:-10vh;left: 12.5%;"
+              >
+                <div class="">
+                  <p class="font-Inter"><strong>Sarah Jhonson</strong></p>
+                  <p><small>Sales Manager</small></p>
+                </div>
+                <div class="icons gap-2 d-flex">
+                  <a href="http://"
+                    ><i class="fa-brands fa-facebook-f text-yellow"></i
+                  ></a>
+
+                  <a href="http://"
+                    ><i class="fa-brands fa-twitter text-yellow"></i
+                  ></a>
+                  <a href="http://"
+                    ><i class="fa-brands fa-linkedin-in text-yellow"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+      <!-- Initialize Swiper -->
+    </section>
+    <footer
+    class="text-center  mt-5  text-lg-start text-white"
+    style="background-color: #1b2b44;"
+  >
+    <!-- Grid container -->
+    <div class="container p-5">
+      <!-- Section: Links -->
+      <section>
+        <!--Grid row-->
+        <div class="row">
+          <!-- Logo & Social Media Column -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 px-5 ">
+            <h6 class="text-uppercase mb-4 fw-bold font-Inter">
+              Download Apps
+            </h6>
+            <a href="" class=" w-100"
+              ><img src="./imgs/app store.png" class="w-100 " alt=""
+            /></a>
+            <a href="" class=" w-100"
+              ><img src="./imgs/google play.png" class="w-100 mt-3" alt=""
+            /></a>
+          </div>
+
+          <!-- Quick Links Column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 fw-bold font-Inter">
+              Quick Links
+            </h6>
+            <p>
+              <a class="text-white fw-light" href="/case-study.html"
+                >Case Study</a
+              >
+            </p>
+            <p>
+              <a class="text-white fw-light" href="/boadcasts.html"
+                >ADSAMY boadcasts</a
+              >
+            </p>
+            <p>
+              <a class="text-white fw-light" href="/jobs.html">ADSAMY jobs</a>
+            </p>
+            <p><a class="text-white">ADSAMY Model</a></p>
+            <p><a class="text-white">ADSAMY POS</a></p>
+          </div>
+
+          <!-- Company Column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 fw-bold font-Inter">Company</h6>
+            <p><a class="text-white fw-light" href="/">Home</a></p>
+            <p>
+              <a class="text-white fw-light" href="/services.html"
+                >Services</a
+              >
+            </p>
+            <p>
+              <a class="text-white fw-light" href="/about-us.html"
+                >About Us</a
+              >
+            </p>
+            <p><a class="text-white fw-light" href="/work.html">Works</a></p>
+            <p><a class="text-white fw-light" href="/blogs.html">Blogs</a></p>
+          </div>
+
+          <!-- Contact Info Column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 fw-bold font-Inter">
+              Contact Info
+            </h6>
+            <a class="fw-light text-white">Business Bay, Dubai</a>
+            <a class="fw-light text-white">Email: info@adsamy.com</a>
+            <a class="fw-light text-white">+971 505077374</a>
+            <div class="text-center d-flex gap-1 mt-4">
+              <!-- Social Media Icons -->
+              <a class="btn p-0" href="#"
+                ><img
+                  src="./imgs//footer/partner (1).svg"
+                  class="w-100"
+                  alt=""
+                />
+              </a>
+              <a class="btn p-0" href="#"
+                ><img
+                  src="./imgs//footer/partner (2).svg"
+                  class="w-100"
+                  alt=""
+                />
+              </a>
+              <a class="btn p-0" href="#"
+                ><img
+                  src="./imgs//footer/partner (3).svg"
+                  class="w-100"
+                  alt=""
+                />
+              </a>
+              <a class="btn p-0" href="#"
+                ><img
+                  src="./imgs//footer/partner (4).svg"
+                  class="w-100"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+
+          <!-- Our Partners Column -->
+          <div
+            class="col-md-5 col-lg-3 col-xl-3 mx-auto mt-3 position-relative d-none d-md-block"
+          >
+            <h6 class="text-uppercase mb-4 fw-bold font-Inter">
+              Our Partners
+            </h6>
+            <div class="position-relative">
+              <img
+                src="./imgs/footer/company (3).png"
+                alt=""
+                class="position-absolute"
+                style="width: 80px;object-fit: contain;top: 50%;left: 50%;transform: translate(-50%, -50%);"
+              />
+              <div class="d-flex justify-content-between">
+                <img
+                  src="./imgs/footer/company (1).png"
+                  alt="Facebook Partner"
+                  style="width: 80px;object-fit: contain;"
+                />
+
+                <img
+                  src="./imgs/footer/company (2).png"
+                  alt="Twitter Partner"
+                  style="width: 80px;object-fit: contain;"
+                />
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <img
+                  src="./imgs/footer/company (4).png"
+                  alt="Top 10 SEO"
+                  style="width: 80px;object-fit: contain;"
+                />
+
+                <img
+                  src="./imgs/footer/company (5).png"
+                  alt="Google Reviews"
+                  style="width: 80px;object-fit: contain;"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <div style="background: #0E385D;">
+      <div class="container">
+        <div class="row py-3">
+          <div class="col-md-6 ">
+            <div
+              class="text-center w-100 align-items-center justify-content-center mb-4 mb-md-0 d-flex gap-1"
+            >
+              <!-- Social Media Icons -->
+              <a
+                class="btn text-white fs-5 border border-white p-3 rounded-circle d-flex  justify-content-center "
+                style=" width:30px; height:30px ; align-items: center;"
+                href="#"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a
+                class="btn text-white fs-5 border border-white p-3 rounded-circle d-flex  justify-content-center "
+                style=" width:30px; height:30px ; align-items: center;"
+                href="#"
+                ><i class="fab fa-pinterest"></i
+              ></a>
+              <a
+                class="btn text-white fs-5 border border-white p-3 rounded-circle d-flex  justify-content-center "
+                style=" width:30px; height:30px ; align-items: center;"
+                href="#"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a
+                class="btn text-white fs-5 border border-white p-3 rounded-circle d-flex  justify-content-center "
+                style=" width:30px; height:30px ; align-items: center;"
+                href="#"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a
+                class="btn text-white fs-5 rounded-circle d-flex border border-white p-3 justify-content-center "
+                style="width:30px; height:30px ; align-items: center;"
+                href="#"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a
+                class="btn text-white fs-5 border border-white p-3 rounded-circle d-flex  justify-content-center "
+                style=" width:30px; height:30px ; align-items: center;"
+                href="#"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </div>
+          </div>
+          <div
+            class="col-md-6 d-flex gap-2 align-items-center justify-content-center"
+          >
+            <div class="text-white px-2 border-end border-white">
+              © 2024 Adsamy
+            </div>
+            <div class="text-white px-2 border-end border-white">
+              <a href="/PrivecyPolicy.html" class="text-white"
+                >Privacy Policy</a
+              >
+            </div>
+            <div class="text-white px-2">
+              <a href="/contactUs1.html" class="text-white"
+                >Terms of Service</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Grid container -->
+  </footer>
+    <!-- Watch Our Latest Project -->
+    <section class="text-center  LatestProject">
+      <div class="d-flex align-items-start container p-5">
+        <div class="tab-content" style="width:70vw" id="v-pills-tabContent">
+          <div
+            class="tab-pane fade show active webDesign"
+            id="Behind-The"
+            role="tabpanel"
+            aria-labelledby="Behind-The"
+          >
+            <div class="video-card w-100">
+              <video
+                id="video1"
+                poster="https://via.placeholder.com/351x200"
+                controls
+                class="w-100"
+                preload="none"
+              >
+                <source
+                  src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+              <button class="play-btn" id="playButton1">
+                <i class="fas fa-play"></i>
+              </button>
+              <button class="play-btn " style="display: none;" id="pausButton1">
+                <i class="fas fa-pause"></i>
+              </button>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade show activ webDesign"
+            id="Video-Portfolio"
+            role="tabpanel"
+            aria-labelledby="Video-Portfolio"
+          >
+            <div class="video-card w-100">
+              <video
+                id="video1"
+                poster="https://via.placeholder.com/351x200"
+                controls
+                class="w-100"
+                preload="none"
+              >
+                <source
+                  src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+              <button class="play-btn" id="playButton1">
+                <i class="fas fa-play"></i>
+              </button>
+              <button class="play-btn " style="display: none;" id="pausButton1">
+                <i class="fas fa-pause"></i>
+              </button>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade show  webDesign"
+            id="Cloud-Seeding"
+            role="tabpanel"
+            aria-labelledby="Cloud-Seeding"
+          >
+            <div class="video-card w-100">
+              <video
+                id="video1"
+                poster="https://via.placeholder.com/351x200"
+                controls
+                class="w-100"
+                preload="none"
+              >
+                <source
+                  src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+              <button class="play-btn" id="playButton1">
+                <i class="fas fa-play"></i>
+              </button>
+              <button class="play-btn " style="display: none;" id="pausButton1">
+                <i class="fas fa-pause"></i>
+              </button>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade show activ webDesign"
+            id="Nahdah-Construction"
+            role="tabpanel"
+            aria-labelledby="Nahdah-Construction"
+          >
+            <div class="video-card w-100">
+              <video
+                id="video1"
+                poster="https://via.placeholder.com/351x200"
+                controls
+                class="w-100"
+                preload="none"
+              >
+                <source
+                  src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+              <button class="play-btn" id="playButton1">
+                <i class="fas fa-play"></i>
+              </button>
+              <button class="play-btn " style="display: none;" id="pausButton1">
+                <i class="fas fa-pause"></i>
+              </button>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade show  webDesign"
+            id="Surgery-Center"
+            role="tabpanel"
+            aria-labelledby="Surgery-Center"
+          >
+            <div class="video-card w-100">
+              <video
+                id="video1"
+                poster="https://via.placeholder.com/351x200"
+                controls
+                class="w-100"
+                preload="none"
+              >
+                <source
+                  src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+              <button class="play-btn" id="playButton1">
+                <i class="fas fa-play"></i>
+              </button>
+              <button class="play-btn " style="display: none;" id="pausButton1">
+                <i class="fas fa-pause"></i>
+              </button>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade show  webDesign"
+            id="FLIR-MIDDLE"
+            role="tabpanel"
+            aria-labelledby="FLIR-MIDDLE"
+          >
+            <div class="video-card w-100">
+              <video
+                id="video1"
+                poster="https://via.placeholder.com/351x200"
+                controls
+                class="w-100"
+                preload="none"
+              >
+                <source
+                  src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+              <button class="play-btn" id="playButton1">
+                <i class="fas fa-play"></i>
+              </button>
+              <button class="play-btn " style="display: none;" id="pausButton1">
+                <i class="fas fa-pause"></i>
+              </button>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade show  webDesign"
+            id="Football-Match"
+            role="tabpanel"
+            aria-labelledby="Football-Match"
+          >
+            <div class="video-card w-100">
+              <video
+                id="video1"
+                poster="https://via.placeholder.com/351x200"
+                controls
+                class="w-100"
+                preload="none"
+              >
+                <source
+                  src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+              <button class="play-btn" id="playButton1">
+                <i class="fas fa-play"></i>
+              </button>
+              <button class="play-btn " style="display: none;" id="pausButton1">
+                <i class="fas fa-pause"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="nav flex-column nav-pills me-3 navigateBtns"
+          id="v-pills-tab"
+          role="tablist"
+          aria-orientation="vertical"
+        >
+          <button
+            class="nav-link px-2 py-3 d-flex gap-3 ps-3 align-items-center active"
+            id="Behind-The-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#Behind-The"
+            type="button"
+            role="tab"
+            aria-controls="Behind-The"
+            aria-selected="true"
+          >
+            <i class="fa-solid fa-circle-play text-white fs-3"></i>
+            <div class="fw-light text-start text-white">
+              Doleep Studios - Behind The Scenes
+            </div>
+          </button>
+          <button
+            class="nav-link px-2 py-3 d-flex gap-3 ps-3 align-items-center"
+            id="Video-Portfolio-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#Video-Portfolio"
+            type="button"
+            role="tab"
+            aria-controls="Video-Portfolio"
+            aria-selected="true"
+          >
+            <i class="fa-solid fa-circle-play text-white fs-3"></i>
+            <div class="fw-light text-start text-white">
+              Doleep Studios - 2020 Video Portfolio
+            </div>
+          </button>
+          <button
+            class="nav-link px-2 py-3 d-flex gap-3 ps-3 align-items-center"
+            id="Cloud-Seeding-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#Cloud-Seeding"
+            type="button"
+            role="tab"
+            aria-controls="Cloud-Seeding"
+            aria-selected="true"
+          >
+            <i class="fa-solid fa-circle-play text-white fs-3"></i>
+            <div class="fw-light text-start text-white">
+              Cloud Seeding Story of a life
+            </div>
+          </button>
+          <button
+            class="nav-link px-2 py-3 d-flex gap-3 ps-3 align-items-center"
+            id="Nahdah-Construction-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#Nahdah-Construction"
+            type="button"
+            role="tab"
+            aria-controls="Nahdah-Construction"
+            aria-selected="true"
+          >
+            <i class="fa-solid fa-circle-play text-white fs-3"></i>
+            <div class="fw-light text-start text-white">
+              Shafa Al Nahdah Construction
+            </div>
+          </button>
+          <button
+            class="nav-link px-2 py-3 d-flex gap-3 ps-3 align-items-center"
+            id="Surgery-Center-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#Surgery-Center"
+            type="button"
+            role="tab"
+            aria-controls="Surgery-Center"
+            aria-selected="true"
+          >
+            <i class="fa-solid fa-circle-play text-white fs-3"></i>
+            <div class="fw-light text-start text-white">
+              Burjeel Day Surgery Center
+            </div>
+          </button>
+          <button
+            class="nav-link px-2 py-3 d-flex gap-3 ps-3 align-items-center"
+            id="FLIR-MIDDLE-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#FLIR-MIDDLE"
+            type="button"
+            role="tab"
+            aria-controls="FLIR-MIDDLE"
+            aria-selected="true"
+          >
+            <i class="fa-solid fa-circle-play text-white fs-3"></i>
+            <div class="fw-light text-start text-white">
+              FLIR MIDDLE EAST Facility
+            </div>
+          </button>
+          <button
+            class="nav-link px-2 py-3 d-flex gap-3 ps-3 align-items-center"
+            id="Football-Match-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#Football-Match"
+            type="button"
+            role="tab"
+            aria-controls="Football-Match"
+            aria-selected="true"
+          >
+            <i class="fa-solid fa-circle-play text-white fs-3"></i>
+            <div class="fw-light text-start text-white">
+              Al Ahly vs A.S Roma Football Match Promoti…
+            </div>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- End of .container -->
+    <div class="ContactUs">
+      <div class="getQuotation">
+        <div
+          class="qetquotationBtn"
+          style="cursor: pointer;"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          <img class="img" src="./imgs/profile.jpg" alt="" />
+          <div class="fs-5 text">get quotation</div>
+        </div>
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-xl">
+            <div
+              class="modal-content d-flex align-items-center justify-content-center"
+            >
+              <section class="border-radius-12 p-3" style="width: 98%">
+                <div class="row">
+                  <div class="col-md-6 pt-3 text-primary pe-2">
+                    <h3 class="mb-2 " style="font-weight: 600;">
+                      Achieve more with Digital Marketing
+                    </h3>
+                    <p class="mb-2">
+                      <small>
+                        Now that you know us, we would like to get to know you
+                        better. Write to us today and introduce yourself.This
+                        may be the begin of a stunning relationship!
+                      </small>
+                    </p>
+                    <div class="d-flex my-2 gap-2 py-3 ">
+                      <img
+                        src="https://picsum.photos/50"
+                        class="profileImg "
+                        alt=""
+                      />
+                      <div>
+                        <h6>Contact Our Marketing Experts</h6>
+                        <p>We Speak English, Arabic.</p>
+                      </div>
+                    </div>
+                    <hr class="w-75" />
+
+                    <p class="mb-2">
+                      Contact <strong class="fw-bold"> Information</strong>
+                    </p>
+                    <div class="mb-2">
+                      <div class="d-flex gap-2 mt-2">
+                        <i class="fa-solid icon fa-phone"></i>
+                        <a href="tel:+971505077374">+971505077374</a>
+                      </div>
+                      <div class="d-flex gap-2 mt-2">
+                        <i class="fa-solid icon fa-mobile-screen-button"></i>
+                        <a href="tel:+971505077374">+971505077374</a>
+                      </div>
+                      <div class="d-flex gap-2 mt-2">
+                        <i class="fa-brands icon fa-square-whatsapp"></i>
+                        <a href="tel:+971505077374">+971505077374</a>
+                      </div>
+                      <div class="d-flex gap-2 mt-2">
+                        <i class="fa-solid icon fa-phone"></i>
+                        <a href="mailto:info@adsamy.com">info@adsamy.com</a>
+                      </div>
+                      <div class="d-flex gap-2 mt-2">
+                        <i class="fa-solid icon fa-clock"></i>
+                        <div>Hours 9AM to 6PM</div>
+                      </div>
+                      <div class="d-flex gap-2 mt-2">
+                        <i class="fa-solid icon fa-user"></i>
+                        <div>Jobs & vacancies</div>
+                      </div>
+                    </div>
+                    <div class="d-flex mb-2 gap-2 mt-2">
+                      <a href="http://"
+                        ><svg
+                          width="40"
+                          height="41"
+                          viewBox="0 0 40 41"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M19.7034 40.0473C18.6448 40.0473 17.5822 39.9629 16.5474 39.7967C11.9776 39.0647 7.78943 36.7264 4.75527 33.213C1.688 29.6613 0 25.1231 0 20.4345C0 9.61988 8.83879 0.821777 19.7048 0.821777C30.5707 0.821777 39.4095 9.61988 39.4095 20.4345C39.4095 25.1956 37.6738 29.7879 34.5231 33.3633C31.4015 36.9058 27.1126 39.2124 22.4488 39.86C21.5465 39.9853 20.6243 40.0486 19.7061 40.0486L19.7034 40.0473ZM19.7034 2.40309C9.71459 2.40309 1.58862 10.4916 1.58862 20.4332C1.58862 29.3355 7.98552 36.8213 16.8005 38.2338C18.5772 38.5187 20.4401 38.5385 22.2275 38.2906C31.1153 37.0574 37.8183 29.3803 37.8183 20.4332C37.8183 10.4916 29.6923 2.40309 19.7034 2.40309Z"
+                            fill="#1877F7"
+                          />
+                          <path
+                            d="M22.3361 16.7245V20.8249H27.4319L26.625 26.3483H22.3361V39.0739C21.4762 39.1926 20.5965 39.2546 19.7034 39.2546C18.6726 39.2546 17.6604 39.1729 16.6746 39.0146V26.3483H11.975V20.8249H16.6746V15.8079C16.6746 12.6954 19.2092 10.1711 22.3375 10.1711V10.1738C22.3467 10.1738 22.3547 10.1711 22.364 10.1711H27.4333V14.948H24.1209C23.1364 14.948 22.3375 15.7433 22.3375 16.7232L22.3361 16.7245Z"
+                            fill="#1877F7"
+                          />
+                        </svg>
+                      </a>
+                      <a href="http://">
+                        <svg
+                          width="40"
+                          height="40"
+                          viewBox="0 0 40 40"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M20.0242 39.7848H19.9381C9.17017 39.7848 0.409546 31.0645 0.409546 20.3462V20.2604C0.409546 9.54208 9.17017 0.821777 19.9381 0.821777H20.0242C30.7921 0.821777 39.5528 9.54208 39.5528 20.2604V20.3462C39.5528 31.0645 30.7921 39.7848 20.0242 39.7848ZM19.9381 2.14064C9.90022 2.14064 1.7345 10.2688 1.7345 20.2604V20.3462C1.7345 30.3378 9.90022 38.466 19.9381 38.466H20.0242C30.0621 38.466 38.2278 30.3378 38.2278 20.3462V20.2604C38.2278 10.2688 30.0621 2.14064 20.0242 2.14064H19.9381Z"
+                            fill="url(#paint0_linear_1253_627)"
+                          />
+                          <path
+                            d="M25.8329 9.13989H14.1308C10.8979 9.13989 8.26789 11.7578 8.26789 14.9758V25.6322C8.26789 28.8502 10.8979 31.4682 14.1308 31.4682H25.8329C29.0658 31.4682 31.6958 28.8502 31.6958 25.6322V14.9758C31.6958 11.7578 29.0658 9.13989 25.8329 9.13989ZM10.3362 14.9758C10.3362 12.8934 12.0387 11.1986 14.1308 11.1986H25.8329C27.925 11.1986 29.6275 12.8934 29.6275 14.9758V25.6322C29.6275 27.7147 27.925 29.4094 25.8329 29.4094H14.1308C12.0387 29.4094 10.3362 27.7147 10.3362 25.6322V14.9758Z"
+                            fill="url(#paint1_linear_1253_627)"
+                          />
+                          <path
+                            d="M19.9819 25.7311C22.9882 25.7311 25.4354 23.2965 25.4354 20.3027C25.4354 17.3089 22.9895 14.8743 19.9819 14.8743C16.9742 14.8743 14.5283 17.3089 14.5283 20.3027C14.5283 23.2965 16.9742 25.7311 19.9819 25.7311ZM19.9819 16.9343C21.8487 16.9343 23.3671 18.4457 23.3671 20.304C23.3671 22.1623 21.8487 23.6737 19.9819 23.6737C18.115 23.6737 16.5966 22.1623 16.5966 20.304C16.5966 18.4457 18.115 16.9343 19.9819 16.9343Z"
+                            fill="url(#paint2_linear_1253_627)"
+                          />
+                          <path
+                            d="M25.9402 15.7511C26.7497 15.7511 27.4096 15.0957 27.4096 14.2885C27.4096 13.4814 26.751 12.8259 25.9402 12.8259C25.1293 12.8259 24.4708 13.4814 24.4708 14.2885C24.4708 15.0957 25.1293 15.7511 25.9402 15.7511Z"
+                            fill="url(#paint3_linear_1253_627)"
+                          />
+                          <defs>
+                            <linearGradient
+                              id="paint0_linear_1253_627"
+                              x1="6.13601"
+                              y1="34.0847"
+                              x2="33.6985"
+                              y2="6.39472"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#FAAD4F" />
+                              <stop offset="0.35" stop-color="#DD2A7B" />
+                              <stop offset="0.62" stop-color="#9537B0" />
+                              <stop offset="1" stop-color="#515BD4" />
+                            </linearGradient>
+                            <linearGradient
+                              id="paint1_linear_1253_627"
+                              x1="10.2355"
+                              y1="30.0042"
+                              x2="29.637"
+                              y2="10.513"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#FAAD4F" />
+                              <stop offset="0.35" stop-color="#DD2A7B" />
+                              <stop offset="0.62" stop-color="#9537B0" />
+                              <stop offset="1" stop-color="#515BD4" />
+                            </linearGradient>
+                            <linearGradient
+                              id="paint2_linear_1253_627"
+                              x1="16.1276"
+                              y1="24.1392"
+                              x2="23.7993"
+                              y2="16.432"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#FAAD4F" />
+                              <stop offset="0.35" stop-color="#DD2A7B" />
+                              <stop offset="0.62" stop-color="#9537B0" />
+                              <stop offset="1" stop-color="#515BD4" />
+                            </linearGradient>
+                            <linearGradient
+                              id="paint3_linear_1253_627"
+                              x1="24.9014"
+                              y1="15.3225"
+                              x2="26.9694"
+                              y2="13.245"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#FAAD4F" />
+                              <stop offset="0.35" stop-color="#DD2A7B" />
+                              <stop offset="0.62" stop-color="#9537B0" />
+                              <stop offset="1" stop-color="#515BD4" />
+                            </linearGradient>
+                          </defs>
+                        </svg>
+                      </a>
+                      <a href="http://">
+                        <svg
+                          width="40"
+                          height="40"
+                          viewBox="0 0 40 40"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M20.1674 39.7848H20.0813C9.31336 39.7848 0.552734 31.0645 0.552734 20.3462V20.2604C0.552734 9.54208 9.31336 0.821777 20.0813 0.821777H20.1674C30.9353 0.821777 39.6959 9.54208 39.6959 20.2604V20.3462C39.6959 31.0645 30.9353 39.7848 20.1674 39.7848ZM20.0813 2.14064C10.0434 2.14064 1.87769 10.2688 1.87769 20.2604V20.3462C1.87769 30.3378 10.0434 38.466 20.0813 38.466H20.1674C30.2053 38.466 38.371 30.3378 38.371 20.3462V20.2604C38.371 10.2688 30.2053 2.14064 20.1674 2.14064H20.0813Z"
+                            fill="#2188F7"
+                          />
+                          <path
+                            d="M31.1672 13.4894C30.6491 14.0103 29.931 14.3334 29.1347 14.3334C29.0327 14.3334 28.9333 14.3282 28.8339 14.3176C29.6647 13.8217 30.306 13.0449 30.6253 12.1191C30.6253 12.1191 30.6266 12.1191 30.6266 12.1178C30.6717 11.9938 30.7088 11.8685 30.7379 11.7393C30.0807 12.4383 29.1824 12.9117 28.1741 13.0251C28.0191 13.0436 27.8614 13.0528 27.7038 13.0528C27.6534 13.0528 27.6044 13.0515 27.5567 13.0489C27.2162 12.6928 26.8094 12.3974 26.3589 12.1811C25.8568 11.9371 25.295 11.7933 24.7027 11.7749C24.6537 11.7722 24.606 11.7709 24.5557 11.7709C24.0535 11.7709 23.5712 11.8593 23.126 12.0228C23.0121 12.0637 22.9008 12.1099 22.7921 12.1626C21.3811 12.8207 20.4046 14.249 20.4046 15.9029C20.4046 16.2418 20.4456 16.5729 20.5238 16.8881C20.0919 16.8709 19.6639 16.8301 19.2439 16.7667C19.1088 16.7456 18.9749 16.7219 18.8411 16.6968C17.7705 16.499 16.749 16.1588 15.8003 15.6945C14.951 15.2817 14.1601 14.7713 13.4393 14.1778C12.8338 13.6806 12.2799 13.1267 11.7844 12.52C11.7632 12.495 11.742 12.4673 11.7208 12.4422C11.6916 12.4857 11.6651 12.5306 11.6413 12.5767C11.2955 13.1794 11.0994 13.8758 11.0994 14.6196C11.0994 14.6421 11.0994 14.6671 11.1007 14.6895C11.1087 15.2461 11.2279 15.7763 11.4399 16.259C11.53 16.4726 11.64 16.6744 11.7659 16.867C12.1368 17.4354 12.643 17.9089 13.2419 18.236C13.2697 18.2531 13.2962 18.2676 13.3253 18.2808C13.2829 18.2887 13.2379 18.2966 13.1941 18.3006C13.0709 18.3164 12.9451 18.3243 12.8179 18.3243C12.1806 18.3243 11.5883 18.1265 11.1034 17.7889C11.1007 17.8245 11.1007 17.8601 11.1007 17.897C11.1007 19.0774 11.5976 20.1417 12.3939 20.8921C13.014 21.4803 13.8156 21.8773 14.7059 21.9921C14.3853 22.1094 14.0395 22.1714 13.6778 22.1714C13.2869 22.1714 12.9133 22.0976 12.5714 21.9617C13.0815 23.6116 14.6013 24.821 16.4138 24.8764C15.3075 26.0212 13.752 26.732 12.0322 26.732C10.9629 26.732 9.95727 26.4564 9.08545 25.975C11.1802 27.7792 13.911 28.8686 16.8987 28.8686C23.501 28.8686 28.8525 23.5417 28.8525 16.9698C28.8525 16.6085 28.8366 16.2498 28.8035 15.8963C29.8952 15.4677 30.7618 14.5893 31.1712 13.4894H31.1672Z"
+                            fill="#2188F7"
+                          />
+                        </svg>
+                      </a>
+                      <a href="">
+                        <svg
+                          width="40"
+                          height="40"
+                          viewBox="0 0 40 40"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M20.3107 39.7848H20.2246C9.45667 39.7848 0.696045 31.0645 0.696045 20.3462V20.2604C0.696045 9.54208 9.45667 0.821777 20.2246 0.821777H20.3107C31.0786 0.821777 39.8393 9.54208 39.8393 20.2604V20.3462C39.8393 31.0645 31.0786 39.7848 20.3107 39.7848ZM20.2246 2.14064C10.1867 2.14064 2.021 10.2688 2.021 20.2604V20.3462C2.021 30.3378 10.1867 38.466 20.2246 38.466H20.3107C30.3486 38.466 38.5143 30.3378 38.5143 20.3462V20.2604C38.5143 10.2688 30.3486 2.14064 20.3107 2.14064H20.2246Z"
+                            fill="#00E510"
+                          />
+                          <path
+                            d="M23.9531 25.8088C19.113 25.8088 15.1752 21.8879 15.1739 17.0701C15.1752 15.8488 16.1743 14.8557 17.3985 14.8557C17.5244 14.8557 17.6489 14.8663 17.7682 14.8874C18.0305 14.9309 18.2796 15.0193 18.5088 15.1525C18.542 15.1722 18.5645 15.2039 18.5698 15.2408L19.0812 18.4496C19.0878 18.4865 19.0759 18.5248 19.0507 18.5525C18.7685 18.8637 18.4081 19.0879 18.0067 19.2L17.8132 19.2541L17.8861 19.4401C18.5459 21.1124 19.8894 22.4484 21.5708 23.1078L21.7576 23.1817L21.812 22.9891C21.9246 22.5895 22.1498 22.2308 22.4625 21.9498C22.485 21.9287 22.5155 21.9182 22.546 21.9182C22.5526 21.9182 22.5592 21.9182 22.5672 21.9195L25.7908 22.4286C25.8292 22.4352 25.861 22.4563 25.8809 22.4893C26.0134 22.7174 26.1022 22.9667 26.1472 23.2278C26.1684 23.3439 26.1777 23.4665 26.1777 23.5945C26.1777 24.8144 25.18 25.8075 23.9531 25.8088Z"
+                            fill="#00E510"
+                          />
+                          <path
+                            d="M32.5361 19.2463C32.2751 16.3105 30.9236 13.587 28.7308 11.5784C26.5248 9.55793 23.6629 8.44482 20.6698 8.44482C14.1006 8.44482 8.75578 13.7651 8.75578 20.304C8.75578 22.4986 9.36392 24.6364 10.5153 26.4987L7.94754 32.1566L16.1689 31.2848C17.5985 31.8677 19.1116 32.1632 20.6685 32.1632C21.0779 32.1632 21.4979 32.1421 21.9192 32.0985C22.2902 32.059 22.6652 32.001 23.0335 31.9271C28.5347 30.8206 32.5507 25.9606 32.5825 20.3673V20.304C32.5825 19.9479 32.5666 19.5918 32.5348 19.2476L32.5361 19.2463ZM16.4856 28.8014L11.937 29.2841L13.2951 26.289L13.0235 25.9263C13.0036 25.8999 12.9837 25.8735 12.9612 25.8432C11.782 24.2223 11.1592 22.3073 11.1592 20.3053C11.1592 15.0853 15.4256 10.8385 20.6698 10.8385C25.5827 10.8385 29.7471 14.654 30.1485 19.5245C30.1697 19.7857 30.1817 20.0481 30.1817 20.3066C30.1817 20.3805 30.1803 20.453 30.179 20.5308C30.0783 24.8976 27.0137 28.6062 22.7261 29.5505C22.3989 29.6231 22.0636 29.6785 21.7298 29.7141C21.3826 29.7536 21.0262 29.7734 20.6724 29.7734C19.4124 29.7734 18.1881 29.5307 17.0315 29.0507C16.9029 28.9992 16.7771 28.9438 16.6591 28.8871L16.4869 28.804L16.4856 28.8014Z"
+                            fill="#00E510"
+                          />
+                        </svg> </a
+                      ><a href=""
+                        ><svg
+                          width="40"
+                          height="40"
+                          viewBox="0 0 40 40"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M20.3573 39.678C9.59468 39.678 0.839355 30.963 0.839355 20.2499C0.839355 9.53679 9.59468 0.821777 20.3573 0.821777C31.1199 0.821777 39.8752 9.53679 39.8752 20.2499C39.8752 30.963 31.1199 39.678 20.3573 39.678ZM20.3573 2.14064C10.3261 2.14064 2.16431 10.2648 2.16431 20.2499C2.16431 30.235 10.3261 38.3591 20.3573 38.3591C30.3886 38.3591 38.5503 30.235 38.5503 20.2499C38.5503 10.2648 30.3886 2.14064 20.3573 2.14064Z"
+                            fill="#FF0209"
+                          />
+                          <path
+                            d="M32.2302 16.3607C32.0818 14.935 31.7625 13.3589 30.5873 12.5307C29.6771 11.8884 28.4806 11.8647 27.3637 11.866C25.0026 11.8673 22.6402 11.87 20.2791 11.8713C18.0082 11.8739 15.7372 11.8752 13.4662 11.8779C12.5175 11.8792 11.5954 11.8053 10.7143 12.2142C9.9577 12.565 9.36545 13.2323 9.00904 13.9749C8.51483 15.0075 8.41148 16.1774 8.35186 17.3195C8.24189 19.3993 8.25381 21.4844 8.38499 23.563C8.48171 25.0797 8.72682 26.7559 9.90471 27.7226C10.9488 28.5786 12.4221 28.6208 13.7762 28.6221C18.0744 28.6261 22.3739 28.63 26.6734 28.6327C27.2246 28.634 27.7996 28.6234 28.3614 28.5628C29.4664 28.4441 30.5197 28.1289 31.2299 27.3138C31.9467 26.4922 32.1309 25.3487 32.2395 24.2659C32.5045 21.6388 32.5019 18.9865 32.2302 16.3607ZM17.7935 23.9323V16.5664L24.201 20.2487L17.7935 23.9323Z"
+                            fill="#FF0209"
+                          />
+                        </svg>
+                      </a>
+                      <a href="">
+                        <svg
+                          width="39"
+                          height="40"
+                          viewBox="0 0 39 40"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M19.5429 39.6423H19.4571C8.72857 39.6423 0 30.9539 0 20.2747V20.1893C0 9.51018 8.72857 0.821777 19.4571 0.821777H19.5429C30.2714 0.821777 39 9.51018 39 20.1893V20.2747C39 30.9539 30.2714 39.6423 19.5429 39.6423ZM19.4571 2.13581C9.45595 2.13581 1.32011 10.2342 1.32011 20.1893V20.2747C1.32011 30.2299 9.45595 38.3283 19.4571 38.3283H19.5429C29.5441 38.3283 37.6799 30.2299 37.6799 20.2747V20.1893C37.6799 10.2342 29.5441 2.13581 19.5429 2.13581H19.4571Z"
+                            fill="black"
+                          />
+                          <path
+                            d="M18.0419 20.9369C17.7145 20.5283 17.3396 20.2155 16.9198 20.0039C17.2908 19.7792 17.6103 19.5033 17.8743 19.1748C18.3192 18.6203 18.5449 17.9251 18.5449 17.1078C18.5449 16.4258 18.364 15.799 18.0063 15.2458C17.6499 14.6926 17.1192 14.2485 16.4288 13.9252C15.7529 13.6085 14.9384 13.4482 14.0103 13.4482H8.7312V27.0183H14.2532C15.1575 27.0183 15.9654 26.854 16.6532 26.5308C17.3542 26.2023 17.9007 25.7423 18.2756 25.1655C18.6518 24.586 18.8432 23.9277 18.8432 23.2089C18.8432 22.3666 18.5739 21.6031 18.0419 20.9382V20.9369ZM15.238 18.4639C14.912 18.7267 14.4354 18.8607 13.8242 18.8607H11.5404V15.8542H13.8242C14.4328 15.8542 14.9067 15.9922 15.2327 16.2655C15.5456 16.527 15.6974 16.8884 15.6974 17.3667C15.6974 17.845 15.5469 18.2155 15.238 18.4639ZM11.5404 21.2681H13.9918C14.6334 21.2681 15.1271 21.4231 15.5007 21.7424C15.8585 22.0486 16.0327 22.4546 16.0327 22.9855C16.0327 23.5164 15.8717 23.8908 15.539 24.1707C15.1945 24.4611 14.6994 24.6083 14.0658 24.6083H11.5404V21.2681Z"
+                            fill="black"
+                          />
+                          <path
+                            d="M29.6287 18.6678C29.2036 17.9031 28.6016 17.2999 27.8386 16.8768C27.0769 16.4537 26.1964 16.2395 25.2248 16.2395C24.2532 16.2395 23.3067 16.4603 22.5265 16.8952C21.745 17.3315 21.1298 17.9583 20.6994 18.7611C20.2691 19.5627 20.0513 20.5035 20.0513 21.5574C20.0513 22.6112 20.2757 23.5534 20.7192 24.3537C21.1628 25.1552 21.7833 25.786 22.5648 26.2275C23.3449 26.669 24.24 26.8924 25.2261 26.8924C26.4366 26.8924 27.465 26.5862 28.2835 25.983C29.1019 25.3799 29.6749 24.5941 29.9877 23.6493L30.0102 23.5823H27.6155L27.601 23.6112C27.1403 24.5403 26.3416 25.0107 25.2248 25.0107C24.4472 25.0107 23.7819 24.7649 23.2473 24.2827C22.7258 23.811 22.4261 23.1802 22.3562 22.4063H30.1871L30.1937 22.3629C30.2438 22.0515 30.2689 21.6993 30.2689 21.3169C30.2689 20.3235 30.0537 19.4326 29.6287 18.6678ZM23.2842 18.8045C23.7938 18.3512 24.4156 18.1225 25.1311 18.1225C25.9218 18.1225 26.5937 18.3551 27.1284 18.815C27.6485 19.2618 27.9244 19.8623 27.9482 20.5981H22.3786C22.4842 19.8505 22.7892 19.2473 23.2855 18.8058L23.2842 18.8045Z"
+                            fill="black"
+                          />
+                          <path
+                            d="M27.767 13.7598H22.5513V14.9897H27.767V13.7598Z"
+                            fill="black"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-6 p-4 contactBox border-radius-12">
+                    <h4><strong>Get Your Quote Today</strong></h4>
+                    <small>
+                      Complete the form to get an estimated price. Our team will
+                      be in touch to help you make the best decision for your
+                      project.
+                    </small>
+                    <form action="" class="mt-4">
+                      <div class="input-group mb-3">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="First Name*"
+                          aria-label="FirstName"
+                          name="FirstName"
+                          aria-describedby="name"
+                        />
+
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Last Name"
+                          aria-label="LastName"
+                          name="LastName"
+                          aria-describedby="name"
+                        />
+                      </div>
+                      <div class="mb-3">
+                        <input
+                          type="email"
+                          name="Email"
+                          name="Email"
+                          id=""
+                          class="form-control"
+                          placeholder="Business Email*"
+                        />
+                      </div>
+                      <div class="input-group mb-3">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Phone* ex. +971"
+                          aria-label="phone"
+                          name="phone"
+                          aria-describedby="phone"
+                        />
+
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Company Name*"
+                          aria-label="CompanyName"
+                          name="CompanyName"
+                          aria-describedby="phone"
+                        />
+                      </div>
+                      <div class="mb-3">
+                        <label for="project" class="form-label text-secondary"
+                          >Tell us about your project *</label
+                        >
+                        <textarea
+                          class="form-control"
+                          name="project"
+                          id=""
+                        ></textarea>
+                      </div>
+                      <div class="d-flex mb-3 gap-3">
+                        <div class="w-50">
+                          <label for="vedioType" class="text-secondary"
+                            >video Type</label
+                          >
+                          <select class="form-select mt-1" id="vedioType">
+                            <option selected>Choose...</option>
+                            <option value="1">mp4</option>
+                            <option value="2">m4a</option>
+                          </select>
+                        </div>
+                        <div class=" mt-1">
+                          <label for="" class="text-secondary"
+                            >Any Attachment?</label
+                          >
+                          <input
+                            class="mt-1"
+                            type="file"
+                            name="Attachment"
+                            id=""
+                          />
+                        </div>
+                      </div>
+                      <div class="form-check mb-3">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          value=""
+                          id="flexCheckDefault"
+                        />
+                        <label
+                          class="form-check-label text-secondary"
+                          for="flexCheckDefault"
+                        >
+                          Default checkbox
+                        </label>
+                      </div>
+                      <div class="d-flex gap-2 mb-3">
+                        <i class="fa-solid fa-shield-halved"></i>
+                        <small>
+                          Your Data Is Protected by Doleep Studios Privacy
+                          Policy
+                        </small>
+                      </div>
+                      <button type="submit" class="btn w-100 mt-3">
+                        GET A QOUTE
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- filter -->
+    <section class=" bg-light">
+      <div class="container py-5 ">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="filters">
+              <ul class="nav mb-1">
+                <li data-filter="*" class="active btn btn-secondary">All</li>
+                <li data-filter=".MobileApp" class="btn btn-secondary">
+                  Mobile App Design
+                </li>
+                <li data-filter=".WebDesign" class="btn btn-secondary">
+                  Web Design
+                </li>
+                <li data-filter=".GraphicDesign" class="btn btn-secondary">
+                  Graphic Design
+                </li>
+              </ul>
+              <p>
+                We share common trends, strategies, ideas, opinions, and stories
+                from the team behind the company.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 text-end">
+            <a href="/" class="btn btn-outline-primary">View all</a>
+          </div>
+          <div class="col-lg-12">
+            <div class="row grid">
+              <!-- Card 1 -->
+              <div class="item MobileApp col-md-4 mt-4">
+                <div
+                  class="ImageCard"
+                  style="background: linear-gradient(180deg, rgba(114, 9, 183, 0) 0%, rgba(24, 60, 86, 1) 100%), url(../imgs/image1.jpg) center/cover no-repeat;"
+                >
+                  <div
+                    class="p-5 d-flex flex-column justify-content-between h-80"
+                  >
+                    <div class="chip text-secondary bg-white">New</div>
+                    <div>
+                      <h3 class="text-white mt-4">
+                        Designing a Mobile App for Beginners
+                      </h3>
+                      <div class="text-white text-end">20 June</div>
+                      <div class="d-flex gap-4 mt-2">
+                        <img src="./imgs/avatar1.jpg" class="circle" alt="" />
+                        <div class="my-auto">
+                          <a href="#" class="text-white">Alex Johnson</a>
+                          <div class="d-flex gap-2 mt-1">
+                            <i class="fa-solid fa-check p-1"></i>
+                            <div class="text-dark-secondary">verified user</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 2 -->
+              <div class="item WebDesign col-md-4 mt-4">
+                <div
+                  class="ImageCard"
+                  style="background: linear-gradient(180deg, rgba(114, 9, 183, 0) 0%, rgba(24, 60, 86, 1) 100%), url(../imgs/image2.jpg) center/cover no-repeat;"
+                >
+                  <div
+                    class="p-5 d-flex flex-column justify-content-between h-80"
+                  >
+                    <div class="chip text-secondary bg-white">Trending</div>
+                    <div>
+                      <h3 class="text-white mt-4">
+                        Mastering Responsive Web Design
+                      </h3>
+                      <div class="text-white text-end">15 April</div>
+                      <div class="d-flex gap-4 mt-2">
+                        <img src="./imgs/avatar2.jpg" class="circle" alt="" />
+                        <div class="my-auto">
+                          <a href="#" class="text-white">Sara Adams</a>
+                          <div class="d-flex gap-2 mt-1">
+                            <i class="fa-solid fa-check p-1"></i>
+                            <div class="text-dark-secondary">verified user</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 3 -->
+              <div class="item GraphicDesign col-md-4 mt-4">
+                <div
+                  class="ImageCard"
+                  style="background: linear-gradient(180deg, rgba(114, 9, 183, 0) 0%, rgba(24, 60, 86, 1) 100%), url(../imgs/image3.jpg) center/cover no-repeat;"
+                >
+                  <div
+                    class="p-5 d-flex flex-column justify-content-between h-80"
+                  >
+                    <div class="chip text-secondary bg-white">Featured</div>
+                    <div>
+                      <h3 class="text-white mt-4">
+                        Creating Stunning Graphic Designs
+                      </h3>
+                      <div class="text-white text-end">01 September</div>
+                      <div class="d-flex gap-4 mt-2">
+                        <img src="./imgs/avatar3.jpg" class="circle" alt="" />
+                        <div class="my-auto">
+                          <a href="#" class="text-white">David Lee</a>
+                          <div class="d-flex gap-2 mt-1">
+                            <i class="fa-solid fa-check p-1"></i>
+                            <div class="text-dark-secondary">verified user</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 4 -->
+              <div class="item WebDesign col-md-4 mt-4">
+                <div
+                  class="ImageCard"
+                  style="background: linear-gradient(180deg, rgba(114, 9, 183, 0) 0%, rgba(24, 60, 86, 1) 100%), url(../imgs/image4.jpg) center/cover no-repeat;"
+                >
+                  <div
+                    class="p-5 d-flex flex-column justify-content-between h-80"
+                  >
+                    <div class="chip text-secondary bg-white">New</div>
+                    <div>
+                      <h3 class="text-white mt-4">Web Design Trends in 2024</h3>
+                      <div class="text-white text-end">10 August</div>
+                      <div class="d-flex gap-4 mt-2">
+                        <img src="./imgs/avatar4.jpg" class="circle" alt="" />
+                        <div class="my-auto">
+                          <a href="#" class="text-white">Monica Green</a>
+                          <div class="d-flex gap-2 mt-1">
+                            <i class="fa-solid fa-check p-1"></i>
+                            <div class="text-dark-secondary">verified user</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <nav aria-label="Page navigation example">
+              <ul class="pagination justify-content-center">
+                <li class="page-item">
+                  <a class="page-link" href="#" id="prev"
+                    ><i class="fa-solid fa-chevron-left"></i
+                  ></a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link" href="#" id="page1">1</a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link" href="#" id="page2">2</a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link" href="#" id="page3">3</a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link" href="#" id="next"
+                    ><i class="fa-solid fa-chevron-right"></i
+                  ></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/5b9061b1a3.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper('.mySwiper', {
+            loop: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            slidesPerView: 1,
+            effect: 'fade',
+            fadeEffect: {
+            crossFade: true
+                      },
+            } );
+    </script>
+    <!-- work swiper  -->
+    <script>
+      var workSwiper = new Swiper(".workSwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+    <script src="./js/isotope.js"></script>
+
+    <script>
+          $(document).ready(function() {
+        var $grid = $('.grid').isotope({
+          itemSelector: '.item',
+          layoutMode: 'fitRows'
+        });
+
+        var itemsPerPage = 6;
+        var currentPage = 1;
+        var totalItems = $('.item').length;
+        var totalPages = Math.ceil(totalItems / itemsPerPage);
+
+        // Pagination logic
+        function showItems(page) {
+          var start = (page - 1) * itemsPerPage;
+          var end = start + itemsPerPage;
+
+          $('.item').hide();
+          $('.item').slice(start, end).show();
+
+          $grid.isotope('layout');
+        }
+
+        function updatePagination() {
+          if (currentPage === 1) {
+            $('#prev').parent().addClass('disabled');
+          } else {
+            $('#prev').parent().removeClass('disabled');
+          }
+
+          if (currentPage === totalPages) {
+            $('#next').parent().addClass('disabled');
+          } else {
+            $('#next').parent().removeClass('disabled');
+          }
+        }
+
+        // Initial items display
+        showItems(currentPage);
+        updatePagination();
+
+        // Pagination click events
+        $('.pagination').on('click', '.page-link', function(e) {
+          e.preventDefault();
+
+          if ($(this).attr('id') === 'prev' && currentPage > 1) {
+            currentPage--;
+          } else if ($(this).attr('id') === 'next' && currentPage < totalPages) {
+            currentPage++;
+          } else if ($(this).attr('id').includes('page')) {
+            currentPage = parseInt($(this).text());
+          }
+
+          showItems(currentPage);
+          updatePagination();
+        });
+
+        // Filter items on button click
+        $('.filters').on('click', 'li', function() {
+          var filterValue = $(this).attr('data-filter');
+          $grid.isotope({ filter: filterValue });
+
+          // Add active class to the current filter
+          $('.filters li').removeClass('active');
+          $(this).addClass('active');
+
+          // Reset to page 1 for filtered items
+          currentPage = 1;
+          showItems(currentPage);
+          updatePagination();
+        });
+      });
+    </script>
+  </body>
+</html>
