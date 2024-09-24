@@ -323,3 +323,9 @@ $pagination-color: #666666;
   text-transform: uppercase;
   line-height: 43px;
 }
+.ourPart {
+  height: 60vh;
+  @include media("<=phone") {
+    height: auto;
+  }
+}

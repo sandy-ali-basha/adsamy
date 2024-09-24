@@ -909,4 +909,13 @@ a {
   margin: 0px;
   text-transform: uppercase;
   line-height: 43px;
+}
+
+.ourPart {
+  height: 60vh;
+}
+@media (max-width: 450px) {
+  .ourPart {
+    height: auto;
+  }
 }/*# sourceMappingURL=main.css.map */
