@@ -1,5 +1,5 @@
 @import "./breakpoints", "./colors", "../fonts/Poppins/stylesheet.css",
-  "services", "contact_us", "./section", "./privacyPolicy";
+  "services", "contact_us", "./section", "./privacyPolicy", "./home";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
 * {
@@ -14,8 +14,11 @@
 .text-yellow {
   color: #fdd306;
 }
-.Blog {
+
+.web-swiper-button-prev {
+  left: -20px !important;
 }
+
 .text-primary {
   color: $text_primary !important;
 }
@@ -328,4 +331,21 @@ $pagination-color: #666666;
   @include media("<=phone") {
     height: auto;
   }
+}
+.text-secondary-gray {
+  color: rgba(113, 113, 113, 1);
+}
+.screen-frame {
+  background: url(../imgs/view-computer-monitorpng.png) no-repeat;
+  background-size: 109.7%;
+  background-position: 43%;
+  height: 70vh;
+}
+iframe {
+  width: 100%;
+  height: 43vh;
+  margin-top: 7vh;
+}
+.Homebg {
+  background: url("../imgs/homeBg.png") center/cover no-repeat;
 }

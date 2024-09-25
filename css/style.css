@@ -1,0 +1,32 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a#navbarDropdown {
+    color: #fff;
+}
+
+li.nav-item:not(:has(img)):hover {
+    opacity: 0.8;
+    background-color: #627889b5 !important;
+}
+
+footer p {
+    margin-bottom: 5px !important;
+}
+
+/*Services.html*/
+.swiper video.video.rounded {
+    height: 300px;
+    object-fit: fill;
+}
+
+.Services header {
+    background: url(../imgs/services_bg.jpg) center/cover no-repeat;
+    height: 90vh;
+    border-radius: 0px 0px 250px 250px/0px 0px 70px 70px;
+}

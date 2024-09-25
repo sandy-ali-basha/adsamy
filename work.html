@@ -20,6 +20,9 @@
     />
     <!-- scss -->
     <link rel="stylesheet" href="./scss/main.css" />
+    
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css" />
 
     <!-- swiper -->
     <link
@@ -27,167 +30,31 @@
       href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
     />
 
-    <title>ADSAMY</title>
+    <title>ADSAMY | Works</title>
+
+    <!-- jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
   </head>
   <body class="Blog bg-light">
-    <nav class="navbar navbar-expand-lg bg-dark-blue text-white py-2">
-        <div class="container-fluid">
-          <!-- Toggler for Offcanvas (Visible on mobile only) -->
-          <button
-            class="navbar-toggler d-lg-none"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <i class="fa-solid fa-bars text-white"></i>
-          </button>
-  
-          <!-- Normal Navbar (Visible on large screens only) -->
-          <div
-            class="collapse navbar-collapse d-none d-lg-flex"
-            id="navbarTogglerDemo02"
-          >
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="navbar-brand" href="#">
-                  <img
-                    src="./imgs/navProfile.png"
-                    alt="Logo"
-                    width="50"
-                    height="50"
-                    class="d-inline-block align-text-top rounded-circle"
-                  />
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white fw-bold" href="./home.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white fw-bold" href="./about-us.html"
-                  >About Us</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white fw-bold" href="./services.html"
-                  >Services</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link text-white fw-bold"
-                  href="https://sandy-ali-basha.github.io/adsamy/contactUs1.html"
-                  >Gallery</a
-                >
-              </li>
-            </ul>
-            <a class="navbar-brand" href="#">
-              <img
-                src="./imgs/logo.png"
-                alt="Logo"
-                width="130"
-                class="d-inline-block align-text-top"
-              />
-            </a>
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link text-white fw-bold" href="./work.html"
-                  >Works</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white fw-bold" href="./blogs.html"
-                  >Blogs</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white fw-bold" href="./contactUs.html"
-                  >Contact Us</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white fw-bold" href="#">العربية</a>
-              </li>
-            </ul>
-          </div>
-  
-          <!-- Offcanvas (Visible on mobile only) -->
-          <div
-            class="offcanvas offcanvas-end d-lg-none bg-dark-blue"
-            tabindex="-1"
-            id="offcanvasNavbar"
-            aria-labelledby="offcanvasNavbarLabel"
-          >
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                <a class="navbar-brand" href="#">
-                  <img
-                    src="./imgs/logo.png"
-                    alt="Logo"
-                    width="130"
-                    class="d-inline-block align-text-top"
-                  />
-                </a>
-              </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a
-                    class="nav-link text-white fw-bold"
-                    href="https://sandy-ali-basha.github.io/adsamy/PrivecyPolicy.html"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link text-white fw-bold"
-                    href="https://sandy-ali-basha.github.io/adsamy/contactUs.html"
-                    >About Us</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white fw-bold" href="./services.html"
-                    >Services</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white fw-bold" href="#">Gallery</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white fw-bold" href="./work.html"
-                    >Works</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white fw-bold" href="./blog.html"
-                    >Blogs</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white fw-bold" href="./contactUs.html"
-                    >Contact Us</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white fw-bold" href="#">العربية</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </nav>
-    <header
-      class="d-flex flex-column justify-content-center align-items-center gap-3"
-    >
+
+    <!-- Navbar Include -->
+    <nav class="navbar sticky-top navbar-expand-lg bg-dark-blue text-white py-2" id="navbar_container"></nav>
+    <!-- --Navbar Include -->
+
+    <header class="d-flex flex-column justify-content-center align-items-center gap-3" >
       <h2 class="text-white fs-1">Our Works</h2>
       <h5 class="text-white fs-6">
         Explore the best in PPC, SEO and Web Design by SmartSites. Use the
@@ -244,7 +111,7 @@
                 <div class="item MobileApp col-md-6 mt-4">
                   <div
                     class="ImageCard"
-                    style="background: linear-gradient(180deg, rgba(114, 9, 183, 0) 0%, rgba(24, 60, 86, 1) 100%), url(../imgs/image1.jpg) center/cover no-repeat;"
+                    style="background: linear-gradient(180deg, rgba(114, 9, 183, 0) 0%, rgba(24, 60, 86, 1) 100%), url(./imgs/image1.jpg) center/cover no-repeat;"
                   >
                     <div
                       class="p-5 d-flex flex-column justify-content-between h-80"
@@ -275,7 +142,7 @@
                 <div class="item WebDesign col-md-6 mt-4">
                   <div
                     class="ImageCard"
-                    style="background: linear-gradient(180deg, rgba(114, 9, 183, 0) 0%, rgba(24, 60, 86, 1) 100%), url(../imgs/image2.jpg) center/cover no-repeat;"
+                    style="background: linear-gradient(180deg, rgba(114, 9, 183, 0) 0%, rgba(24, 60, 86, 1) 100%), url(./imgs/image2.jpg) center/cover no-repeat;"
                   >
                     <div
                       class="p-5 d-flex flex-column justify-content-between h-80"
@@ -306,7 +173,7 @@
                 <div class="item GraphicDesign col-md-6 mt-4">
                   <div
                     class="ImageCard"
-                    style="background: linear-gradient(180deg, rgba(114, 9, 183, 0) 0%, rgba(24, 60, 86, 1) 100%), url(../imgs/image3.jpg) center/cover no-repeat;"
+                    style="background: linear-gradient(180deg, rgba(114, 9, 183, 0) 0%, rgba(24, 60, 86, 1) 100%), url(./imgs/image3.jpg) center/cover no-repeat;"
                   >
                     <div
                       class="p-5 d-flex flex-column justify-content-between h-80"
@@ -337,7 +204,7 @@
                 <div class="item WebDesign col-md-6 mt-4">
                   <div
                     class="ImageCard"
-                    style="background: linear-gradient(180deg, rgba(114, 9, 183, 0) 0%, rgba(24, 60, 86, 1) 100%), url(../imgs/image4.jpg) center/cover no-repeat;"
+                    style="background: linear-gradient(180deg, rgba(114, 9, 183, 0) 0%, rgba(24, 60, 86, 1) 100%), url(./imgs/image4.jpg) center/cover no-repeat;"
                   >
                     <div
                       class="p-5 d-flex flex-column justify-content-between h-80"
@@ -820,6 +687,7 @@
         </div>
       </div>
     </section>
+
     <!-- all articles
         -->
     <div class="container">
@@ -844,7 +712,7 @@
                 rgba(114, 9, 183, 0) 0%,
                 rgba(24, 60, 86, 1) 100%
               ), 
-              url(../imgs/image3.jpg) center/cover no-repeat;"
+              url(./imgs/image3.jpg) center/cover no-repeat;"
             >
               <div class="p-5 d-flex flex-column justify-content-between h-80 ">
                 <div class="chip text-primary bg-white">FEATURED</div>
@@ -877,7 +745,7 @@
               rgba(114, 9, 183, 0) 0%,
               rgba(24, 60, 86, 1) 100%
             ), 
-            url(../imgs/image4.jpg) center/cover no-repeat;"
+            url(./imgs/image4.jpg) center/cover no-repeat;"
             >
               <div class="p-5 d-flex flex-column justify-content-between h-80 ">
                 <div class="chip text-primary bg-white">FEATURED</div>
@@ -909,7 +777,7 @@
               rgba(114, 9, 183, 0) 0%,
               rgba(24, 60, 86, 1) 100%
             ), 
-            url(../imgs/image5.jpg) center/cover no-repeat;"
+            url(./imgs/image5.jpg) center/cover no-repeat;"
             >
               <div class="p-5 d-flex flex-column justify-content-between h-80 ">
                 <div class="chip text-primary bg-white">FEATURED</div>
@@ -942,7 +810,7 @@
               rgba(114, 9, 183, 0) 0%,
               rgba(24, 60, 86, 1) 100%
             ), 
-            url(../imgs/image6.jpg) center/cover no-repeat;"
+            url(./imgs/image6.jpg) center/cover no-repeat;"
             >
               <div class="p-5 d-flex flex-column justify-content-between h-80 ">
                 <div class="chip  text-white bg-yellow">NEW</div>
@@ -974,7 +842,7 @@
               rgba(114, 9, 183, 0) 0%,
               rgba(24, 60, 86, 1) 100%
             ), 
-            url(../imgs/image7.jpg) center/cover no-repeat;"
+            url(./imgs/image7.jpg) center/cover no-repeat;"
             >
               <div class="p-5 d-flex flex-column justify-content-between h-80 ">
                 <div class="chip  text-white bg-yellow">New</div>
@@ -1009,225 +877,11 @@
       </section>
       <!-- our team  -->
     </div>
-    <footer
-      class="text-center  mt-5  text-lg-start text-white"
-      style="background-color: #1b2b44;"
-    >
-      <!-- Grid container -->
-      <div class="container p-5">
-        <!-- Section: Links -->
-        <section>
-          <!--Grid row-->
-          <div class="row">
-            <!-- Logo & Social Media Column -->
-            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 px-5 ">
-              <h6 class="text-uppercase mb-4 fw-bold font-Inter">
-                Download Apps
-              </h6>
-              <a href="" class=" w-100"
-                ><img src="./imgs/app store.png" class="w-100 " alt=""
-              /></a>
-              <a href="" class=" w-100"
-                ><img src="./imgs/google play.png" class="w-100 mt-3" alt=""
-              /></a>
-            </div>
 
-            <!-- Quick Links Column -->
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-              <h6 class="text-uppercase mb-4 fw-bold font-Inter">
-                Quick Links
-              </h6>
-              <p>
-                <a class="text-white fw-light" href="/case-study.html"
-                  >Case Study</a
-                >
-              </p>
-              <p>
-                <a class="text-white fw-light" href="/boadcasts.html"
-                  >ADSAMY boadcasts</a
-                >
-              </p>
-              <p>
-                <a class="text-white fw-light" href="/jobs.html">ADSAMY jobs</a>
-              </p>
-              <p><a class="text-white">ADSAMY Model</a></p>
-              <p><a class="text-white">ADSAMY POS</a></p>
-            </div>
-
-            <!-- Company Column -->
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-              <h6 class="text-uppercase mb-4 fw-bold font-Inter">Company</h6>
-              <p><a class="text-white fw-light" href="/">Home</a></p>
-              <p>
-                <a class="text-white fw-light" href="/services.html"
-                  >Services</a
-                >
-              </p>
-              <p>
-                <a class="text-white fw-light" href="/about-us.html"
-                  >About Us</a
-                >
-              </p>
-              <p><a class="text-white fw-light" href="/work.html">Works</a></p>
-              <p><a class="text-white fw-light" href="/blogs.html">Blogs</a></p>
-            </div>
-
-            <!-- Contact Info Column -->
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-              <h6 class="text-uppercase mb-4 fw-bold font-Inter">
-                Contact Info
-              </h6>
-              <a class="fw-light text-white">Business Bay, Dubai</a>
-              <a class="fw-light text-white">Email: info@adsamy.com</a>
-              <a class="fw-light text-white">+971 505077374</a>
-              <div class="text-center d-flex gap-1 mt-4">
-                <!-- Social Media Icons -->
-                <a class="btn p-0" href="#"
-                  ><img
-                    src="./imgs//footer/partner (1).svg"
-                    class="w-100"
-                    alt=""
-                  />
-                </a>
-                <a class="btn p-0" href="#"
-                  ><img
-                    src="./imgs//footer/partner (2).svg"
-                    class="w-100"
-                    alt=""
-                  />
-                </a>
-                <a class="btn p-0" href="#"
-                  ><img
-                    src="./imgs//footer/partner (3).svg"
-                    class="w-100"
-                    alt=""
-                  />
-                </a>
-                <a class="btn p-0" href="#"
-                  ><img
-                    src="./imgs//footer/partner (4).svg"
-                    class="w-100"
-                    alt=""
-                  />
-                </a>
-              </div>
-            </div>
-
-            <!-- Our Partners Column -->
-            <div
-              class="col-md-5 col-lg-3 col-xl-3 mx-auto mt-3 position-relative d-none d-md-block"
-            >
-              <h6 class="text-uppercase mb-4 fw-bold font-Inter">
-                Our Partners
-              </h6>
-              <div class="position-relative">
-                <img
-                  src="./imgs/footer/company (3).png"
-                  alt=""
-                  class="position-absolute"
-                  style="width: 80px;object-fit: contain;top: 50%;left: 50%;transform: translate(-50%, -50%);"
-                />
-                <div class="d-flex justify-content-between">
-                  <img
-                    src="./imgs/footer/company (1).png"
-                    alt="Facebook Partner"
-                    style="width: 80px;object-fit: contain;"
-                  />
-
-                  <img
-                    src="./imgs/footer/company (2).png"
-                    alt="Twitter Partner"
-                    style="width: 80px;object-fit: contain;"
-                  />
-                </div>
-                <div class="d-flex justify-content-between mt-3">
-                  <img
-                    src="./imgs/footer/company (4).png"
-                    alt="Top 10 SEO"
-                    style="width: 80px;object-fit: contain;"
-                  />
-
-                  <img
-                    src="./imgs/footer/company (5).png"
-                    alt="Google Reviews"
-                    style="width: 80px;object-fit: contain;"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--Grid row-->
-        </section>
-        <!-- Section: Links -->
-      </div>
-      <div style="background: #0E385D;">
-        <div class="container">
-          <div class="row py-3">
-            <div class="col-md-6 ">
-              <div
-                class="text-center w-100 align-items-center justify-content-center mb-4 mb-md-0 d-flex gap-1"
-              >
-                <!-- Social Media Icons -->
-                <a
-                  class="btn text-white fs-5 border border-white p-3 rounded-circle d-flex  justify-content-center "
-                  style=" width:30px; height:30px ; align-items: center;"
-                  href="#"
-                  ><i class="fab fa-linkedin"></i
-                ></a>
-                <a
-                  class="btn text-white fs-5 border border-white p-3 rounded-circle d-flex  justify-content-center "
-                  style=" width:30px; height:30px ; align-items: center;"
-                  href="#"
-                  ><i class="fab fa-pinterest"></i
-                ></a>
-                <a
-                  class="btn text-white fs-5 border border-white p-3 rounded-circle d-flex  justify-content-center "
-                  style=" width:30px; height:30px ; align-items: center;"
-                  href="#"
-                  ><i class="fab fa-twitter"></i
-                ></a>
-                <a
-                  class="btn text-white fs-5 border border-white p-3 rounded-circle d-flex  justify-content-center "
-                  style=" width:30px; height:30px ; align-items: center;"
-                  href="#"
-                  ><i class="fab fa-facebook-f"></i
-                ></a>
-                <a
-                  class="btn text-white fs-5 rounded-circle d-flex border border-white p-3 justify-content-center "
-                  style="width:30px; height:30px ; align-items: center;"
-                  href="#"
-                  ><i class="fab fa-instagram"></i
-                ></a>
-                <a
-                  class="btn text-white fs-5 border border-white p-3 rounded-circle d-flex  justify-content-center "
-                  style=" width:30px; height:30px ; align-items: center;"
-                  href="#"
-                  ><i class="fab fa-youtube"></i
-                ></a>
-              </div>
-            </div>
-            <div
-              class="col-md-6 d-flex gap-2 align-items-center justify-content-center"
-            >
-              <div class="text-white px-2 border-end border-white">
-                © 2024 Adsamy
-              </div>
-              <div class="text-white px-2 border-end border-white">
-                <a href="/PrivecyPolicy.html" class="text-white"
-                  >Privacy Policy</a
-                >
-              </div>
-              <div class="text-white px-2">
-                <a href="/contactUs1.html" class="text-white"
-                  >Terms of Service</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Grid container -->
-    </footer>
+    <!-- Footer Include -->
+    <footer class="text-center  mt-0 text-lg-start text-white" style="background-color: #1b2b44;" id="footer_container"></footer>
+    <!-- --Footer Include -->
+    
     <!-- End of .container -->
     <!-- <div class="ContactUs">
       <div class="getQuotation">
@@ -1612,25 +1266,16 @@
         </div>
       </div>
     </div> -->
-
-    <!-- bootstrap -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-
-    <!-- jquery -->
-    <script
-      src="https://code.jquery.com/jquery-3.6.3.min.js"
-      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
-      crossorigin="anonymous"
-    ></script>
+    
     <script
       src="https://kit.fontawesome.com/5b9061b1a3.js"
       crossorigin="anonymous"
     ></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- dynamic load fixed parts -->
+    <script src="./js/load_fixed_parts.js" crossorigin="anonymous"></script>
+
     <script>
       const swiper = new Swiper('.mySwiper', {
             loop: true,

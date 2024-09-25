@@ -21,6 +21,10 @@
     <!-- scss -->
     <link rel="stylesheet" href="./scss/main.css" />
 
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/services.css" />
+
     <!-- swiper -->
     <link
       rel="stylesheet"
@@ -31,164 +35,1335 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
 
-    <title>ADSAMY</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg bg-dark-blue text-white py-2">
-      <div class="container-fluid">
-        <!-- Toggler for Offcanvas (Visible on mobile only) -->
-        <button
-          class="navbar-toggler d-lg-none"
-          type="button"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasNavbar"
-          aria-controls="offcanvasNavbar"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <i class="fa-solid fa-bars text-white"></i>
-        </button>
+    <title>ADSAMY | Services</title>
 
-        <!-- Normal Navbar (Visible on large screens only) -->
-        <div
-          class="collapse navbar-collapse d-none d-lg-flex"
-          id="navbarTogglerDemo02"
-        >
-          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="navbar-brand" href="#">
-                <img
-                  src="./imgs/navProfile.png"
-                  alt="Logo"
-                  width="50"
-                  height="50"
-                  class="d-inline-block align-text-top rounded-circle"
-                />
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white fw-bold" href="./home.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white fw-bold" href="./about-us.html"
-                >About Us</a
+    <!-- jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <!-- bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="Services bg-light">
+    <!-- Navbar Include -->
+    <nav
+      class="navbar sticky-top navbar-expand-lg bg-dark-blue text-white py-2"
+      id="navbar_container"
+    ></nav>
+    <!-- --Navbar Include -->
+
+    <header
+      class="d-flex flex-column justify-content-center align-items-center gap-3"
+    >
+      <h2 class="text-white fs-1">Our Services</h2>
+      <h5 class="text-white fs-6">
+        We pride ourselves on deliveing compelling, digital marketing solution
+      </h5>
+    </header>
+
+    <div id="service-content-wrapper" class="container-fluid pt-5">
+      <div class="row row-flex align-items-start">
+        <div id="service-content" class="col-lg-8 mb-4">
+          <!-- <div class="row- px-2 p-1 border-radius-12">
+            <div class="swiper mySwiper  position-relative ">
+              <div class="swiper-wrapper" aria-live="polite">
+                <div class=" swiper-slide ">
+                  <div class="row webDesign">
+                    <div class="col-md-6">
+                      <div class="video-card">
+                        <video
+                          controls=""
+                          width="400"
+                          height="auto"
+                          class="video rounded"
+                          preload="none"
+                          poster="./uploads/services/438259299-1725535726.png"
+                        >
+                          <source
+                            src="./uploads/services/397423319-1725535726.mp4"
+                            type="video/mp4"
+                          />
+                        </video>
+                      </div>
+                      <div
+                        class="d-flex justify-content-between position-relative py-3"
+                      >
+                        <div class="custom-controls d-flex gap-4">
+                          <div class="likes fs-4 text-dark">
+                            <i
+                              class="far fa-heart fa-solid "
+                              aria-hidden="true"
+                            ></i
+                            ><span>23</span>
+                          </div>
+                          <div class="views fs-4 text-dark">
+                            <i
+                              class="far fa-eye  fa-solid"
+                              aria-hidden="true"
+                            ></i
+                            ><span>4.2K</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <span class="fw-bold fs-3"
+                        >Branding &amp; Positioning
+                      </span>
+                      <p class="fs-4 fw-semibold text-dark">
+                        Strategic Branding &amp; Positioning to Define Your
+                        Market Presence
+                      </p>
+                      <p class="text-dark text-justify">
+                        Establish a powerful market presence with our branding
+                        and positioning services. We help you &lrm;define your
+                        brand’s identity, craft compelling messaging, and
+                        position yourself strategically in &lrm;the market to
+                        stand out from the competition. Our expert team develops
+                        tailored strategies to....
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class=" swiper-slide ">
+                  <div class="row webDesign">
+                    <div class="col-md-6">
+                      <div class="video-card">
+                        <video
+                          controls=""
+                          width="400"
+                          height="auto"
+                          class="video rounded"
+                          preload="none"
+                          poster="./uploads/services/599901076-1725537720.png"
+                        >
+                          <source
+                            src="./uploads/services/484604572-1725537720.mp4"
+                            type="video/mp4"
+                          />
+                        </video>
+                      </div>
+                      <div
+                        class="d-flex justify-content-between position-relative py-3"
+                      >
+                        <div class="custom-controls d-flex gap-4">
+                          <div class="likes fs-4 text-dark">
+                            <i
+                              class="far fa-heart fa-solid "
+                              aria-hidden="true"
+                            ></i
+                            ><span>23</span>
+                          </div>
+                          <div class="views fs-4 text-dark">
+                            <i
+                              class="far fa-eye  fa-solid"
+                              aria-hidden="true"
+                            ></i
+                            ><span>4.2K</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <span class="fw-bold fs-3"> Videography </span>
+                      <p class="fs-4 fw-semibold text-dark">
+                        High-Quality Videography Services to Capture Your Vision
+                      </p>
+                      <p class="text-dark text-justify">
+                        Experience top-notch videography with our professional
+                        services. We specialize in capturing stunning
+                        &lrm;visuals for events, promotions, and personal
+                        projects, ensuring every moment is preserved with
+                        clarity &lrm;and creativity. Our team delivers
+                        high-quality videos with expert editing to bring
+                        your....
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class=" swiper-slide ">
+                  <div class="row webDesign">
+                    <div class="col-md-6">
+                      <div class="video-card">
+                        <video
+                          controls=""
+                          width="400"
+                          height="auto"
+                          class="video rounded"
+                          preload="none"
+                          poster="./uploads/services/602399195-1725539750.png"
+                        >
+                          <source
+                            src="./uploads/services/587355495-1725539750.mp4"
+                            type="video/mp4"
+                          />
+                        </video>
+                      </div>
+                      <div
+                        class="d-flex justify-content-between position-relative py-3"
+                      >
+                        <div class="custom-controls d-flex gap-4">
+                          <div class="likes fs-4 text-dark">
+                            <i
+                              class="far fa-heart fa-solid "
+                              aria-hidden="true"
+                            ></i
+                            ><span>23</span>
+                          </div>
+                          <div class="views fs-4 text-dark">
+                            <i
+                              class="far fa-eye  fa-solid"
+                              aria-hidden="true"
+                            ></i
+                            ><span>4.2K</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <span class="fw-bold fs-3">Photography</span>
+                      <p class="fs-4 fw-semibold text-dark">
+                        Stunning Photography Services to Capture Every Detail
+                      </p>
+                      <p class="text-dark text-justify">
+                        Our corporate photography services are designed to
+                        showcase your business in the best light. Whether you
+                        need professional , team portraits, or event coverage,
+                        we deliver high-quality images that reflect your brand
+                        identity and professionalism. With an eye for detail and
+                        a focus on capturing the....
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class=" swiper-slide ">
+                  <div class="row webDesign">
+                    <div class="col-md-6">
+                      <div class="video-card">
+                        <video
+                          controls=""
+                          width="400"
+                          height="auto"
+                          class="video rounded"
+                          preload="none"
+                          poster="./uploads/services/473113647-1725541326.png"
+                        >
+                          <source
+                            src="./uploads/services/203592995-1725541326.mp4"
+                            type="video/mp4"
+                          />
+                        </video>
+                      </div>
+                      <div
+                        class="d-flex justify-content-between position-relative py-3"
+                      >
+                        <div class="custom-controls d-flex gap-4">
+                          <div class="likes fs-4 text-dark">
+                            <i
+                              class="far fa-heart fa-solid "
+                              aria-hidden="true"
+                            ></i
+                            ><span>23</span>
+                          </div>
+                          <div class="views fs-4 text-dark">
+                            <i
+                              class="far fa-eye  fa-solid"
+                              aria-hidden="true"
+                            ></i
+                            ><span>4.2K</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <span class="fw-bold fs-3">Social Media Management </span>
+                      <p class="fs-4 fw-semibold text-dark">
+                        Expert Social Media Management to Grow Your Online
+                        Presence
+                      </p>
+                      <p class="text-dark text-justify">
+                        Maximize your brand’s impact with our comprehensive
+                        social media management services. From content creation
+                        to community engagement, we handle every aspect of your
+                        online presence. Our team of experts develops tailored
+                        strategies to boost your visibility, drive engagement,
+                        and grow your audience....
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class=" swiper-slide ">
+                  <div class="row webDesign">
+                    <div class="col-md-6">
+                      <div class="video-card">
+                        <video
+                          controls=""
+                          width="400"
+                          height="auto"
+                          class="video rounded"
+                          preload="none"
+                          poster="./uploads/services/507876851-1725542667.png"
+                        >
+                          <source
+                            src="./uploads/services/388123797-1725542667.mp4"
+                            type="video/mp4"
+                          />
+                        </video>
+                      </div>
+                      <div
+                        class="d-flex justify-content-between position-relative py-3"
+                      >
+                        <div class="custom-controls d-flex gap-4">
+                          <div class="likes fs-4 text-dark">
+                            <i
+                              class="far fa-heart fa-solid "
+                              aria-hidden="true"
+                            ></i
+                            ><span>23</span>
+                          </div>
+                          <div class="views fs-4 text-dark">
+                            <i
+                              class="far fa-eye  fa-solid"
+                              aria-hidden="true"
+                            ></i
+                            ><span>4.2K</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <span class="fw-bold fs-3">SEO,SEM &amp; SMM</span>
+                      <p class="fs-4 fw-semibold text-dark">
+                        Comprehensive SEO, SEM and Social Media Marketing
+                        Services to Boost Your Success
+                      </p>
+                      <p class="text-dark text-justify">
+                        Unlock the full potential of your online presence with
+                        our expert SEO , SEM and Social Media Marketing
+                        services. We specialize in optimizing your website for
+                        search engines, managing paid advertising campaigns to
+                        maximize your ROI and crafting social media strategies
+                        that engage and convert your....
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class=" swiper-slide ">
+                  <div class="row webDesign">
+                    <div class="col-md-6">
+                      <div class="video-card">
+                        <video
+                          controls=""
+                          width="400"
+                          height="auto"
+                          class="video rounded"
+                          preload="none"
+                          poster="./uploads/services/268262385-1725543373.png"
+                        >
+                          <source
+                            src="./uploads/services/404943839-1725543373.mp4"
+                            type="video/mp4"
+                          />
+                        </video>
+                      </div>
+                      <div
+                        class="d-flex justify-content-between position-relative py-3"
+                      >
+                        <div class="custom-controls d-flex gap-4">
+                          <div class="likes fs-4 text-dark">
+                            <i
+                              class="far fa-heart fa-solid "
+                              aria-hidden="true"
+                            ></i
+                            ><span>23</span>
+                          </div>
+                          <div class="views fs-4 text-dark">
+                            <i
+                              class="far fa-eye  fa-solid"
+                              aria-hidden="true"
+                            ></i
+                            ><span>4.2K</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <span class="fw-bold fs-3"
+                        >Web Design &amp; Development</span
+                      >
+                      <p class="fs-4 fw-semibold text-dark">
+                        Custom Web Design &amp; Development to Elevate Your
+                        Online Presence
+                      </p>
+                      <p class="text-dark text-justify">
+                        Transform your online presence with our expert web
+                        design and development services. We create visually
+                        stunning and user-friendly websites tailored to your
+                        brand’s needs., our team ensures your site not only
+                        looks great but performs optimally across all devices.
+                        Whether you need a new website or....
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="position-relative d-flex gap-2 justify-content-end"
+              style="top: -33px;
+            width: 80px;
+            left: 40%;"
+            >
+              <div class="web-swiper-button-prev swiper-button-prev">
+                <i class="text-white fa-solid fa-arrow-left"></i>
+              </div>
+              <div class="web-swiper-button-next swiper-button-next">
+                <i class="text-white fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </div> -->
+          <div class="swiper mySwiper position-relative">
+            <div class="swiper-wrapper ">
+              <div class="swiper-slide">
+                <section class="row webDesign">
+                  <div class="col-md-6">
+                    <div class="video-card">
+                      <video
+                        id="video1"
+                        poster="https://via.placeholder.com/351x200"
+                        controls
+                        class="w-100"
+                      >
+                        <source
+                          src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
+                          type="video/mp4"
+                        />
+                        Your browser does not support the video tag.
+                      </video>
+                      <button class="play-btn" id="playButton1">
+                        <i class="fas fa-play"></i>
+                      </button>
+                      <button
+                        class="play-btn "
+                        style="display: none;"
+                        id="pausButton1"
+                      >
+                        <i class="fas fa-pause"></i>
+                      </button>
+                    </div>
+                    <div
+                      class="d-flex justify-content-between position-relative py-3"
+                    >
+                      <div class="custom-controls d-flex gap-4">
+                        <div class="likes fs-4 text-secondary-gray">
+                          <i class="far fa-heart fa-solid "></i><span>23</span>
+                        </div>
+                        <div class="views fs-4 text-secondary-gray">
+                          <i class="far fa-eye  fa-solid"></i><span>4.2K</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <h2 class="fw-bold">Web Design & Development</h2>
+                    <p class="fs-5">
+                      We are a young and creative company and we offer you fresh
+                    </p>
+                    <p class="fs-6 fw-bold">
+                      We Give You Complete Control Of Your Shipments. Lorem
+                      ipsum viverra feugiat. Pellen tesque libero ut justo,
+                      ultrices in ligula. Semper at tempufddfel. Lorem ipsum
+                      dolor sit amet consectetur adipisicing elit. Non quae,
+                      fugiat. Live Monitoring Lorem ipsum viverra feugiat
+                      libero. Worldwide Service Lorem ipsum viverra feugiat
+                      libero.
+                    </p>
+                  </div>
+                </section>
+                <script>
+                  const pausButton = document.getElementById('pausButton1');
+                  const playButton = document.getElementById('playButton1');
+                  const video = document.getElementById('video1');
+
+                  playButton.addEventListener('click', function() {
+                      playButton.style.display = 'none';
+                      pausButton.style.display = 'block';
+                      video.play(); // Play the video
+                  });
+                  pausButton.addEventListener('click', function() {
+                      playButton.style.display = 'block';
+                      pausButton.style.display = 'none';
+                      video.pause(); // paus the video
+                  });
+
+                  // When video is played, hide the play button
+                  video.addEventListener('play', function() {
+                      playButton.style.display = 'none';
+                  });
+                </script>
+              </div>
+              <div class="swiper-slide">
+                <section class="row webDesign">
+                  <div class="col-md-6">
+                    <div class="video-card">
+                      <video
+                        id="video2"
+                        poster="https://via.placeholder.com/351x200"
+                        controls
+                        class="w-100"
+                      >
+                        <source
+                          src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
+                          type="video/mp4"
+                        />
+                        Your browser does not support the video tag.
+                      </video>
+                      <button class="play-btn" id="playButton2">
+                        <i class="fas fa-play"></i>
+                      </button>
+                      <button
+                        class="play-btn "
+                        style="display: none;"
+                        id="pausButton2"
+                      >
+                        <i class="fas fa-pause"></i>
+                      </button>
+                    </div>
+                    <div
+                      class="d-flex justify-content-between position-relative py-3"
+                    >
+                      <div class="custom-controls d-flex gap-4">
+                        <div class="likes fs-4 text-secondary-gray">
+                          <i class="far fa-heart fa-solid "></i><span>23</span>
+                        </div>
+                        <div class="views fs-4 text-secondary-gray">
+                          <i class="far fa-eye  fa-solid"></i><span>4.2K</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <h2>Lorem, ipsum.</h2>
+                    <p class="fs-5">Lorem ipsum dolor sit amet.</p>
+                    <p class="fs-6 fw-bold">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Omnis quod distinctio assumenda magni iure aut impedit
+                      asperiores qui tempore deleniti, voluptatem nisi pariatur
+                      tenetur expedita eligendi sunt, fugit maxime fuga.
+                    </p>
+                  </div>
+                </section>
+                <script>
+                  const pausButton1 = document.getElementById('pausButton2');
+                  const playButton1 = document.getElementById('playButton2');
+                  const video1 = document.getElementById('video2');
+
+                  playButton.addEventListener('click', function() {
+                      playButton.style.display = 'none';
+                      pausButton.style.display = 'block';
+                      video.play(); // Play the video
+                  });
+                  pausButton.addEventListener('click', function() {
+                      playButton.style.display = 'block';
+                      pausButton.style.display = 'none';
+                      video.pause(); // paus the video
+                  });
+
+                  // When video is played, hide the play button
+                  video.addEventListener('play', function() {
+                      playButton.style.display = 'none';
+                  });
+                </script>
+              </div>
+            </div>
+            <div
+              class="position-relative d-flex gap-2 justify-content-end"
+              style="    top: -66px;
+              width: 80px;
+              left: 40%;"
+            >
+              <div class="web-swiper-button-prev swiper-button-prev">
+                <i class="text-white fa-solid fa-arrow-left"></i>
+              </div>
+              <div class="web-swiper-button-next swiper-button-next">
+                <i class="text-white fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+          <!-- Start Section Two -->
+          <section id="section-two">
+            <div class="container my-5">
+              <div class="card border-0">
+                <div class="card-body text-white p-0">
+                  <details
+                    class="header-container bg-primary- text-white p-3- mb-3 w-100"
+                    open=""
+                  >
+                    <summary
+                      class="header bg-accordion-h p-2 fw-bold fs-4 cursor-pointer list-unstyled"
+                    >
+                      What is 360 Marketing ?
+                    </summary>
+                    <p class="p-3">
+                      A 360 marketing strategy is a comprehensive plan that
+                      focuses on reaching the target audience from multiple
+                      platforms and channels.
+                    </p>
+                  </details>
+
+                  <!-- Subscription Lists -->
+
+                  <!-- Accordion  -->
+                  <div class="accordion" id="accordion-container">
+                    <div class="accordion-item border-0">
+                      <h2 class="accordion-header bg-accordion-h" id="heading1">
+                        <button
+                          id="list-group-item"
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapse1"
+                          aria-expanded="false"
+                          aria-controls="collapse1"
+                        >
+                          <input
+                            type="checkbox"
+                            class="form-check-input me-2 select-service"
+                          />
+                          <label
+                            class="service_label"
+                            data-service-name="Branding &amp; Positioning "
+                            data-service-id="1"
+                            data-price="1000"
+                            >Branding &amp; Positioning
+                            <span class="badge bg-secondary">1000</span></label
+                          >
+                        </button>
+                      </h2>
+                      <div
+                        id="collapse1"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="heading1"
+                        data-bs-parent="#accordion-container"
+                      >
+                        <div class="accordion-body">
+                          <p></p>
+                          <p>
+                            Establish a powerful market presence with our
+                            branding and positioning services. We help you
+                            &lrm;define your brand’s identity, craft compelling
+                            messaging, and position yourself strategically in
+                            &lrm;the market to stand out from the competition.
+                            Our expert team develops tailored strategies to
+                            &lrm;enhance brand recognition, build loyalty, and
+                            effectively communicate your value proposition to
+                            &lrm;your target audience.
+                          </p>
+                          <p></p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item border-0">
+                      <h2 class="accordion-header bg-accordion-h" id="heading2">
+                        <button
+                          id="list-group-item"
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapse2"
+                          aria-expanded="false"
+                          aria-controls="collapse2"
+                        >
+                          <input
+                            type="checkbox"
+                            class="form-check-input me-2 select-service"
+                          />
+                          <label
+                            class="service_label"
+                            data-service-name=" Videography "
+                            data-service-id="2"
+                            data-price="1000"
+                          >
+                            Videography
+                            <span class="badge bg-secondary">1000</span></label
+                          >
+                        </button>
+                      </h2>
+                      <div
+                        id="collapse2"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="heading2"
+                        data-bs-parent="#accordion-container"
+                      >
+                        <div class="accordion-body">
+                          <p></p>
+                          <p>
+                            Experience top-notch videography with our
+                            professional services. We specialize in capturing
+                            stunning &lrm;visuals for events, promotions, and
+                            personal projects, ensuring every moment is
+                            preserved with clarity &lrm;and creativity. Our team
+                            delivers high-quality videos with expert editing to
+                            bring your vision to life and &lrm;make a lasting
+                            impression.
+                          </p>
+                          <p></p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item border-0">
+                      <h2 class="accordion-header bg-accordion-h" id="heading3">
+                        <button
+                          id="list-group-item"
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapse3"
+                          aria-expanded="false"
+                          aria-controls="collapse3"
+                        >
+                          <input
+                            type="checkbox"
+                            class="form-check-input me-2 select-service"
+                          />
+                          <label
+                            class="service_label"
+                            data-service-name="Photography"
+                            data-service-id="3"
+                            data-price="1000"
+                            >Photography
+                            <span class="badge bg-secondary">1000</span></label
+                          >
+                        </button>
+                      </h2>
+                      <div
+                        id="collapse3"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="heading3"
+                        data-bs-parent="#accordion-container"
+                      >
+                        <div class="accordion-body">
+                          <p></p>
+                          <p>
+                            Our corporate photography services are designed to
+                            showcase your business in the best light. Whether
+                            you need professional , team portraits, or event
+                            coverage, we deliver high-quality images that
+                            reflect your brand identity and professionalism.
+                            With an eye for detail and a focus on capturing the
+                            essence of your company’s environment, our
+                            experienced photographers deliver compelling images
+                            that enhance your brand image, leaving a lasting
+                            impression on clients, partners, and employees
+                            alike.
+                          </p>
+                          <p></p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item border-0">
+                      <h2 class="accordion-header bg-accordion-h" id="heading4">
+                        <button
+                          id="list-group-item"
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapse4"
+                          aria-expanded="false"
+                          aria-controls="collapse4"
+                        >
+                          <input
+                            type="checkbox"
+                            class="form-check-input me-2 select-service"
+                          />
+                          <label
+                            class="service_label"
+                            data-service-name="Social Media Management "
+                            data-service-id="4"
+                            data-price="1000"
+                            >Social Media Management
+                            <span class="badge bg-secondary">1000</span></label
+                          >
+                        </button>
+                      </h2>
+                      <div
+                        id="collapse4"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="heading4"
+                        data-bs-parent="#accordion-container"
+                      >
+                        <div class="accordion-body">
+                          <p></p>
+                          <p>
+                            Maximize your brand’s impact with our comprehensive
+                            social media management services. From content
+                            creation to community engagement, we handle every
+                            aspect of your online presence. Our team of experts
+                            develops tailored strategies to boost your
+                            visibility, drive engagement, and grow your audience
+                            across all major platforms. Stay ahead of the
+                            competition with consistent, high-quality posts that
+                            resonate with your target market and reflect your
+                            brand's unique voice.
+                          </p>
+                          <p></p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item border-0">
+                      <h2 class="accordion-header bg-accordion-h" id="heading5">
+                        <button
+                          id="list-group-item"
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapse5"
+                          aria-expanded="false"
+                          aria-controls="collapse5"
+                        >
+                          <input
+                            type="checkbox"
+                            class="form-check-input me-2 select-service"
+                          />
+                          <label
+                            class="service_label"
+                            data-service-name="SEO,SEM &amp; SMM"
+                            data-service-id="5"
+                            data-price="1500"
+                            >SEO,SEM &amp; SMM
+                            <span class="badge bg-secondary">1500</span></label
+                          >
+                        </button>
+                      </h2>
+                      <div
+                        id="collapse5"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="heading5"
+                        data-bs-parent="#accordion-container"
+                      >
+                        <div class="accordion-body">
+                          <p></p>
+                          <p>
+                            Unlock the full potential of your online presence
+                            with our expert SEO , SEM and Social Media Marketing
+                            services. We specialize in optimizing your website
+                            for search engines, managing paid advertising
+                            campaigns to maximize your ROI and crafting social
+                            media strategies that engage and convert your target
+                            audience. Our comprehensive approach ensures that
+                            every aspect of your digital marketing works
+                            together to boost visibility, increase traffic and
+                            achieve your business goals.
+                          </p>
+                          <p></p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item border-0">
+                      <h2 class="accordion-header bg-accordion-h" id="heading6">
+                        <button
+                          id="list-group-item"
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapse6"
+                          aria-expanded="false"
+                          aria-controls="collapse6"
+                        >
+                          <input
+                            type="checkbox"
+                            class="form-check-input me-2 select-service"
+                          />
+                          <label
+                            class="service_label"
+                            data-service-name="Web Design &amp; Development"
+                            data-service-id="6"
+                            data-price="1000"
+                            >Web Design &amp; Development
+                            <span class="badge bg-secondary">1000</span></label
+                          >
+                        </button>
+                      </h2>
+                      <div
+                        id="collapse6"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="heading6"
+                        data-bs-parent="#accordion-container"
+                      >
+                        <div class="accordion-body">
+                          <p></p>
+                          <p>
+                            Transform your online presence with our expert web
+                            design and development services. We create visually
+                            stunning and user-friendly websites tailored to your
+                            brand’s needs., our team ensures your site not only
+                            looks great but performs optimally across all
+                            devices. Whether you need a new website or a revamp
+                            of your current one, we deliver solutions that
+                            enhance user experience and drive business growth.
+                          </p>
+                          <p></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Accordion  -->
+                </div>
+              </div>
+              <div
+                class="mt-3 d-flex align-items-center justify-content-center"
+                id="Subscribe"
               >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white fw-bold" href="./services.html"
-                >Services</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link text-white fw-bold"
-                href="https://sandy-ali-basha.github.io/adsamy/contactUs1.html"
-                >Gallery</a
-              >
-            </li>
-          </ul>
-          <a class="navbar-brand" href="#">
-            <img
-              src="./imgs/logo.png"
-              alt="Logo"
-              width="130"
-              class="d-inline-block align-text-top"
-            />
-          </a>
-          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link text-white fw-bold" href="./work.html"
-                >Works</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white fw-bold" href="./blogs.html"
-                >Blogs</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white fw-bold" href="./contactUs.html"
-                >Contact Us</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white fw-bold" href="#">العربية</a>
-            </li>
-          </ul>
+                <button
+                  class="btn bg-yellow text-white w-50 fw-bold  p-3"
+                  id="subscribe_btn"
+                >
+                  subscribe
+                </button>
+                <span id="totalPrice" class="rounded p-3 text-center"
+                  >Total $0</span
+                >
+              </div>
+            </div>
+            <!--Subscription Lists -->
+          </section>
+          <!-- End Section Two -->
         </div>
 
-        <!-- Offcanvas (Visible on mobile only) -->
+        <!-- Start Sidebar -->
         <div
-          class="offcanvas offcanvas-end d-lg-none bg-dark-blue"
-          tabindex="-1"
-          id="offcanvasNavbar"
-          aria-labelledby="offcanvasNavbarLabel"
+          id="-service-sidebar"
+          class="col-lg-4 d-flex flex-column justify-content-center align-items-center pe-3 pb-3"
         >
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-              <a class="navbar-brand" href="#">
+          <div
+            id="sidebar-wrapper"
+            class="d-flex_flex-column justify-content-center align-items-center p-2 text-white vertical-snap"
+          >
+            <div
+              class="border-0 col-12  card my-0 p-0  z_index_1"
+              style="background: transparent;"
+            >
+              <a href="http://www.localhost/adsamy_new/en/site/service/1">
                 <img
-                  src="./imgs/logo.png"
-                  alt="Logo"
-                  width="130"
-                  class="d-inline-block align-text-top"
+                  class="card-img-top rounded-0 border-0"
+                  src="./uploads/services/thumb/580793607-1725535726_re_350x245.png"
+                  alt=""
                 />
+                <div class="card-body text-white">
+                  <h5 class="card-title fs-6">Branding &amp; Positioning</h5>
+                  <p class="card-text ">
+                    Strategic Branding &amp; Positioning to Define Your Market
+                    Presence
+                  </p>
+                </div>
               </a>
-            </h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="offcanvas"
-              aria-label="Close"
-            ></button>
+            </div>
+
+            <div
+              class="border-0 col-12  card my-0 p-0  z_index_1"
+              style="background: transparent;"
+            >
+              <a href="http://www.localhost/adsamy_new/en/site/service/2">
+                <img
+                  class="card-img-top rounded-0 border-0"
+                  src="./uploads/services/thumb/162970537-1725537720_re_350x245.png"
+                  alt=""
+                />
+                <div class="card-body text-white">
+                  <h5 class="card-title fs-6">Videography</h5>
+                  <p class="card-text ">
+                    High-Quality Videography Services to Capture Your Vision
+                  </p>
+                </div>
+              </a>
+            </div>
+
+            <div
+              class="border-0 col-12  card my-0 p-0  z_index_1"
+              style="background: transparent;"
+            >
+              <a href="http://www.localhost/adsamy_new/en/site/service/3">
+                <img
+                  class="card-img-top rounded-0 border-0"
+                  src="./uploads/services/thumb/433812367-1725539750_re_350x245.png"
+                  alt=""
+                />
+                <div class="card-body text-white ">
+                  <h5 class="card-title fs-6">Photography</h5>
+                  <p class="card-text">
+                    Stunning Photography Services to Capture Every Detail
+                  </p>
+                </div>
+              </a>
+            </div>
+
+            <div
+              class="border-0 col-12  card my-0 p-0  z_index_1"
+              style="background: transparent;"
+            >
+              <a href="http://www.localhost/adsamy_new/en/site/service/4">
+                <img
+                  class="card-img-top rounded-0 border-0"
+                  src="./uploads/services/thumb/453848081-1725541326_re_350x245.png"
+                  alt=""
+                />
+                <div class="card-body text-white">
+                  <h5 class="card-title fs-6">Social Media Management</h5>
+                  <p class="card-text ">
+                    Expert Social Media Management to Grow Your Online Presence
+                  </p>
+                </div>
+              </a>
+            </div>
           </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a
-                  class="nav-link text-white fw-bold"
-                  href="https://sandy-ali-basha.github.io/adsamy/PrivecyPolicy.html"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link text-white fw-bold"
-                  href="https://sandy-ali-basha.github.io/adsamy/contactUs.html"
-                  >About Us</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white fw-bold" href="./services.html"
-                  >Services</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white fw-bold" href="#">Gallery</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white fw-bold" href="./work.html"
-                  >Works</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white fw-bold" href="./blog.html"
-                  >Blogs</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white fw-bold" href="./contactUs.html"
-                  >Contact Us</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white fw-bold" href="#">العربية</a>
-              </li>
-            </ul>
+        </div>
+        <!-- End Sidebar -->
+      </div>
+    </div>
+    <!-- Watch Our Latest Project -->
+    <section class="text-center mb-0 LatestProject">
+      <h2 class="text-white pt-5">Watch Our Latest Project</h2>
+      <div class="d-flex align-items-start container p-5">
+        <div class="tab-content" style="width:70vw" id="v-pills-tabContent">
+          <div
+            class="tab-pane fade show active webDesign"
+            id="Behind-The"
+            role="tabpanel"
+            aria-labelledby="Behind-The"
+          >
+            <div class="video-card w-100">
+              <video
+                id="video1"
+                poster="https://via.placeholder.com/351x200"
+                controls
+                class="w-100"
+                preload="none"
+              >
+                <source
+                  src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+              <button class="play-btn" id="playButton1">
+                <i class="fas fa-play"></i>
+              </button>
+              <button class="play-btn " style="display: none;" id="pausButton1">
+                <i class="fas fa-pause"></i>
+              </button>
+            </div>
           </div>
+          <div
+            class="tab-pane fade show activ webDesign"
+            id="Video-Portfolio"
+            role="tabpanel"
+            aria-labelledby="Video-Portfolio"
+          >
+            <div class="video-card w-100">
+              <video
+                id="video1"
+                poster="https://via.placeholder.com/351x200"
+                controls
+                class="w-100"
+                preload="none"
+              >
+                <source
+                  src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+              <button class="play-btn" id="playButton1">
+                <i class="fas fa-play"></i>
+              </button>
+              <button class="play-btn " style="display: none;" id="pausButton1">
+                <i class="fas fa-pause"></i>
+              </button>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade show  webDesign"
+            id="Cloud-Seeding"
+            role="tabpanel"
+            aria-labelledby="Cloud-Seeding"
+          >
+            <div class="video-card w-100">
+              <video
+                id="video1"
+                poster="https://via.placeholder.com/351x200"
+                controls
+                class="w-100"
+                preload="none"
+              >
+                <source
+                  src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+              <button class="play-btn" id="playButton1">
+                <i class="fas fa-play"></i>
+              </button>
+              <button class="play-btn " style="display: none;" id="pausButton1">
+                <i class="fas fa-pause"></i>
+              </button>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade show activ webDesign"
+            id="Nahdah-Construction"
+            role="tabpanel"
+            aria-labelledby="Nahdah-Construction"
+          >
+            <div class="video-card w-100">
+              <video
+                id="video1"
+                poster="https://via.placeholder.com/351x200"
+                controls
+                class="w-100"
+                preload="none"
+              >
+                <source
+                  src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+              <button class="play-btn" id="playButton1">
+                <i class="fas fa-play"></i>
+              </button>
+              <button class="play-btn " style="display: none;" id="pausButton1">
+                <i class="fas fa-pause"></i>
+              </button>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade show  webDesign"
+            id="Surgery-Center"
+            role="tabpanel"
+            aria-labelledby="Surgery-Center"
+          >
+            <div class="video-card w-100">
+              <video
+                id="video1"
+                poster="https://via.placeholder.com/351x200"
+                controls
+                class="w-100"
+                preload="none"
+              >
+                <source
+                  src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+              <button class="play-btn" id="playButton1">
+                <i class="fas fa-play"></i>
+              </button>
+              <button class="play-btn " style="display: none;" id="pausButton1">
+                <i class="fas fa-pause"></i>
+              </button>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade show  webDesign"
+            id="FLIR-MIDDLE"
+            role="tabpanel"
+            aria-labelledby="FLIR-MIDDLE"
+          >
+            <div class="video-card w-100">
+              <video
+                id="video1"
+                poster="https://via.placeholder.com/351x200"
+                controls
+                class="w-100"
+                preload="none"
+              >
+                <source
+                  src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+              <button class="play-btn" id="playButton1">
+                <i class="fas fa-play"></i>
+              </button>
+              <button class="play-btn " style="display: none;" id="pausButton1">
+                <i class="fas fa-pause"></i>
+              </button>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade show  webDesign"
+            id="Football-Match"
+            role="tabpanel"
+            aria-labelledby="Football-Match"
+          >
+            <div class="video-card w-100">
+              <video
+                id="video1"
+                poster="https://via.placeholder.com/351x200"
+                controls
+                class="w-100"
+                preload="none"
+              >
+                <source
+                  src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+              <button class="play-btn" id="playButton1">
+                <i class="fas fa-play"></i>
+              </button>
+              <button class="play-btn " style="display: none;" id="pausButton1">
+                <i class="fas fa-pause"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="nav flex-column nav-pills me-3 navigateBtns"
+          id="v-pills-tab"
+          role="tablist"
+          aria-orientation="vertical"
+        >
+          <button
+            class="nav-link px-2 py-3 d-flex gap-3 ps-3 align-items-center active"
+            id="Behind-The-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#Behind-The"
+            type="button"
+            role="tab"
+            aria-controls="Behind-The"
+            aria-selected="true"
+          >
+            <i class="fa-solid fa-circle-play text-white fs-3"></i>
+            <div class="fw-light text-start text-white">
+              Doleep Studios - Behind The Scenes
+            </div>
+          </button>
+          <button
+            class="nav-link px-2 py-3 d-flex gap-3 ps-3 align-items-center"
+            id="Video-Portfolio-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#Video-Portfolio"
+            type="button"
+            role="tab"
+            aria-controls="Video-Portfolio"
+            aria-selected="true"
+          >
+            <i class="fa-solid fa-circle-play text-white fs-3"></i>
+            <div class="fw-light text-start text-white">
+              Doleep Studios - 2020 Video Portfolio
+            </div>
+          </button>
+          <button
+            class="nav-link px-2 py-3 d-flex gap-3 ps-3 align-items-center"
+            id="Cloud-Seeding-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#Cloud-Seeding"
+            type="button"
+            role="tab"
+            aria-controls="Cloud-Seeding"
+            aria-selected="true"
+          >
+            <i class="fa-solid fa-circle-play text-white fs-3"></i>
+            <div class="fw-light text-start text-white">
+              Cloud Seeding Story of a life
+            </div>
+          </button>
+          <button
+            class="nav-link px-2 py-3 d-flex gap-3 ps-3 align-items-center"
+            id="Nahdah-Construction-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#Nahdah-Construction"
+            type="button"
+            role="tab"
+            aria-controls="Nahdah-Construction"
+            aria-selected="true"
+          >
+            <i class="fa-solid fa-circle-play text-white fs-3"></i>
+            <div class="fw-light text-start text-white">
+              Shafa Al Nahdah Construction
+            </div>
+          </button>
+          <button
+            class="nav-link px-2 py-3 d-flex gap-3 ps-3 align-items-center"
+            id="Surgery-Center-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#Surgery-Center"
+            type="button"
+            role="tab"
+            aria-controls="Surgery-Center"
+            aria-selected="true"
+          >
+            <i class="fa-solid fa-circle-play text-white fs-3"></i>
+            <div class="fw-light text-start text-white">
+              Burjeel Day Surgery Center
+            </div>
+          </button>
+          <button
+            class="nav-link px-2 py-3 d-flex gap-3 ps-3 align-items-center"
+            id="FLIR-MIDDLE-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#FLIR-MIDDLE"
+            type="button"
+            role="tab"
+            aria-controls="FLIR-MIDDLE"
+            aria-selected="true"
+          >
+            <i class="fa-solid fa-circle-play text-white fs-3"></i>
+            <div class="fw-light text-start text-white">
+              FLIR MIDDLE EAST Facility
+            </div>
+          </button>
+          <button
+            class="nav-link px-2 py-3 d-flex gap-3 ps-3 align-items-center"
+            id="Football-Match-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#Football-Match"
+            type="button"
+            role="tab"
+            aria-controls="Football-Match"
+            aria-selected="true"
+          >
+            <i class="fa-solid fa-circle-play text-white fs-3"></i>
+            <div class="fw-light text-start text-white">
+              Al Ahly vs A.S Roma Football Match Promoti…
+            </div>
+          </button>
         </div>
       </div>
-    </nav>
+    </section>
+
     <div class=" services ">
       <h1 class="text-white text-center py-2 fw-700  bg-secondary-light">
         Our Friends
@@ -206,98 +1381,7 @@
         <img src="./imgs/partners/partner (7).png" class="partner-img" alt="" />
         <img src="./imgs/partners/partner (9).png" class="partner-img" alt="" />
       </div>
-      <div class="container py-5">
-        <div class="swiper mySwiper position-relative">
-          <div class="swiper-wrapper ">
-            <div class="swiper-slide">
-              <section class="row webDesign">
-                <div class="col-md-6">
-                  <div class="video-card">
-                    <video
-                      id="video1"
-                      poster="https://via.placeholder.com/351x200"
-                      controls
-                      class="w-100"
-                    >
-                      <source
-                        src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
-                        type="video/mp4"
-                      />
-                      Your browser does not support the video tag.
-                    </video>
-                    <button class="play-btn" id="playButton1">
-                      <i class="fas fa-play"></i>
-                    </button>
-                    <button
-                      class="play-btn "
-                      style="display: none;"
-                      id="pausButton1"
-                    >
-                      <i class="fas fa-pause"></i>
-                    </button>
-                  </div>
-                  <div
-                    class="d-flex justify-content-between position-relative py-3"
-                  >
-                    <div class="custom-controls d-flex gap-4">
-                      <div class="likes fs-4 text-secondary">
-                        <i class="far fa-heart fa-solid "></i><span>23</span>
-                      </div>
-                      <div class="views fs-4 text-secondary">
-                        <i class="far fa-eye  fa-solid"></i><span>4.2K</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <h2>Lorem, ipsum.</h2>
-                  <p class="fs-5">Lorem ipsum dolor sit amet.</p>
-                  <p class="fs-6 fw-bold">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Omnis quod distinctio assumenda magni iure aut impedit
-                    asperiores qui tempore deleniti, voluptatem nisi pariatur
-                    tenetur expedita eligendi sunt, fugit maxime fuga.
-                  </p>
-                </div>
-              </section>
-              <script>
-                const pausButton = document.getElementById('pausButton1');
-                const playButton = document.getElementById('playButton1');
-                const video = document.getElementById('video1');
 
-                playButton.addEventListener('click', function() {
-                    playButton.style.display = 'none';
-                    pausButton.style.display = 'block';
-                    video.play(); // Play the video
-                });
-                pausButton.addEventListener('click', function() {
-                    playButton.style.display = 'block';
-                    pausButton.style.display = 'none';
-                    video.pause(); // paus the video
-                });
-
-                // When video is played, hide the play button
-                video.addEventListener('play', function() {
-                    playButton.style.display = 'none';
-                });
-              </script>
-            </div>
-          </div>
-          <div
-            class="position-relative d-flex gap-2 justify-content-end"
-            style="    top: -33px;
-            width: 80px;
-            left: 35vw;"
-          >
-            <div class="web-swiper-button-prev swiper-button-prev">
-              <i class="text-white fa-solid fa-arrow-left"></i>
-            </div>
-            <div class="web-swiper-button-next swiper-button-next">
-              <i class="text-white fa-solid fa-arrow-right"></i>
-            </div>
-          </div>
-        </div>
-      </div>
       <section class="row py-5  bg-secondary-light">
         <div class="col-md-6">
           <div class=" px-5">
@@ -343,6 +1427,7 @@
           </div>
         </div>
       </section>
+
       <section
         class="bg-yellow d-flex px-5 py-5 align-items-center gap-1 justify-content-center"
       >
@@ -359,6 +1444,7 @@
           <div class="text-white  fs-3 w-50">Partners</div>
         </div>
       </section>
+
       <section>
         <h2
           class="text-center py-4 font-inter fs-2 fw-bold bg-secondary-light text-white"
@@ -435,378 +1521,62 @@
           </div>
         </div>
       </section>
-      <section class="px-5 bg-gold py-5">
-        <h2 class="fs-1 text-white text-center fw-bold">Becuome a partner</h2>
-        <p class="text-white text-center">
-          Apply now to start promoting Adsamy and earning commissions in 3
-          steps:
-        </p>
-        <div class="d-flex justify-content-center align-items-center gap-3">
-          <div class="PartnerCard p-3 pt-4">
-            <p class="fs-4 fw-bold">Step 1</p>
-            <p class="mt-2 pb-5">
-              <small
-                >Choose the type of commission you want to receive and click the
-                corresponding signup button below.</small
-              >
-            </p>
-          </div>
-          <div class="PartnerCard p-3 pt-4">
-            <p class="fs-4 fw-bold">Step 2</p>
-            <p class="mt-2 pb-5">
-              <small
-                >You’ll be directed to goaffpro, where you will fill out a form
-                to apply to the GPP® Affiliate Program.</small
-              >
-            </p>
-          </div>
-          <div class="PartnerCard p-3 pt-4">
-            <p class="fs-4 fw-bold">Step 3</p>
-            <p class="mt-2 pb-5">
-              <small
-                >We'll review your application and notify you when you're
-                approved, typically within 3 days.</small
-              >
-            </p>
-          </div>
-        </div>
-        <div class="text-center">
-          <div class="btn btn-primary mt-5 px-4 py-2    ">Apply Now</div>
-        </div>
-      </section>
-      <!-- accourdion -->
-      <section class="container py-5">
-        <div class="accordion accordion-flush" id="accordionFlushExample">
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingOne">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseOne"
-                aria-expanded="false"
-                aria-controls="flush-collapseOne"
-              >
-                What is 360 Marketing?
-              </button>
-            </h2>
-            <div
-              id="flush-collapseOne"
-              class="accordion-collapse collapse"
-              aria-labelledby="flush-headingOne"
-              data-bs-parent="#accordionFlushExample"
-            >
-              <div class="accordion-body">
-                A 360 marketing strategy is a comprehensive plan that focuses on
-                reaching the target audience from multiple platforms and
-                channels. This type of strategy generally combines both
-                traditional marketing and digital marketing channels as it
-                infuses within the entire customer journey. Basically, a 360
-                marketing strategy will ensure that customers have a positive
-                experience of communication regardless of their location or what
-                device they may or may not be using. For instance, you may see a
-                Coca-Cola ad on a billboard on your way to work. On your lunch
-                break, you may see another ad while scrolling through Facebook.
-                When you get home and sit down to relax and watch television,
-                you may encounter yet another (but more thorough) advertisement.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingTwo">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseTwo"
-                aria-expanded="false"
-                aria-controls="flush-collapseTwo"
-              >
-                Accordion Item #2
-              </button>
-            </h2>
-            <div
-              id="flush-collapseTwo"
-              class="accordion-collapse collapse"
-              aria-labelledby="flush-headingTwo"
-              data-bs-parent="#accordionFlushExample"
-            >
-              <div class="accordion-body">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Inventore architecto nisi esse nam eaque doloremque distinctio
-                voluptatum. Adipisci illum reiciendis accusamus dolor laborum
-                corporis repudiandae, quam exercitationem deserunt iure sed!
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingThree">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseThree"
-                aria-expanded="false"
-                aria-controls="flush-collapseThree"
-              >
-                Accordion Item #3
-              </button>
-            </h2>
-            <div
-              id="flush-collapseThree"
-              class="accordion-collapse collapse"
-              aria-labelledby="flush-headingThree"
-              data-bs-parent="#accordionFlushExample"
-            >
-              <div class="accordion-body">
-                Placeholder content for this accordion, which is intended to
-                demonstrate the <code>.accordion-flush</code> class. This is the
-                third item's accordion body. Nothing more exciting happening
-                here in terms of content, but just filling up the space to make
-                it look, at least at first glance, a bit more representative of
-                how this would look in a real-world application.
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
     </div>
-    <footer
-      class="text-center  mt-5  text-lg-start text-white"
-      style="background-color: #1b2b44;"
-    >
-      <!-- Grid container -->
-      <div class="container p-5">
-        <!-- Section: Links -->
-        <section>
-          <!--Grid row-->
-          <div class="row">
-            <!-- Logo & Social Media Column -->
-            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 px-5 ">
-              <h6 class="text-uppercase mb-4 fw-bold font-Inter">
-                Download Apps
-              </h6>
-              <a href="" class=" w-100"
-                ><img src="./imgs/app store.png" class="w-100 " alt=""
-              /></a>
-              <a href="" class=" w-100"
-                ><img src="./imgs/google play.png" class="w-100 mt-3" alt=""
-              /></a>
-            </div>
-
-            <!-- Quick Links Column -->
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-              <h6 class="text-uppercase mb-4 fw-bold font-Inter">
-                Quick Links
-              </h6>
-              <p>
-                <a class="text-white fw-light" href="/case-study.html"
-                  >Case Study</a
-                >
-              </p>
-              <p>
-                <a class="text-white fw-light" href="/boadcasts.html"
-                  >ADSAMY boadcasts</a
-                >
-              </p>
-              <p>
-                <a class="text-white fw-light" href="/jobs.html">ADSAMY jobs</a>
-              </p>
-              <p><a class="text-white">ADSAMY Model</a></p>
-              <p><a class="text-white">ADSAMY POS</a></p>
-            </div>
-
-            <!-- Company Column -->
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-              <h6 class="text-uppercase mb-4 fw-bold font-Inter">Company</h6>
-              <p><a class="text-white fw-light" href="/">Home</a></p>
-              <p>
-                <a class="text-white fw-light" href="/services.html"
-                  >Services</a
-                >
-              </p>
-              <p>
-                <a class="text-white fw-light" href="/about-us.html"
-                  >About Us</a
-                >
-              </p>
-              <p><a class="text-white fw-light" href="/work.html">Works</a></p>
-              <p><a class="text-white fw-light" href="/blogs.html">Blogs</a></p>
-            </div>
-
-            <!-- Contact Info Column -->
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-              <h6 class="text-uppercase mb-4 fw-bold font-Inter">
-                Contact Info
-              </h6>
-              <a class="fw-light text-white">Business Bay, Dubai</a>
-              <a class="fw-light text-white">Email: info@adsamy.com</a>
-              <a class="fw-light text-white">+971 505077374</a>
-              <div class="text-center d-flex gap-1 mt-4">
-                <!-- Social Media Icons -->
-                <a class="btn p-0" href="#"
-                  ><img
-                    src="./imgs//footer/partner (1).svg"
-                    class="w-100"
-                    alt=""
-                  />
-                </a>
-                <a class="btn p-0" href="#"
-                  ><img
-                    src="./imgs//footer/partner (2).svg"
-                    class="w-100"
-                    alt=""
-                  />
-                </a>
-                <a class="btn p-0" href="#"
-                  ><img
-                    src="./imgs//footer/partner (3).svg"
-                    class="w-100"
-                    alt=""
-                  />
-                </a>
-                <a class="btn p-0" href="#"
-                  ><img
-                    src="./imgs//footer/partner (4).svg"
-                    class="w-100"
-                    alt=""
-                  />
-                </a>
-              </div>
-            </div>
-
-            <!-- Our Partners Column -->
-            <div
-              class="col-md-5 col-lg-3 col-xl-3 mx-auto mt-3 position-relative d-none d-md-block"
+    <section class="px-5 bg-gold py-5">
+      <h2 class="fs-1 text-white text-center fw-bold">Become a partner</h2>
+      <p class="text-white text-center">
+        Apply now to start promoting Adsamy and earning commissions in 3 steps:
+      </p>
+      <div class="d-flex justify-content-center align-items-center gap-3">
+        <div class="PartnerCard p-3 pt-4">
+          <p class="fs-4 fw-bold">Step 1</p>
+          <p class="mt-2 pb-5">
+            <small
+              >Choose the type of commission you want to receive and click the
+              corresponding signup button below.</small
             >
-              <h6 class="text-uppercase mb-4 fw-bold font-Inter">
-                Our Partners
-              </h6>
-              <div class="position-relative">
-                <img
-                  src="./imgs/footer/company (3).png"
-                  alt=""
-                  class="position-absolute"
-                  style="width: 80px;object-fit: contain;top: 50%;left: 50%;transform: translate(-50%, -50%);"
-                />
-                <div class="d-flex justify-content-between">
-                  <img
-                    src="./imgs/footer/company (1).png"
-                    alt="Facebook Partner"
-                    style="width: 80px;object-fit: contain;"
-                  />
-
-                  <img
-                    src="./imgs/footer/company (2).png"
-                    alt="Twitter Partner"
-                    style="width: 80px;object-fit: contain;"
-                  />
-                </div>
-                <div class="d-flex justify-content-between mt-3">
-                  <img
-                    src="./imgs/footer/company (4).png"
-                    alt="Top 10 SEO"
-                    style="width: 80px;object-fit: contain;"
-                  />
-
-                  <img
-                    src="./imgs/footer/company (5).png"
-                    alt="Google Reviews"
-                    style="width: 80px;object-fit: contain;"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--Grid row-->
-        </section>
-        <!-- Section: Links -->
-      </div>
-      <div style="background: #0E385D;">
-        <div class="container">
-          <div class="row py-3">
-            <div class="col-md-6 ">
-              <div
-                class="text-center w-100 align-items-center justify-content-center mb-4 mb-md-0 d-flex gap-1"
-              >
-                <!-- Social Media Icons -->
-                <a
-                  class="btn text-white fs-5 border border-white p-3 rounded-circle d-flex  justify-content-center "
-                  style=" width:30px; height:30px ; align-items: center;"
-                  href="#"
-                  ><i class="fab fa-linkedin"></i
-                ></a>
-                <a
-                  class="btn text-white fs-5 border border-white p-3 rounded-circle d-flex  justify-content-center "
-                  style=" width:30px; height:30px ; align-items: center;"
-                  href="#"
-                  ><i class="fab fa-pinterest"></i
-                ></a>
-                <a
-                  class="btn text-white fs-5 border border-white p-3 rounded-circle d-flex  justify-content-center "
-                  style=" width:30px; height:30px ; align-items: center;"
-                  href="#"
-                  ><i class="fab fa-twitter"></i
-                ></a>
-                <a
-                  class="btn text-white fs-5 border border-white p-3 rounded-circle d-flex  justify-content-center "
-                  style=" width:30px; height:30px ; align-items: center;"
-                  href="#"
-                  ><i class="fab fa-facebook-f"></i
-                ></a>
-                <a
-                  class="btn text-white fs-5 rounded-circle d-flex border border-white p-3 justify-content-center "
-                  style="width:30px; height:30px ; align-items: center;"
-                  href="#"
-                  ><i class="fab fa-instagram"></i
-                ></a>
-                <a
-                  class="btn text-white fs-5 border border-white p-3 rounded-circle d-flex  justify-content-center "
-                  style=" width:30px; height:30px ; align-items: center;"
-                  href="#"
-                  ><i class="fab fa-youtube"></i
-                ></a>
-              </div>
-            </div>
-            <div
-              class="col-md-6 d-flex gap-2 align-items-center justify-content-center"
+          </p>
+        </div>
+        <div class="PartnerCard p-3 pt-4">
+          <p class="fs-4 fw-bold">Step 2</p>
+          <p class="mt-2 pb-5">
+            <small
+              >You’ll be directed to goaffpro, where you will fill out a form to
+              apply to the GPP® Affiliate Program.</small
             >
-              <div class="text-white px-2 border-end border-white">
-                © 2024 Adsamy
-              </div>
-              <div class="text-white px-2 border-end border-white">
-                <a href="/PrivecyPolicy.html" class="text-white"
-                  >Privacy Policy</a
-                >
-              </div>
-              <div class="text-white px-2">
-                <a href="/contactUs1.html" class="text-white"
-                  >Terms of Service</a
-                >
-              </div>
-            </div>
-          </div>
+          </p>
+        </div>
+        <div class="PartnerCard p-3 pt-4">
+          <p class="fs-4 fw-bold">Step 3</p>
+          <p class="mt-2 pb-5">
+            <small
+              >We'll review your application and notify you when you're
+              approved, typically within 3 days.</small
+            >
+          </p>
         </div>
       </div>
-      <!-- Grid container -->
-    </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
+      <div class="text-center">
+        <div class="btn btn-primary mt-5 px-4 py-2 bg-dark-blue">Apply Now</div>
+      </div>
+    </section>
+    <!-- Footer Include -->
+    <footer
+      class="text-center  mt-0 text-lg-start text-white"
+      style="background-color: #1b2b44;"
+      id="footer_container"
+    ></footer>
+    <!-- --Footer Include -->
 
-    <!-- jquery -->
-    <script
-      src="https://code.jquery.com/jquery-3.6.3.min.js"
-      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
-      crossorigin="anonymous"
-    ></script>
     <script
       src="https://kit.fontawesome.com/5b9061b1a3.js"
       crossorigin="anonymous"
     ></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- dynamic load fixed parts -->
+    <script src="./js/load_fixed_parts.js" crossorigin="anonymous"></script>
+
     <script>
       const swiper = new Swiper('.mySwiper', {
             loop: true,
@@ -815,11 +1585,7 @@
                 prevEl: '.swiper-button-prev',
             },
             slidesPerView: 1,
-            effect: 'fade',
-            fadeEffect: {
-            crossFade: true
-                      },
-            } );
+      });
       const webSwiper = new Swiper('.webDesign', {
             loop: true,
             navigation: {
