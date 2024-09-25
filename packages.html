@@ -1,895 +1,1082 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- for social media sharing links  -->
+    <meta name="theme-color" content="#439299" />
+    <meta property="og:description" content="description" />
+    <meta property="og:title" content="Adsamy" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="website link" />
+    <meta property="og:image" content="website image" />
+    <!-- bootstrap  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- scss -->
+    <link rel="stylesheet" href="./scss/main.css" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- for social media sharing links  -->
-  <meta name="theme-color" content="#439299" />
-  <meta property="og:description" content="description" />
-  <meta property="og:title" content="Adsamy" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="website link" />
-  <meta property="og:image" content="website image" />
-  <!-- bootstrap  -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-  <!-- scss -->
-  <link rel="stylesheet" href="./scss/main.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/services.css" />
 
-  <!-- css -->
-  <link rel="stylesheet" href="./css/style.css" />
-  <link rel="stylesheet" href="./css/services.css" />
+    <!-- swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
 
-  <!-- swiper -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <!-- testimonials -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bs-brain@2.0.4/components/testimonials/testimonial-4/assets/css/testimonial-4.css"
+    />
 
-  <!-- testimonials -->
-  <link rel="stylesheet"
-    href="https://unpkg.com/bs-brain@2.0.4/components/testimonials/testimonial-4/assets/css/testimonial-4.css">
+    <title>ADSAMY | Packages</title>
 
-  <title>ADSAMY | Packages</title>
+    <!-- jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
 
-  <!-- jquery -->
-  <script src="https://code.jquery.com/jquery-3.6.3.min.js"
-    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <!-- bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-    crossorigin="anonymous"></script>
-  <!-- bootstrap -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
+  <body class="Packages Services bg-light">
+    <!-- Navbar Include -->
+    <nav
+      class="navbar sticky-top navbar-expand-lg bg-dark-blue text-white py-2"
+      id="navbar_container"
+    ></nav>
+    <!-- --Navbar Include -->
 
-</head>
+    <header
+      class="d-flex flex-column justify-content-center align-items-center gap-3"
+    >
+      <h2 class="text-white fs-1">Services Packages</h2>
+      <h5 class="text-white fs-6">
+        We pride ourselves on delivering compelling, digital marketing
+        solutions.
+      </h5>
+    </header>
 
-<body class="Packages bg-light">
+    <div id="service-content-wrapper" class="container-fluid pt-5">
+      <div class="row row-flex align-items-start">
+        <div id="service-content" class="col-lg-8 mb-4">
+          <div class="swiper mySwiper position-relative">
+            <div class="swiper-wrapper ">
+              <div class="swiper-slide">
+                <section class="row webDesign">
+                  <div class="col-md-6">
+                    <div class="video-card">
+                      <video
+                        id="video1"
+                        poster="https://via.placeholder.com/351x200"
+                        controls
+                        class="w-100"
+                      >
+                        <source
+                          src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
+                          type="video/mp4"
+                        />
+                        Your browser does not support the video tag.
+                      </video>
+                      <button class="play-btn" id="playButton1">
+                        <i class="fas fa-play"></i>
+                      </button>
+                      <button
+                        class="play-btn "
+                        style="display: none;"
+                        id="pausButton1"
+                      >
+                        <i class="fas fa-pause"></i>
+                      </button>
+                    </div>
+                    <div
+                      class="d-flex justify-content-between position-relative py-3"
+                    >
+                      <div class="custom-controls d-flex gap-4">
+                        <div class="likes fs-4 text-secondary-gray">
+                          <i class="far fa-heart fa-solid "></i><span>23</span>
+                        </div>
+                        <div class="views fs-4 text-secondary-gray">
+                          <i class="far fa-eye  fa-solid"></i><span>4.2K</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <h2 class="fw-bold">Web Design & Development</h2>
+                    <p class="fs-5">
+                      We are a young and creative company and we offer you fresh
+                    </p>
+                    <p class="fs-6 fw-bold">
+                      We Give You Complete Control Of Your Shipments. Lorem
+                      ipsum viverra feugiat. Pellen tesque libero ut justo,
+                      ultrices in ligula. Semper at tempufddfel. Lorem ipsum
+                      dolor sit amet consectetur adipisicing elit. Non quae,
+                      fugiat. Live Monitoring Lorem ipsum viverra feugiat
+                      libero. Worldwide Service Lorem ipsum viverra feugiat
+                      libero.
+                    </p>
+                  </div>
+                </section>
+                <script>
+                  const pausButton = document.getElementById('pausButton1');
+                  const playButton = document.getElementById('playButton1');
+                  const video = document.getElementById('video1');
 
-  <!-- Navbar Include -->
-  <nav class="navbar sticky-top navbar-expand-lg bg-dark-blue text-white py-2" id="navbar_container"></nav>
-  <!-- --Navbar Include -->
+                  playButton.addEventListener('click', function() {
+                      playButton.style.display = 'none';
+                      pausButton.style.display = 'block';
+                      video.play(); // Play the video
+                  });
+                  pausButton.addEventListener('click', function() {
+                      playButton.style.display = 'block';
+                      pausButton.style.display = 'none';
+                      video.pause(); // paus the video
+                  });
 
-  <header class="d-flex flex-column justify-content-center align-items-center gap-3">
-    <h2 class="text-white fs-1">Services Packages</h2>
-    <h5 class="text-white fs-6">
-      We pride ourselves on delivering compelling, digital marketing solutions.
-    </h5>
-  </header>
+                  // When video is played, hide the play button
+                  video.addEventListener('play', function() {
+                      playButton.style.display = 'none';
+                  });
+                </script>
+              </div>
+              <div class="swiper-slide">
+                <section class="row webDesign">
+                  <div class="col-md-6">
+                    <div class="video-card">
+                      <video
+                        id="video2"
+                        poster="https://via.placeholder.com/351x200"
+                        controls
+                        class="w-100"
+                      >
+                        <source
+                          src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
+                          type="video/mp4"
+                        />
+                        Your browser does not support the video tag.
+                      </video>
+                      <button class="play-btn" id="playButton2">
+                        <i class="fas fa-play"></i>
+                      </button>
+                      <button
+                        class="play-btn "
+                        style="display: none;"
+                        id="pausButton2"
+                      >
+                        <i class="fas fa-pause"></i>
+                      </button>
+                    </div>
+                    <div
+                      class="d-flex justify-content-between position-relative py-3"
+                    >
+                      <div class="custom-controls d-flex gap-4">
+                        <div class="likes fs-4 text-secondary-gray">
+                          <i class="far fa-heart fa-solid "></i><span>23</span>
+                        </div>
+                        <div class="views fs-4 text-secondary-gray">
+                          <i class="far fa-eye  fa-solid"></i><span>4.2K</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <h2>Lorem, ipsum.</h2>
+                    <p class="fs-5">Lorem ipsum dolor sit amet.</p>
+                    <p class="fs-6 fw-bold">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Omnis quod distinctio assumenda magni iure aut impedit
+                      asperiores qui tempore deleniti, voluptatem nisi pariatur
+                      tenetur expedita eligendi sunt, fugit maxime fuga.
+                    </p>
+                  </div>
+                </section>
+                <script>
+                  const pausButton1 = document.getElementById('pausButton2');
+                  const playButton1 = document.getElementById('playButton2');
+                  const video1 = document.getElementById('video2');
 
+                  playButton.addEventListener('click', function() {
+                      playButton.style.display = 'none';
+                      pausButton.style.display = 'block';
+                      video.play(); // Play the video
+                  });
+                  pausButton.addEventListener('click', function() {
+                      playButton.style.display = 'block';
+                      pausButton.style.display = 'none';
+                      video.pause(); // paus the video
+                  });
 
-  <div id="service-content-wrapper" class="container-fluid pt-5">
-    <div class="row row-flex align-items-start">
-      <div id="service-content" class="col-lg-8 mb-4">
+                  // When video is played, hide the play button
+                  video.addEventListener('play', function() {
+                      playButton.style.display = 'none';
+                  });
+                </script>
+              </div>
+            </div>
+            <div
+              class="position-relative d-flex gap-2 justify-content-end"
+              style="    top: -66px;
+            width: 80px;
+            left: 40%;"
+            >
+              <div class="web-swiper-button-prev swiper-button-prev">
+                <i class="text-white fa-solid fa-arrow-left"></i>
+              </div>
+              <div class="web-swiper-button-next swiper-button-next">
+                <i class="text-white fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+          <!-- Start Section Two -->
+          <section id="section-two">
+            <div class="container my-5">
+              <div class="d-grid gap-2 d-md-flex justify-content-center py-3">
+                <button type="button" class="btn btn-package ">Plan 1</button>
+                <button type="button" class="btn btn-package ">Plan 2</button>
+                <button type="button" class="btn btn-package ">Plan 3</button>
+                <button type="button" class="btn btn-package ">Plan 4</button>
+              </div>
+              <div class="card border-0">
+                <div class="card-body text-white p-0">
+                  <details
+                    class="header-container bg-primary- text-white p-3- mb-3 w-100"
+                    open=""
+                  >
+                    <summary
+                      class="header bg-accordion-h p-2 fw-bold fs-4 cursor-pointer list-unstyled"
+                    >
+                      What is 360 Marketing ?
+                    </summary>
+                    <p class="p-3">
+                      A 360 marketing strategy is a comprehensive plan that
+                      focuses on reaching the target audience from multiple
+                      platforms and channels.
+                    </p>
+                  </details>
 
-        <div class="row- px-2 p-1 border-radius-12 bg-light">
+                  <!-- Subscription Lists -->
+
+                  <!-- Accordion  -->
+                  <div class="accordion" id="accordion-container">
+                    <div class="accordion-item border-0">
+                      <h2 class="accordion-header bg-accordion-h" id="heading1">
+                        <button
+                          id="list-group-item"
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapse1"
+                          aria-expanded="false"
+                          aria-controls="collapse1"
+                        >
+                          <input
+                            type="checkbox"
+                            class="form-check-input me-2 select-service"
+                          />
+                          <label
+                            class="service_label"
+                            data-service-name="Branding &amp; Positioning "
+                            data-service-id="1"
+                            data-price="1000"
+                            >Branding &amp; Positioning
+                            <span class="badge bg-secondary">1000</span></label
+                          >
+                        </button>
+                      </h2>
+                      <div
+                        id="collapse1"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="heading1"
+                        data-bs-parent="#accordion-container"
+                      >
+                        <div class="accordion-body">
+                          <p></p>
+                          <p>
+                            Establish a powerful market presence with our
+                            branding and positioning services. We help you
+                            &lrm;define your brand’s identity, craft compelling
+                            messaging, and position yourself strategically in
+                            &lrm;the market to stand out from the competition.
+                            Our expert team develops tailored strategies to
+                            &lrm;enhance brand recognition, build loyalty, and
+                            effectively communicate your value proposition to
+                            &lrm;your target audience.
+                          </p>
+                          <p></p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item border-0">
+                      <h2 class="accordion-header bg-accordion-h" id="heading2">
+                        <button
+                          id="list-group-item"
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapse2"
+                          aria-expanded="false"
+                          aria-controls="collapse2"
+                        >
+                          <input
+                            type="checkbox"
+                            class="form-check-input me-2 select-service"
+                          />
+                          <label
+                            class="service_label"
+                            data-service-name=" Videography "
+                            data-service-id="2"
+                            data-price="1000"
+                          >
+                            Videography
+                            <span class="badge bg-secondary">1000</span></label
+                          >
+                        </button>
+                      </h2>
+                      <div
+                        id="collapse2"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="heading2"
+                        data-bs-parent="#accordion-container"
+                      >
+                        <div class="accordion-body">
+                          <p></p>
+                          <p>
+                            Experience top-notch videography with our
+                            professional services. We specialize in capturing
+                            stunning &lrm;visuals for events, promotions, and
+                            personal projects, ensuring every moment is
+                            preserved with clarity &lrm;and creativity. Our team
+                            delivers high-quality videos with expert editing to
+                            bring your vision to life and &lrm;make a lasting
+                            impression.
+                          </p>
+                          <p></p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item border-0">
+                      <h2 class="accordion-header bg-accordion-h" id="heading3">
+                        <button
+                          id="list-group-item"
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapse3"
+                          aria-expanded="false"
+                          aria-controls="collapse3"
+                        >
+                          <input
+                            type="checkbox"
+                            class="form-check-input me-2 select-service"
+                          />
+                          <label
+                            class="service_label"
+                            data-service-name="Photography"
+                            data-service-id="3"
+                            data-price="1000"
+                            >Photography
+                            <span class="badge bg-secondary">1000</span></label
+                          >
+                        </button>
+                      </h2>
+                      <div
+                        id="collapse3"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="heading3"
+                        data-bs-parent="#accordion-container"
+                      >
+                        <div class="accordion-body">
+                          <p></p>
+                          <p>
+                            Our corporate photography services are designed to
+                            showcase your business in the best light. Whether
+                            you need professional , team portraits, or event
+                            coverage, we deliver high-quality images that
+                            reflect your brand identity and professionalism.
+                            With an eye for detail and a focus on capturing the
+                            essence of your company’s environment, our
+                            experienced photographers deliver compelling images
+                            that enhance your brand image, leaving a lasting
+                            impression on clients, partners, and employees
+                            alike.
+                          </p>
+                          <p></p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item border-0">
+                      <h2 class="accordion-header bg-accordion-h" id="heading4">
+                        <button
+                          id="list-group-item"
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapse4"
+                          aria-expanded="false"
+                          aria-controls="collapse4"
+                        >
+                          <input
+                            type="checkbox"
+                            class="form-check-input me-2 select-service"
+                          />
+                          <label
+                            class="service_label"
+                            data-service-name="Social Media Management "
+                            data-service-id="4"
+                            data-price="1000"
+                            >Social Media Management
+                            <span class="badge bg-secondary">1000</span></label
+                          >
+                        </button>
+                      </h2>
+                      <div
+                        id="collapse4"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="heading4"
+                        data-bs-parent="#accordion-container"
+                      >
+                        <div class="accordion-body">
+                          <p></p>
+                          <p>
+                            Maximize your brand’s impact with our comprehensive
+                            social media management services. From content
+                            creation to community engagement, we handle every
+                            aspect of your online presence. Our team of experts
+                            develops tailored strategies to boost your
+                            visibility, drive engagement, and grow your audience
+                            across all major platforms. Stay ahead of the
+                            competition with consistent, high-quality posts that
+                            resonate with your target market and reflect your
+                            brand's unique voice.
+                          </p>
+                          <p></p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item border-0">
+                      <h2 class="accordion-header bg-accordion-h" id="heading5">
+                        <button
+                          id="list-group-item"
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapse5"
+                          aria-expanded="false"
+                          aria-controls="collapse5"
+                        >
+                          <input
+                            type="checkbox"
+                            class="form-check-input me-2 select-service"
+                          />
+                          <label
+                            class="service_label"
+                            data-service-name="SEO,SEM &amp; SMM"
+                            data-service-id="5"
+                            data-price="1500"
+                            >SEO,SEM &amp; SMM
+                            <span class="badge bg-secondary">1500</span></label
+                          >
+                        </button>
+                      </h2>
+                      <div
+                        id="collapse5"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="heading5"
+                        data-bs-parent="#accordion-container"
+                      >
+                        <div class="accordion-body">
+                          <p></p>
+                          <p>
+                            Unlock the full potential of your online presence
+                            with our expert SEO , SEM and Social Media Marketing
+                            services. We specialize in optimizing your website
+                            for search engines, managing paid advertising
+                            campaigns to maximize your ROI and crafting social
+                            media strategies that engage and convert your target
+                            audience. Our comprehensive approach ensures that
+                            every aspect of your digital marketing works
+                            together to boost visibility, increase traffic and
+                            achieve your business goals.
+                          </p>
+                          <p></p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item border-0">
+                      <h2 class="accordion-header bg-accordion-h" id="heading6">
+                        <button
+                          id="list-group-item"
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapse6"
+                          aria-expanded="false"
+                          aria-controls="collapse6"
+                        >
+                          <input
+                            type="checkbox"
+                            class="form-check-input me-2 select-service"
+                          />
+                          <label
+                            class="service_label"
+                            data-service-name="Web Design &amp; Development"
+                            data-service-id="6"
+                            data-price="1000"
+                            >Web Design &amp; Development
+                            <span class="badge bg-secondary">1000</span></label
+                          >
+                        </button>
+                      </h2>
+                      <div
+                        id="collapse6"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="heading6"
+                        data-bs-parent="#accordion-container"
+                      >
+                        <div class="accordion-body">
+                          <p></p>
+                          <p>
+                            Transform your online presence with our expert web
+                            design and development services. We create visually
+                            stunning and user-friendly websites tailored to your
+                            brand’s needs., our team ensures your site not only
+                            looks great but performs optimally across all
+                            devices. Whether you need a new website or a revamp
+                            of your current one, we deliver solutions that
+                            enhance user experience and drive business growth.
+                          </p>
+                          <p></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Accordion  -->
+                </div>
+              </div>
+              <div
+                class="mt-3 d-flex align-items-center justify-content-center"
+                id="Subscribe"
+              >
+                <button
+                  class="btn bg-yellow text-white w-50 fw-bold  p-3"
+                  id="subscribe_btn"
+                >
+                  subscribe
+                </button>
+              </div>
+            </div>
+            <!--Subscription Lists -->
+          </section>
+          <!-- End Section Two -->
+        </div>
+
+        <!-- Start Sidebar -->
+        <div
+          id="-service-sidebar"
+          class="col-lg-4 d-flex flex-column justify-content-center align-items-center pe-3 pb-3"
+        >
           <div
-            class="swiper mySwiper swiper-fade swiper-initialized swiper-horizontal swiper-watch-progress swiper-backface-hidden">
-            <div class="swiper-wrapper" aria-live="polite">
-
-              <div class="row swiper-slide">
-
-                <div class="col-md-6">
-                  <div class="video-card">
-                    <video controls="" width="400" height="auto" class="video rounded" preload="none"
-                      poster="./uploads/services/438259299-1725535726.png">
-                      <source src="./uploads/services/397423319-1725535726.mp4" type="video/mp4">
-                    </video>
-                  </div>
-                  <div class="d-flex justify-content-between position-relative py-3">
-                    <div class="custom-controls d-flex gap-4">
-                      <div class="likes fs-4 text-dark">
-                        <i class="far fa-heart fa-solid " aria-hidden="true"></i><span>23</span>
-                      </div>
-                      <div class="views fs-4 text-dark">
-                        <i class="far fa-eye  fa-solid" aria-hidden="true"></i><span>4.2K</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-
-                <div class="col-md-6">
-                  <span class="fw-bold fs-3">Branding &amp; Positioning </span>
-                  <p class="fs-4 fw-semibold text-dark">Strategic Branding &amp; Positioning to Define Your Market
-                    Presence</p>
-                  <p class="text-dark text-justify">Establish a powerful market presence with our branding and
-                    positioning services. We help you &lrm;define your brand’s identity, craft compelling messaging, and
-                    position yourself strategically in &lrm;the market to stand out from the competition. Our expert
-                    team develops tailored strategies to....</p>
-                </div>
-
-              </div>
-
-              <div class="row swiper-slide">
-
-                <div class="col-md-6">
-                  <div class="video-card">
-                    <video controls="" width="400" height="auto" class="video rounded" preload="none"
-                      poster="./uploads/services/599901076-1725537720.png">
-                      <source src="./uploads/services/484604572-1725537720.mp4" type="video/mp4">
-                    </video>
-                  </div>
-                  <div class="d-flex justify-content-between position-relative py-3">
-                    <div class="custom-controls d-flex gap-4">
-                      <div class="likes fs-4 text-dark">
-                        <i class="far fa-heart fa-solid " aria-hidden="true"></i><span>23</span>
-                      </div>
-                      <div class="views fs-4 text-dark">
-                        <i class="far fa-eye  fa-solid" aria-hidden="true"></i><span>4.2K</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-
-                <div class="col-md-6">
-                  <span class="fw-bold fs-3"> Videography </span>
-                  <p class="fs-4 fw-semibold text-dark">High-Quality Videography Services to Capture Your Vision</p>
-                  <p class="text-dark text-justify">Experience top-notch videography with our professional services. We
-                    specialize in capturing stunning &lrm;visuals for events, promotions, and personal projects,
-                    ensuring every moment is preserved with clarity &lrm;and creativity. Our team delivers high-quality
-                    videos with expert editing to bring your....</p>
-                </div>
-
-              </div>
-
-              <div class="row swiper-slide">
-
-                <div class="col-md-6">
-                  <div class="video-card">
-                    <video controls="" width="400" height="auto" class="video rounded" preload="none"
-                      poster="./uploads/services/602399195-1725539750.png">
-                      <source src="./uploads/services/587355495-1725539750.mp4" type="video/mp4">
-                    </video>
-                  </div>
-                  <div class="d-flex justify-content-between position-relative py-3">
-                    <div class="custom-controls d-flex gap-4">
-                      <div class="likes fs-4 text-dark">
-                        <i class="far fa-heart fa-solid " aria-hidden="true"></i><span>23</span>
-                      </div>
-                      <div class="views fs-4 text-dark">
-                        <i class="far fa-eye  fa-solid" aria-hidden="true"></i><span>4.2K</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-
-                <div class="col-md-6">
-                  <span class="fw-bold fs-3">Photography</span>
-                  <p class="fs-4 fw-semibold text-dark">Stunning Photography Services to Capture Every Detail</p>
-                  <p class="text-dark text-justify">Our corporate photography services are designed to showcase your
-                    business in the best light. Whether you need professional , team portraits, or event coverage, we
-                    deliver high-quality images that reflect your brand identity and professionalism. With an eye for
-                    detail and a focus on capturing the....</p>
-                </div>
-
-              </div>
-
-              <div class="row swiper-slide">
-
-                <div class="col-md-6">
-                  <div class="video-card">
-                    <video controls="" width="400" height="auto" class="video rounded" preload="none"
-                      poster="./uploads/services/473113647-1725541326.png">
-                      <source src="./uploads/services/203592995-1725541326.mp4" type="video/mp4">
-                    </video>
-                  </div>
-                  <div class="d-flex justify-content-between position-relative py-3">
-                    <div class="custom-controls d-flex gap-4">
-                      <div class="likes fs-4 text-dark">
-                        <i class="far fa-heart fa-solid " aria-hidden="true"></i><span>23</span>
-                      </div>
-                      <div class="views fs-4 text-dark">
-                        <i class="far fa-eye  fa-solid" aria-hidden="true"></i><span>4.2K</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-
-                <div class="col-md-6">
-                  <span class="fw-bold fs-3">Social Media Management </span>
-                  <p class="fs-4 fw-semibold text-dark">Expert Social Media Management to Grow Your Online Presence</p>
-                  <p class="text-dark text-justify">Maximize your brand’s impact with our comprehensive social media
-                    management services. From content creation to community engagement, we handle every aspect of your
-                    online presence. Our team of experts develops tailored strategies to boost your visibility, drive
-                    engagement, and grow your audience....</p>
-                </div>
-
-              </div>
-
-              <div class="row swiper-slide">
-
-                <div class="col-md-6">
-                  <div class="video-card">
-                    <video controls="" width="400" height="auto" class="video rounded" preload="none"
-                      poster="./uploads/services/507876851-1725542667.png">
-                      <source src="./uploads/services/388123797-1725542667.mp4" type="video/mp4">
-                    </video>
-                  </div>
-                  <div class="d-flex justify-content-between position-relative py-3">
-                    <div class="custom-controls d-flex gap-4">
-                      <div class="likes fs-4 text-dark">
-                        <i class="far fa-heart fa-solid " aria-hidden="true"></i><span>23</span>
-                      </div>
-                      <div class="views fs-4 text-dark">
-                        <i class="far fa-eye  fa-solid" aria-hidden="true"></i><span>4.2K</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-
-                <div class="col-md-6">
-                  <span class="fw-bold fs-3">SEO,SEM &amp; SMM</span>
-                  <p class="fs-4 fw-semibold text-dark">Comprehensive SEO, SEM and Social Media Marketing Services to
-                    Boost Your Success</p>
-                  <p class="text-dark text-justify">Unlock the full potential of your online presence with our expert
-                    SEO , SEM and Social Media Marketing services. We specialize in optimizing your website for search
-                    engines, managing paid advertising campaigns to maximize your ROI and crafting social media
-                    strategies that engage and convert your....</p>
-                </div>
-
-              </div>
-
-              <div class="row swiper-slide">
-
-                <div class="col-md-6">
-                  <div class="video-card">
-                    <video controls="" width="400" height="auto" class="video rounded" preload="none"
-                      poster="./uploads/services/268262385-1725543373.png">
-                      <source src="./uploads/services/404943839-1725543373.mp4" type="video/mp4">
-                    </video>
-                  </div>
-                  <div class="d-flex justify-content-between position-relative py-3">
-                    <div class="custom-controls d-flex gap-4">
-                      <div class="likes fs-4 text-dark">
-                        <i class="far fa-heart fa-solid " aria-hidden="true"></i><span>23</span>
-                      </div>
-                      <div class="views fs-4 text-dark">
-                        <i class="far fa-eye  fa-solid" aria-hidden="true"></i><span>4.2K</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-
-                <div class="col-md-6">
-                  <span class="fw-bold fs-3">Web Design &amp; Development</span>
-                  <p class="fs-4 fw-semibold text-dark">Custom Web Design &amp; Development to Elevate Your Online
-                    Presence</p>
-                  <p class="text-dark text-justify">Transform your online presence with our expert web design and
-                    development services. We create visually stunning and user-friendly websites tailored to your
-                    brand’s needs., our team ensures your site not only looks great but performs optimally across all
-                    devices. Whether you need a new website or....</p>
-                </div>
-
-              </div>
-
-            </div>
-
-            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
-          </div>
-          <div class="position-relative d-flex gap-2 justify-content-end swiper_btns">
-            <div class="web-swiper-button-prev swiper-button-prev" tabindex="0" role="button"
-              aria-label="Previous slide" aria-controls="swiper-wrapper-ce3242d99a402c52">
-              <i class="text-white fa-solid fa-arrow-left" aria-hidden="true"></i>
-            </div>
-            <div class="web-swiper-button-next swiper-button-next" tabindex="0" role="button" aria-label="Next slide"
-              aria-controls="swiper-wrapper-ce3242d99a402c52">
-              <i class="text-white fa-solid fa-arrow-right" aria-hidden="true"></i>
-            </div>
-          </div>
-        </div>
-
-        <!-- Start Section Two -->
-        <section id="section-two">
-          <div class="container my-5">
-
-            <div class="d-grid gap-2 d-md-flex justify-content-center py-3">
-              <button type="button" class="btn btn-package ">Plan 1</button>
-              <button type="button" class="btn btn-package ">Plan 2</button>
-              <button type="button" class="btn btn-package ">Plan 3</button>
-              <button type="button" class="btn btn-package ">Plan 4</button>
-            </div>
-
-            <div class="card custom-shadow">
-              <div class="card-body p-0">
-
-                <details class="header-container bg-primary- text-white p-3- mb-3 w-100" open="">
-                  <summary class="header bg-accordion-h p-2 fw-bold fs-4 cursor-pointer list-unstyled">
-                    What is 360 Marketing ? </summary>
-                  <p class="p-3" style="background-color:#fff;">
-                    A 360 marketing strategy is a comprehensive plan that focuses on reaching the target audience from
-                    multiple platforms and channels.
+            id="sidebar-wrapper"
+            class="d-flex_flex-column justify-content-center align-items-center p-2 text-white vertical-snap"
+          >
+            <div
+              class="border-0 col-12  card my-0 p-0  z_index_1"
+              style="background: transparent;"
+            >
+              <a href="http://www.localhost/adsamy_new/en/site/service/1">
+                <img
+                  class="card-img-top rounded-0 border-0"
+                  src="./uploads/services/thumb/580793607-1725535726_re_350x245.png"
+                  alt=""
+                />
+                <div class="card-body text-white">
+                  <h5 class="card-title fs-6">Branding &amp; Positioning</h5>
+                  <p class="card-text ">
+                    Strategic Branding &amp; Positioning to Define Your Market
+                    Presence
                   </p>
-                </details>
-
-                <!-- Subscription Lists -->
-
-                <!-- Accordion  -->
-                <div class="accordion" id="accordion-container">
-
-                  <div class="accordion-item">
-                    <h2 class="accordion-header bg-accordion-h shadow" id="heading1">
-                      <button id="list-group-item" class="accordion-button collapsed" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false"
-                        aria-controls="collapse1">
-                        <input type="checkbox" class="form-check-input me-2 select-service">
-                        <label class="service_label" data-service-name="Branding &amp; Positioning " data-service-id="1"
-                          data-price="1000">Branding &amp; Positioning </label>
-                      </button>
-                    </h2>
-                    <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1"
-                      data-bs-parent="#accordion-container" style="">
-                      <div class="accordion-body">
-                        <p></p>
-                        <p>Establish a powerful market presence with our branding and positioning services. We help you
-                          &lrm;define your brand’s identity, craft compelling messaging, and position yourself
-                          strategically in &lrm;the market to stand out from the competition. Our expert team develops
-                          tailored strategies to &lrm;enhance brand recognition, build loyalty, and effectively
-                          communicate your value proposition to &lrm;your target audience.</p>
-                        <p></p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="accordion-item">
-                    <h2 class="accordion-header bg-accordion-h shadow" id="heading2">
-                      <button id="list-group-item" class="accordion-button collapsed" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false"
-                        aria-controls="collapse2">
-                        <input type="checkbox" class="form-check-input me-2 select-service">
-                        <label class="service_label" data-service-name=" Videography " data-service-id="2"
-                          data-price="1000"> Videography </label>
-                      </button>
-                    </h2>
-                    <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2"
-                      data-bs-parent="#accordion-container">
-                      <div class="accordion-body">
-                        <p></p>
-                        <p>Experience top-notch videography with our professional services. We specialize in capturing
-                          stunning &lrm;visuals for events, promotions, and personal projects, ensuring every moment is
-                          preserved with clarity &lrm;and creativity. Our team delivers high-quality videos with expert
-                          editing to bring your vision to life and &lrm;make a lasting impression.</p>
-                        <p></p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="accordion-item">
-                    <h2 class="accordion-header bg-accordion-h shadow" id="heading3">
-                      <button id="list-group-item" class="accordion-button collapsed" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false"
-                        aria-controls="collapse3">
-                        <input type="checkbox" class="form-check-input me-2 select-service">
-                        <label class="service_label" data-service-name="Photography" data-service-id="3"
-                          data-price="1000">Photography</label>
-                      </button>
-                    </h2>
-                    <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3"
-                      data-bs-parent="#accordion-container">
-                      <div class="accordion-body">
-                        <p></p>
-                        <p>Our corporate photography services are designed to showcase your business in the best light.
-                          Whether you need professional , team portraits, or event coverage, we deliver high-quality
-                          images that reflect your brand identity and professionalism. With an eye for detail and a
-                          focus on capturing the essence of your company’s environment, our experienced photographers
-                          deliver compelling images that enhance your brand image, leaving a lasting impression on
-                          clients, partners, and employees alike.</p>
-                        <p></p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="accordion-item">
-                    <h2 class="accordion-header bg-accordion-h shadow" id="heading4">
-                      <button id="list-group-item" class="accordion-button collapsed" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false"
-                        aria-controls="collapse4">
-                        <input type="checkbox" class="form-check-input me-2 select-service">
-                        <label class="service_label" data-service-name="Social Media Management " data-service-id="4"
-                          data-price="1000">Social Media Management</label>
-                      </button>
-                    </h2>
-                    <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4"
-                      data-bs-parent="#accordion-container">
-                      <div class="accordion-body">
-                        <p></p>
-                        <p>Maximize your brand’s impact with our comprehensive social media management services. From
-                          content creation to community engagement, we handle every aspect of your online presence. Our
-                          team of experts develops tailored strategies to boost your visibility, drive engagement, and
-                          grow your audience across all major platforms. Stay ahead of the competition with consistent,
-                          high-quality posts that resonate with your target market and reflect your brand's unique
-                          voice.</p>
-                        <p></p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="accordion-item">
-                    <h2 class="accordion-header bg-accordion-h shadow" id="heading5">
-                      <button id="list-group-item" class="accordion-button collapsed" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false"
-                        aria-controls="collapse5">
-                        <input type="checkbox" class="form-check-input me-2 select-service">
-                        <label class="service_label" data-service-name="SEO,SEM &amp; SMM" data-service-id="5"
-                          data-price="1500">SEO,SEM &amp; SMM</label>
-                      </button>
-                    </h2>
-                    <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5"
-                      data-bs-parent="#accordion-container">
-                      <div class="accordion-body">
-                        <p></p>
-                        <p>Unlock the full potential of your online presence with our expert SEO , SEM and Social Media
-                          Marketing services. We specialize in optimizing your website for search engines, managing paid
-                          advertising campaigns to maximize your ROI and crafting social media strategies that engage
-                          and convert your target audience. Our comprehensive approach ensures that every aspect of your
-                          digital marketing works together to boost visibility, increase traffic and achieve your
-                          business goals.</p>
-                        <p></p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="accordion-item">
-                    <h2 class="accordion-header bg-accordion-h shadow" id="heading6">
-                      <button id="list-group-item" class="accordion-button collapsed" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false"
-                        aria-controls="collapse6">
-                        <input type="checkbox" class="form-check-input me-2 select-service">
-                        <label class="service_label" data-service-name="Web Design &amp; Development"
-                          data-service-id="6" data-price="1000">Web Design &amp; Development></label>
-                      </button>
-                    </h2>
-                    <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6"
-                      data-bs-parent="#accordion-container">
-                      <div class="accordion-body">
-                        <p></p>
-                        <p>Transform your online presence with our expert web design and development services. We create
-                          visually stunning and user-friendly websites tailored to your brand’s needs., our team ensures
-                          your site not only looks great but performs optimally across all devices. Whether you need a
-                          new website or a revamp of your current one, we deliver solutions that enhance user experience
-                          and drive business growth.</p>
-                        <p></p>
-                      </div>
-                    </div>
-                  </div>
-
                 </div>
-                <!-- Accordion  -->
-
-              </div>
+              </a>
             </div>
-            <div class="mt-3 d-flex align-items-center justify-content-center" id="Subscribe">
-              <button class="btn btn-warning w-50 fw-bold text-light p-3" data-bs-toggle="modal"
-                data-bs-target="#subscribeModal" id="subscribe_btn" disabled="">Select services above</button>
-              <span id="totalPrice" class="text-center p-2">Total $0</span>
-            </div>
-          </div>
-          <!--Subscription Lists -->
-        </section>
-        <!-- End Section Two -->
 
-      </div>
-
-      <!-- Start Sidebar -->
-      <div id="-service-sidebar"
-        class="col-lg-4 d-flex flex-column justify-content-center align-items-center pe-3 pb-3">
-        <div id="sidebar-wrapper"
-          class="d-flex_flex-column justify-content-center align-items-center p-2 text-white vertical-snap">
-
-
-
-
-          <div class="col-12 shadow-lg card my-0 p-0 border-radius-12 bg-light z_index_1">
-            <a href="http://www.localhost/adsamy_new/en/site/service/1">
-              <img class="card-img-top border-radius-12 shadow"
-                src="./uploads/services/thumb/580793607-1725535726_re_350x245.png" alt="">
-              <div class="card-body">
-                <h5 class="card-title fs-6">Branding &amp; Positioning </h5>
-                <p class="card-text text-dark">Strategic Branding &amp; Positioning to Define Your Market Presence</p>
-              </div>
-            </a>
-          </div>
-
-
-
-          <div class="col-12 shadow-lg card my-0 p-0 border-radius-12 bg-light z_index_1">
-            <a href="http://www.localhost/adsamy_new/en/site/service/2">
-              <img class="card-img-top border-radius-12 shadow"
-                src="./uploads/services/thumb/162970537-1725537720_re_350x245.png" alt="">
-              <div class="card-body">
-                <h5 class="card-title fs-6"> Videography </h5>
-                <p class="card-text text-dark">High-Quality Videography Services to Capture Your Vision</p>
-              </div>
-            </a>
-          </div>
-
-
-
-          <div class="col-12 shadow-lg card my-0 p-0 border-radius-12 bg-light z_index_1">
-            <a href="http://www.localhost/adsamy_new/en/site/service/3">
-              <img class="card-img-top border-radius-12 shadow"
-                src="./uploads/services/thumb/433812367-1725539750_re_350x245.png" alt="">
-              <div class="card-body">
-                <h5 class="card-title fs-6">Photography</h5>
-                <p class="card-text text-dark">Stunning Photography Services to Capture Every Detail</p>
-              </div>
-            </a>
-          </div>
-
-
-
-          <div class="col-12 shadow-lg card my-0 p-0 border-radius-12 bg-light z_index_1">
-            <a href="http://www.localhost/adsamy_new/en/site/service/4">
-              <img class="card-img-top border-radius-12 shadow"
-                src="./uploads/services/thumb/453848081-1725541326_re_350x245.png" alt="">
-              <div class="card-body">
-                <h5 class="card-title fs-6">Social Media Management </h5>
-                <p class="card-text text-dark">Expert Social Media Management to Grow Your Online Presence</p>
-              </div>
-            </a>
-          </div>
-
-
-
-        </div>
-      </div>
-      <!-- End Sidebar -->
-
-    </div>
-  </div>
-
-  <!-- Latest Projects -->
-  <section class="bg-gray pt-3">
-    <div class="container d-grid gap-2 d-md-flex justify-content-between my-1">
-      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-        <h3 class="text-dark fw-bold">Discover Our <br /><span class="fs-4 text-yellow fw-bold">Latest Projects</span>
-        </h3>
-      </div>
-      <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-        <p class="text-center text-white">
-          Explore some of our innovative and recent projects to gauge our experience and ability to deliver satisfactory
-          work.
-        </p>
-      </div>
-    </div>
-    <div class="swiper MoreSwiper py-3">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <div class="text-hover ">
-            <div class="bg-white text-primary fw-bold px-3 py-1">VELUX</div>
-            <div class="p-3">
-              <h3 class="fw-bold mb-1 text-white">Envisioning the view</h3>
-              <a href="Read case">Read case</a>
-            </div>
-          </div>
-          <img src="./imgs/image5.jpg" class="w-100" />
-        </div>
-        <div class="swiper-slide">
-          <div class="text-hover ">
-            <div class="bg-white text-primary fw-bold px-3 py-1">VELUX</div>
-            <div class="p-3">
-              <h3 class="fw-bold mb-1 text-white">Envisioning the view</h3>
-              <a href="Read case">Read case</a>
-            </div>
-          </div>
-          <img src="./imgs/image1.jpg" class="w-100" />
-        </div>
-        <div class="swiper-slide">
-          <div class="text-hover ">
-            <div class="bg-white text-primary fw-bold px-3 py-1">VELUX</div>
-            <div class="p-3">
-              <h3 class="fw-bold mb-1 text-white">Envisioning the view</h3>
-              <a href="Read case">Read case</a>
-            </div>
-          </div>
-          <img src="./imgs/image2.jpg" class="w-100" />
-        </div>
-        <div class="swiper-slide">
-          <div class="text-hover ">
-            <div class="bg-white text-primary fw-bold px-3 py-1">VELUX</div>
-            <div class="p-3">
-              <h3 class="fw-bold mb-1 text-white">Envisioning the view</h3>
-              <a href="Read case">Read case</a>
-            </div>
-          </div>
-          <img src="./imgs/image3.jpg" class="w-100" />
-        </div>
-        <div class="swiper-slide">
-          <div class="text-hover ">
-            <div class="bg-white text-primary fw-bold px-3 py-1">VELUX</div>
-            <div class="p-3">
-              <h3 class="fw-bold mb-1 text-white">Envisioning the view</h3>
-              <a href="Read case">Read case</a>
-            </div>
-          </div>
-          <img src="./imgs/image4.jpg" class="w-100" />
-        </div>
-        <div class="swiper-slide">
-          <div class="text-hover ">
-            <div class="bg-white text-primary fw-bold px-3 py-1">VELUX</div>
-            <div class="p-3">
-              <h3 class="fw-bold mb-1 text-white">Envisioning the view</h3>
-              <a href="Read case">Read case</a>
-            </div>
-          </div>
-          <img src="./imgs/image5.jpg" class="w-100" />
-        </div>
-        <div class="swiper-slide">
-          <div class="text-hover ">
-            <div class="bg-white text-primary fw-bold px-3 py-1">VELUX</div>
-            <div class="p-3">
-              <h3 class="fw-bold mb-1 text-white">Envisioning the view</h3>
-              <a href="Read case">Read case</a>
-            </div>
-          </div>
-          <img src="./imgs/image5.jpg" class="w-100" />
-        </div>
-        <div class="swiper-slide">
-          <div class="text-hover ">
-            <div class="bg-white text-primary fw-bold px-3 py-1">VELUX</div>
-            <div class="p-3">
-              <h3 class="fw-bold mb-1 text-white">Envisioning the view</h3>
-              <a href="Read case">Read case</a>
-            </div>
-          </div>
-          <img src="./imgs/image4.jpg" class="w-100" />
-        </div>
-        <div class="swiper-slide">
-          <div class="text-hover ">
-            <div class="bg-white text-primary fw-bold px-3 py-1">VELUX</div>
-            <div class="p-3">
-              <h3 class="fw-bold mb-1 text-white">Envisioning the view</h3>
-              <a href="Read case">Read case</a>
-            </div>
-          </div>
-          <img src="./imgs/image3.jpg" class="w-100" />
-        </div>
-        <div class="swiper-slide">
-          <div class="text-hover ">
-            <div class="bg-white text-primary fw-bold px-3 py-1">VELUX</div>
-            <div class="p-3">
-              <h3 class="fw-bold mb-1 text-white">Envisioning the view</h3>
-              <a href="Read case">Read case</a>
-            </div>
-          </div>
-          <img src="./imgs/image2.jpg" class="w-100" />
-        </div>
-        <div class="swiper-slide">
-          <div class="text-hover ">
-            <div class="bg-white text-primary fw-bold px-3 py-1">VELUX</div>
-            <div class="p-3">
-              <h3 class="fw-bold mb-1 text-white">Envisioning the view</h3>
-              <a href="Read case">Read case</a>
-            </div>
-          </div>
-          <img src="./imgs/image1.jpg" class="w-100" />
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- --Latest Projects -->
-
-
-  <!-- Testimonial 4 - Bootstrap Brain Component -->
-  <section class="pt-0">
-    <div class="py-3 bg-gray">
-      <div class="row">
-        <div class="col-12">
-          <h3 class="fs-3 mb-2 text-center text-white">What people are saying about us</h3>
-        </div>
-      </div>
-    </div>
-    <div class="container overflow-hidden my-2">
-      <div class="row gy-4 gy-md-0 gx-xxl-5">
-
-        <div class="col-12 col-md-4 shadow pt-2">
-          <div class="card shadow-sm">
-            <div class="card-body p-4 p-xxl-5">
-              <figure>
-                <figcaption>
-                  <div class="bsb-ratings text-purple mb-3" data-bsb-star="4" data-bsb-star-off="0"></div>
-                  <blockquote class="bsb-blockquote-icon mb-4">We were so impressed with the work they did for us. They
-                    were able to take our vision and turn it into a reality, and they did it all on time and within
-                    budget. We would highly recommend them to anyone looking for a reliable partner.</blockquote>
-                </figcaption>
-                <div class="d-flex justify-content-start">
-                  <img class="img-fluid rounded rounded-circle mb-4 border border-5" loading="lazy"
-                    src="./imgs/person_1.jpg" alt="Luna John">
-                  <div>
-                    <h4 class="mb-2">Luna John</h4>
-                    <h5 class="fs-6 text-secondary- mb-0">UX Designer</h5>
-                  </div>
+            <div
+              class="border-0 col-12  card my-0 p-0  z_index_1"
+              style="background: transparent;"
+            >
+              <a href="http://www.localhost/adsamy_new/en/site/service/2">
+                <img
+                  class="card-img-top rounded-0 border-0"
+                  src="./uploads/services/thumb/162970537-1725537720_re_350x245.png"
+                  alt=""
+                />
+                <div class="card-body text-white">
+                  <h5 class="card-title fs-6">Videography</h5>
+                  <p class="card-text ">
+                    High-Quality Videography Services to Capture Your Vision
+                  </p>
                 </div>
-
-              </figure>
+              </a>
             </div>
-          </div>
-        </div>
 
-        <div class="col-12 col-md-4 shadow pt-2">
-          <div class="card shadow-sm">
-            <div class="card-body p-4 p-xxl-5">
-              <figure>
-                <figcaption>
-                  <div class="bsb-ratings text-purple mb-3" data-bsb-star="5" data-bsb-star-off="0"></div>
-                  <blockquote class="bsb-blockquote-icon mb-4">We were so impressed with the work they did for us. They
-                    were able to take our vision and turn it into a reality, and they did it all on time and within
-                    budget. We would highly recommend them to anyone looking for a reliable partner.</blockquote>
-                </figcaption>
-                <div class="d-flex justify-content-start">
-                  <img class="img-fluid rounded rounded-circle mb-4 border border-5" loading="lazy"
-                    src="./imgs/person_1.jpg" alt="Luna John">
-                  <div>
-                    <h4 class="mb-2">Luna John</h4>
-                    <h5 class="fs-6 text-secondary- mb-0">UX Designer</h5>
-                  </div>
+            <div
+              class="border-0 col-12  card my-0 p-0  z_index_1"
+              style="background: transparent;"
+            >
+              <a href="http://www.localhost/adsamy_new/en/site/service/3">
+                <img
+                  class="card-img-top rounded-0 border-0"
+                  src="./uploads/services/thumb/433812367-1725539750_re_350x245.png"
+                  alt=""
+                />
+                <div class="card-body text-white ">
+                  <h5 class="card-title fs-6">Photography</h5>
+                  <p class="card-text">
+                    Stunning Photography Services to Capture Every Detail
+                  </p>
                 </div>
-
-              </figure>
+              </a>
             </div>
-          </div>
-        </div>
 
-        <div class="col-12 col-md-4 shadow pt-2">
-          <div class="card shadow-sm">
-            <div class="card-body p-4 p-xxl-5">
-              <figure>
-                <figcaption>
-                  <div class="bsb-ratings text-purple mb-3" data-bsb-star="4" data-bsb-star-off="0"></div>
-                  <blockquote class="bsb-blockquote-icon mb-4">We were so impressed with the work they did for us. They
-                    were able to take our vision and turn it into a reality, and they did it all on time and within
-                    budget. We would highly recommend them to anyone looking for a reliable partner.</blockquote>
-                </figcaption>
-                <div class="d-flex justify-content-start">
-                  <img class="img-fluid rounded rounded-circle mb-4 border border-5" loading="lazy"
-                    src="./imgs/person_1.jpg" alt="Luna John">
-                  <div>
-                    <h4 class="mb-2">Luna John</h4>
-                    <h5 class="fs-6 text-secondary- mb-0">UX Designer</h5>
-                  </div>
+            <div
+              class="border-0 col-12  card my-0 p-0  z_index_1"
+              style="background: transparent;"
+            >
+              <a href="http://www.localhost/adsamy_new/en/site/service/4">
+                <img
+                  class="card-img-top rounded-0 border-0"
+                  src="./uploads/services/thumb/453848081-1725541326_re_350x245.png"
+                  alt=""
+                />
+                <div class="card-body text-white">
+                  <h5 class="card-title fs-6">Social Media Management</h5>
+                  <p class="card-text ">
+                    Expert Social Media Management to Grow Your Online Presence
+                  </p>
                 </div>
-
-              </figure>
+              </a>
             </div>
           </div>
         </div>
-
+        <!-- End Sidebar -->
       </div>
     </div>
-  </section>
-
-
-  <section class="bg-yellow d-flex px-5 py-5 align-items-center gap-1 justify-content-center" >
-    <div class="d-flex align-items-center gap-1 justify-content-center">
-      <div class="outlineFont ">+1K</div>
-      <div class="text-white  fs-3 w-50">Exceptional Projects</div>
-    </div>
-    <div class="d-flex align-items-center gap-2 justify-content-center">
-      <div class="outlineFont ">+10</div>
-      <div class="text-white  fs-3 w-50">Years of Experience</div>
-    </div>
-    <div class="d-flex align-items-center gap-2 justify-content-center">
-      <div class="outlineFont ">+200</div>
-      <div class="text-white  fs-3 w-50">Partners</div>
-    </div>
-  </section>
-
-  <section class="row py-5  bg-secondary-light">
-    <div class="col-md-6">
-      <div class=" px-5">
-        <h3 class="fw-600 pb-2 fs-1 font-Inter">Why Us?</h3>
-        <div class="mb-1">
-          <h4>Smooth journey</h4>
-          <p class="fw-light">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-            adipisci consequuntur assume.
-          </p>
+    <!-- Latest Projects -->
+    <section class="bg-gray pt-3">
+      <div
+        class="container d-grid gap-2 d-md-flex justify-content-between my-1"
+      >
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <h3 class="text-dark fw-bold">
+            Discover Our <br /><span class="fs-4 text-yellow fw-bold"
+              >Latest Projects</span
+            >
+          </h3>
         </div>
-        <div class="mb-1">
-          <h4>Smooth journey</h4>
-          <p class="fw-light">
-            Lorem ipsum dolor sit ame soluta fugit laudantium. Fugit impedit
-            esse sint voluptate.
-          </p>
-        </div>
-        <div class="mb-1">
-          <h4>Smooth journey</h4>
-          <p class="fw-light">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-            asumenda soluta fugit laudantium. Fugit impedit esse sint
-            voluptate.
-          </p>
-        </div>
-        <div class="mb-1">
-          <h4>Smooth journey</h4>
-          <p class="fw-light">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-            adipisci consequuntur assumenda so
+        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+          <p class="text-center text-white">
+            Explore some of our innovative and recent projects to gauge our
+            experience and ability to deliver satisfactory work.
           </p>
         </div>
       </div>
-    </div>
-    <div class="col-md-6">
-      <div class="px-5">
-        <img
-          src="https://picsum.photos/400"
-          class="w-100 vh-50 object-fit-cover"
-          alt=""
-        />
+      <div class="swiper MoreSwiper py-3">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="text-hover ">
+              <div class="bg-white text-primary fw-bold px-3 py-1">VELUX</div>
+              <div class="p-3">
+                <h3 class="fw-bold mb-1 text-white">Envisioning the view</h3>
+                <a href="Read case">Read case</a>
+              </div>
+            </div>
+            <img src="./imgs/image5.jpg" class="w-100" />
+          </div>
+          <div class="swiper-slide">
+            <div class="text-hover ">
+              <div class="bg-white text-primary fw-bold px-3 py-1">VELUX</div>
+              <div class="p-3">
+                <h3 class="fw-bold mb-1 text-white">Envisioning the view</h3>
+                <a href="Read case">Read case</a>
+              </div>
+            </div>
+            <img src="./imgs/image1.jpg" class="w-100" />
+          </div>
+          <div class="swiper-slide">
+            <div class="text-hover ">
+              <div class="bg-white text-primary fw-bold px-3 py-1">VELUX</div>
+              <div class="p-3">
+                <h3 class="fw-bold mb-1 text-white">Envisioning the view</h3>
+                <a href="Read case">Read case</a>
+              </div>
+            </div>
+            <img src="./imgs/image2.jpg" class="w-100" />
+          </div>
+          <div class="swiper-slide">
+            <div class="text-hover ">
+              <div class="bg-white text-primary fw-bold px-3 py-1">VELUX</div>
+              <div class="p-3">
+                <h3 class="fw-bold mb-1 text-white">Envisioning the view</h3>
+                <a href="Read case">Read case</a>
+              </div>
+            </div>
+            <img src="./imgs/image3.jpg" class="w-100" />
+          </div>
+          <div class="swiper-slide">
+            <div class="text-hover ">
+              <div class="bg-white text-primary fw-bold px-3 py-1">VELUX</div>
+              <div class="p-3">
+                <h3 class="fw-bold mb-1 text-white">Envisioning the view</h3>
+                <a href="Read case">Read case</a>
+              </div>
+            </div>
+            <img src="./imgs/image4.jpg" class="w-100" />
+          </div>
+          <div class="swiper-slide">
+            <div class="text-hover ">
+              <div class="bg-white text-primary fw-bold px-3 py-1">VELUX</div>
+              <div class="p-3">
+                <h3 class="fw-bold mb-1 text-white">Envisioning the view</h3>
+                <a href="Read case">Read case</a>
+              </div>
+            </div>
+            <img src="./imgs/image5.jpg" class="w-100" />
+          </div>
+          <div class="swiper-slide">
+            <div class="text-hover ">
+              <div class="bg-white text-primary fw-bold px-3 py-1">VELUX</div>
+              <div class="p-3">
+                <h3 class="fw-bold mb-1 text-white">Envisioning the view</h3>
+                <a href="Read case">Read case</a>
+              </div>
+            </div>
+            <img src="./imgs/image5.jpg" class="w-100" />
+          </div>
+          <div class="swiper-slide">
+            <div class="text-hover ">
+              <div class="bg-white text-primary fw-bold px-3 py-1">VELUX</div>
+              <div class="p-3">
+                <h3 class="fw-bold mb-1 text-white">Envisioning the view</h3>
+                <a href="Read case">Read case</a>
+              </div>
+            </div>
+            <img src="./imgs/image4.jpg" class="w-100" />
+          </div>
+          <div class="swiper-slide">
+            <div class="text-hover ">
+              <div class="bg-white text-primary fw-bold px-3 py-1">VELUX</div>
+              <div class="p-3">
+                <h3 class="fw-bold mb-1 text-white">Envisioning the view</h3>
+                <a href="Read case">Read case</a>
+              </div>
+            </div>
+            <img src="./imgs/image3.jpg" class="w-100" />
+          </div>
+          <div class="swiper-slide">
+            <div class="text-hover ">
+              <div class="bg-white text-primary fw-bold px-3 py-1">VELUX</div>
+              <div class="p-3">
+                <h3 class="fw-bold mb-1 text-white">Envisioning the view</h3>
+                <a href="Read case">Read case</a>
+              </div>
+            </div>
+            <img src="./imgs/image2.jpg" class="w-100" />
+          </div>
+          <div class="swiper-slide">
+            <div class="text-hover ">
+              <div class="bg-white text-primary fw-bold px-3 py-1">VELUX</div>
+              <div class="p-3">
+                <h3 class="fw-bold mb-1 text-white">Envisioning the view</h3>
+                <a href="Read case">Read case</a>
+              </div>
+            </div>
+            <img src="./imgs/image1.jpg" class="w-100" />
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+    <!-- --Latest Projects -->
 
+    <!-- Testimonial 4 - Bootstrap Brain Component -->
+    <section class="pt-0">
+      <div class="py-3 bg-gray">
+        <div class="row">
+          <div class="col-12">
+            <h3 class="fs-3 mb-2 text-center text-white">
+              What people are saying about us
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div class="container overflow-hidden my-2">
+        <div class="row gy-4 gy-md-0 gx-xxl-5">
+          <div class="col-12 col-md-4 shadow pt-2">
+            <div class="card shadow-sm">
+              <div class="card-body p-4 p-xxl-5">
+                <figure>
+                  <figcaption>
+                    <div
+                      class="bsb-ratings text-purple mb-3"
+                      data-bsb-star="4"
+                      data-bsb-star-off="0"
+                    ></div>
+                    <blockquote class="bsb-blockquote-icon mb-4">
+                      We were so impressed with the work they did for us. They
+                      were able to take our vision and turn it into a reality,
+                      and they did it all on time and within budget. We would
+                      highly recommend them to anyone looking for a reliable
+                      partner.
+                    </blockquote>
+                  </figcaption>
+                  <div class="d-flex justify-content-start">
+                    <img
+                      class="img-fluid rounded rounded-circle mb-4 border border-5"
+                      loading="lazy"
+                      src="./imgs/person_1.jpg"
+                      alt="Luna John"
+                    />
+                    <div>
+                      <h4 class="mb-2">Luna John</h4>
+                      <h5 class="fs-6 text-secondary- mb-0">UX Designer</h5>
+                    </div>
+                  </div>
+                </figure>
+              </div>
+            </div>
+          </div>
 
-  <!-- Footer Include -->
-  <footer class="text-center  mt-0 text-lg-start text-white" style="background-color: #1b2b44;" id="footer_container">
-  </footer>
-  <!-- --Footer Include -->
+          <div class="col-12 col-md-4 shadow pt-2">
+            <div class="card shadow-sm">
+              <div class="card-body p-4 p-xxl-5">
+                <figure>
+                  <figcaption>
+                    <div
+                      class="bsb-ratings text-purple mb-3"
+                      data-bsb-star="5"
+                      data-bsb-star-off="0"
+                    ></div>
+                    <blockquote class="bsb-blockquote-icon mb-4">
+                      We were so impressed with the work they did for us. They
+                      were able to take our vision and turn it into a reality,
+                      and they did it all on time and within budget. We would
+                      highly recommend them to anyone looking for a reliable
+                      partner.
+                    </blockquote>
+                  </figcaption>
+                  <div class="d-flex justify-content-start">
+                    <img
+                      class="img-fluid rounded rounded-circle mb-4 border border-5"
+                      loading="lazy"
+                      src="./imgs/person_1.jpg"
+                      alt="Luna John"
+                    />
+                    <div>
+                      <h4 class="mb-2">Luna John</h4>
+                      <h5 class="fs-6 text-secondary- mb-0">UX Designer</h5>
+                    </div>
+                  </div>
+                </figure>
+              </div>
+            </div>
+          </div>
 
-  <script src="https://kit.fontawesome.com/5b9061b1a3.js" crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+          <div class="col-12 col-md-4 shadow pt-2">
+            <div class="card shadow-sm">
+              <div class="card-body p-4 p-xxl-5">
+                <figure>
+                  <figcaption>
+                    <div
+                      class="bsb-ratings text-purple mb-3"
+                      data-bsb-star="4"
+                      data-bsb-star-off="0"
+                    ></div>
+                    <blockquote class="bsb-blockquote-icon mb-4">
+                      We were so impressed with the work they did for us. They
+                      were able to take our vision and turn it into a reality,
+                      and they did it all on time and within budget. We would
+                      highly recommend them to anyone looking for a reliable
+                      partner.
+                    </blockquote>
+                  </figcaption>
+                  <div class="d-flex justify-content-start">
+                    <img
+                      class="img-fluid rounded rounded-circle mb-4 border border-5"
+                      loading="lazy"
+                      src="./imgs/person_1.jpg"
+                      alt="Luna John"
+                    />
+                    <div>
+                      <h4 class="mb-2">Luna John</h4>
+                      <h5 class="fs-6 text-secondary- mb-0">UX Designer</h5>
+                    </div>
+                  </div>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <!-- dynamic load fixed parts -->
-  <script src="./js/load_fixed_parts.js" crossorigin="anonymous"></script>
+    <section
+      class="bg-yellow d-flex px-5 py-5 align-items-center gap-1 justify-content-center"
+    >
+      <div class="d-flex align-items-center gap-1 justify-content-center">
+        <div class="outlineFont ">+1K</div>
+        <div class="text-white  fs-3 w-50">Exceptional Projects</div>
+      </div>
+      <div class="d-flex align-items-center gap-2 justify-content-center">
+        <div class="outlineFont ">+10</div>
+        <div class="text-white  fs-3 w-50">Years of Experience</div>
+      </div>
+      <div class="d-flex align-items-center gap-2 justify-content-center">
+        <div class="outlineFont ">+200</div>
+        <div class="text-white  fs-3 w-50">Partners</div>
+      </div>
+    </section>
 
-  <script>
-    const swiper = new Swiper('.mySwiper', {
-      loop: true,
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      slidesPerView: 1,
-      effect: 'fade',
-      fadeEffect: {
-        crossFade: true
-      },
-    });
-    const webSwiper = new Swiper('.webDesign', {
-      loop: true,
-      navigation: {
-        nextEl: '.web-swiper-button-next',
-        prevEl: '.web-swiper-button-prev',
-      },
-      slidesPerView: 1,
-      // effect: 'fade',
-      // fadeEffect: {
-      // crossFade: true
-      //           },
-    });
-  </script>
+    <section class="row py-5  bg-secondary-light">
+      <div class="col-md-6">
+        <div class=" px-5">
+          <h3 class="fw-600 pb-2 fs-1 font-Inter">Why Us?</h3>
+          <div class="mb-1">
+            <h4>Smooth journey</h4>
+            <p class="fw-light">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              adipisci consequuntur assume.
+            </p>
+          </div>
+          <div class="mb-1">
+            <h4>Smooth journey</h4>
+            <p class="fw-light">
+              Lorem ipsum dolor sit ame soluta fugit laudantium. Fugit impedit
+              esse sint voluptate.
+            </p>
+          </div>
+          <div class="mb-1">
+            <h4>Smooth journey</h4>
+            <p class="fw-light">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              asumenda soluta fugit laudantium. Fugit impedit esse sint
+              voluptate.
+            </p>
+          </div>
+          <div class="mb-1">
+            <h4>Smooth journey</h4>
+            <p class="fw-light">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              adipisci consequuntur assumenda so
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="px-5">
+          <img
+            src="https://picsum.photos/400"
+            class="w-100 vh-50 object-fit-cover"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
 
-  <script>
-    var swiper2 = new Swiper(".MoreSwiper", {
-      slidesPerView: 1,
-      spaceBetween: 1,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      breakpoints: {
-        640: {
-          slidesPerView: 2,
-          spaceBetween: 10,
+    <!-- Footer Include -->
+    <footer
+      class="text-center  mt-0 text-lg-start text-white"
+      style="background-color: #1b2b44;"
+      id="footer_container"
+    ></footer>
+    <!-- --Footer Include -->
+
+    <script
+      src="https://kit.fontawesome.com/5b9061b1a3.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- dynamic load fixed parts -->
+    <script src="./js/load_fixed_parts.js" crossorigin="anonymous"></script>
+
+    <script>
+      const swiper = new Swiper('.mySwiper', {
+        loop: true,
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
         },
-        768: {
-          slidesPerView: 3,
-          spaceBetween: 10,
+        slidesPerView: 1,
+        effect: 'fade',
+        fadeEffect: {
+          crossFade: true
         },
-        1024: {
-          slidesPerView: 3,
-          spaceBetween: 10,
+      });
+      const webSwiper = new Swiper('.webDesign', {
+        loop: true,
+        navigation: {
+          nextEl: '.web-swiper-button-next',
+          prevEl: '.web-swiper-button-prev',
         },
-      },
-    });
-  </script>
-</body>
+        slidesPerView: 1,
+        // effect: 'fade',
+        // fadeEffect: {
+        // crossFade: true
+        //           },
+      });
+    </script>
 
+    <script>
+      var swiper2 = new Swiper(".MoreSwiper", {
+        slidesPerView: 1,
+        spaceBetween: 1,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 10,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 10,
+          },
+        },
+      });
+    </script>
+  </body>
 </html>
