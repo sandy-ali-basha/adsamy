@@ -10,11 +10,6 @@ a#navbarDropdown {
   color: #fff;
 }
 
-li.nav-item:not(:has(img)):hover {
-  opacity: 0.8;
-  background-color: #627889b5 !important;
-}
-
 footer p {
   margin-bottom: 5px !important;
 }
