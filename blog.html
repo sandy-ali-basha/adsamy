@@ -69,8 +69,8 @@
             <section id="blog-details" class="blog-details section">
               <div class="container">
                 <article class="article">
-                  <div class="post-img">
-                    <img src="./imgs/blog.jpg" alt="" class="img-fluid" />
+                  <div class="post-img mb-3">
+                    <img src="./imgs/blog.jpg" alt="" class="img-fluid w-100" />
                   </div>
 
                   <h2 class="title">
@@ -82,17 +82,17 @@
                     <ul>
                       <li class="d-flex align-items-center">
                         <i class="bi bi-person"></i>
-                        <a href="blog-details.html">John Doe</a>
+                        <a href="#" class="text-primary">John Doe</a>
                       </li>
                       <li class="d-flex align-items-center">
                         <i class="bi bi-clock"></i>
-                        <a href="blog-details.html"
+                        <a href="#" class="text-primary"
                           ><time datetime="2020-01-01">Jan 1, 2022</time></a
                         >
                       </li>
                       <li class="d-flex align-items-center">
                         <i class="bi bi-chat-dots"></i>
-                        <a href="blog-details.html">12 Comments</a>
+                        <a href="#" class="text-primary">12 Comments</a>
                       </li>
                     </ul>
                   </div>
@@ -203,7 +203,7 @@
             <!-- Blog Comments Section -->
             <section id="blog-comments" class="blog-comments section">
               <div class="container">
-                <h4 class="comments-count">8 Comments</h4>
+                <h5 class="comments-count">8 Comments</h5>
 
                 <div id="comment-1" class="comment">
                   <div class="d-flex">
@@ -364,21 +364,21 @@
             <!-- /Blog Comments Section -->
           </div>
 
-          <div class="col-lg-4 sidebar ">
+          <div class="col-lg-4 px-4 sidebar ">
             <div class="widgets-container">
               <!-- Blog Author Widget -->
               <div class="blog-author-widget widget-item">
                 <div class="d-flex flex-column align-items-center my-2">
-                  <div class="d-flex align-items-center gap-2  w-100">
+                  <div class="d-flex align-items-center gap-2 mb-4 w-100">
                     <img
                       src="./imgs/profile.jpg"
-                      width="150px"
-                      height="150px"
+                      width="100px"
+                      height="100px"
                       class="rounded-circle flex-shrink-0"
                       alt=""
                     />
                     <div class="my-1">
-                      <h4>Jane Smith</h4>
+                      <h5>Jane Smith</h5>
                       <div class="social-links">
                         <a href="https://x.com/#"
                           ><i class="bi bi-twitter-x"></i
@@ -417,11 +417,11 @@
                     class="flex-shrink-0"
                   />
                   <div>
-                    <h4>
-                      <a href="blog-details.html"
+                    <h5>
+                      <a href="#" class="text-primary"
                         >Nihil blanditiis at in nihil autem</a
                       >
-                    </h4>
+                    </h5>
                     <time datetime="2020-01-01">Jan 1, 2020</time>
                   </div>
                 </div>
@@ -434,9 +434,11 @@
                     class="flex-shrink-0"
                   />
                   <div>
-                    <h4>
-                      <a href="blog-details.html">Quidem autem et impedit</a>
-                    </h4>
+                    <h5>
+                      <a href="#" class="text-primary"
+                        >Quidem autem et impedit</a
+                      >
+                    </h5>
                     <time datetime="2020-01-01">Jan 1, 2020</time>
                   </div>
                 </div>
@@ -449,11 +451,11 @@
                     class="flex-shrink-0"
                   />
                   <div>
-                    <h4>
-                      <a href="blog-details.html"
+                    <h5>
+                      <a href="#" class="text-primary"
                         >Id quia et et ut maxime similique occaecati ut</a
                       >
-                    </h4>
+                    </h5>
                     <time datetime="2020-01-01">Jan 1, 2020</time>
                   </div>
                 </div>
@@ -466,11 +468,11 @@
                     class="flex-shrink-0"
                   />
                   <div>
-                    <h4>
-                      <a href="blog-details.html"
+                    <h5>
+                      <a href="#" class="text-primary"
                         >Laborum corporis quo dara net para</a
                       >
-                    </h4>
+                    </h5>
                     <time datetime="2020-01-01">Jan 1, 2020</time>
                   </div>
                 </div>
@@ -483,11 +485,11 @@
                     class="flex-shrink-0"
                   />
                   <div>
-                    <h4>
-                      <a href="blog-details.html"
+                    <h5>
+                      <a href="#" class="text-primary"
                         >Et dolores corrupti quae illo quod dolor</a
                       >
-                    </h4>
+                    </h5>
                     <time datetime="2020-01-01">Jan 1, 2020</time>
                   </div>
                 </div>
@@ -496,43 +498,43 @@
               <!--/Recent Posts Widget -->
 
               <!-- Tags Widget -->
-              <div class="tags-widget widget-item">
+              <div class="tags-widget widget-item mt-5">
                 <h3 class="widget-title">Tags</h3>
-                <ul class="d-flex flex-wrap">
-                  <li class="rounded-pill badge bg-gray text-white m-1 p-2">
+                <div class="d-flex flex-wrap gap-2">
+                  <li class="rounded-pill badge bg-gray text-white p-2">
                     <a class="text-primary" href="#">App</a>
                   </li>
-                  <li class="rounded-pill badge bg-gray text-white m-1 p-2">
+                  <li class="rounded-pill badge bg-gray text-white p-2">
                     <a class="text-primary" href="#">IT</a>
                   </li>
-                  <li class="rounded-pill badge bg-gray text-white m-1 p-2">
+                  <li class="rounded-pill badge bg-gray text-white p-2">
                     <a class="text-primary" href="#">Business</a>
                   </li>
-                  <li class="rounded-pill badge bg-gray text-white m-1 p-2">
+                  <li class="rounded-pill badge bg-gray text-white p-2">
                     <a class="text-primary" href="#">Mac</a>
                   </li>
-                  <li class="rounded-pill badge bg-gray text-white m-1 p-2">
+                  <li class="rounded-pill badge bg-gray text-white p-2">
                     <a class="text-primary" href="#">Design</a>
                   </li>
-                  <li class="rounded-pill badge bg-gray text-white m-1 p-2">
+                  <li class="rounded-pill badge bg-gray text-white p-2">
                     <a class="text-primary" href="#">Office</a>
                   </li>
-                  <li class="rounded-pill badge bg-gray text-white m-1 p-2">
+                  <li class="rounded-pill badge bg-gray text-white p-2">
                     <a class="text-primary" href="#">Creative</a>
                   </li>
-                  <li class="rounded-pill badge bg-gray text-white m-1 p-2">
+                  <li class="rounded-pill badge bg-gray text-white p-2">
                     <a class="text-primary" href="#">Studio</a>
                   </li>
-                  <li class="rounded-pill badge bg-gray text-white m-1 p-2">
+                  <li class="rounded-pill badge bg-gray text-white p-2">
                     <a class="text-primary" href="#">Smart</a>
                   </li>
-                  <li class="rounded-pill badge bg-gray text-white m-1 p-2">
+                  <li class="rounded-pill badge bg-gray text-white p-2">
                     <a class="text-primary" href="#">Tips</a>
                   </li>
-                  <li class="rounded-pill badge bg-gray text-white m-1 p-2">
+                  <li class="rounded-pill badge bg-gray text-white p-2">
                     <a class="text-primary" href="#">Marketing</a>
                   </li>
-                </ul>
+                </div>
               </div>
               <!--/Tags Widget -->
             </div>
