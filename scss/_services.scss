@@ -97,19 +97,6 @@
     width: 100%;
   }
 
-  .web-swiper-button-prev,
-  .web-swiper-button-next {
-    color: #333;
-  }
-
-  .web-swiper-button-prev,
-  .web-swiper-button-next {
-    position: initial !important;
-    margin-top: 0px;
-    right: auto !important;
-    left: auto !important;
-  }
-
   .likes {
     display: flex;
     align-items: center;
@@ -118,5 +105,12 @@
   .likes i,
   .views i {
     margin-right: 5px;
+  }
+}
+.web-swiper-button-prev-btns {
+  justify-content: center;
+  .swiper-button-next,
+  .swiper-button-prev {
+    position: initial !important;
   }
 }

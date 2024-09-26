@@ -353,10 +353,10 @@ main {
   /*  width: calc(180px + 1rem);*/
   padding: 1rem;
   /*  height: 100vh;*/
-  height: 1000px;
-  overflow-y: auto;
-  overscroll-behavior-y: contain;
-  scroll-snap-type: y mandatory;
+  /* height: 1000px; */
+  /* overflow-y: auto; */
+  /* overscroll-behavior-y: contain;
+  scroll-snap-type: y mandatory; */
 }
 
 .vertical-snap > a {

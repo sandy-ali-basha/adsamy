@@ -106,17 +106,6 @@
   font-size: 50px;
   width: 100%;
 }
-.webDesign .web-swiper-button-prev,
-.webDesign .web-swiper-button-next {
-  color: #333;
-}
-.webDesign .web-swiper-button-prev,
-.webDesign .web-swiper-button-next {
-  position: initial !important;
-  margin-top: 0px;
-  right: auto !important;
-  left: auto !important;
-}
 .webDesign .likes {
   display: flex;
   align-items: center;
@@ -124,6 +113,14 @@
 .webDesign .likes i,
 .webDesign .views i {
   margin-right: 5px;
+}
+
+.web-swiper-button-prev-btns {
+  justify-content: center;
+}
+.web-swiper-button-prev-btns .swiper-button-next,
+.web-swiper-button-prev-btns .swiper-button-prev {
+  position: initial !important;
 }
 
 .ContactUs {
@@ -400,7 +397,7 @@
 }
 @media (max-width: 992px) {
   .w-30 {
-    width: 50%;
+    width: 80%;
   }
 }
 
@@ -567,6 +564,133 @@
 
 .btn-close {
   filter: invert(1);
+}
+
+.coursers_swiper .swiper-slide h3,
+.coursers_swiper .swiper-slide p {
+  width: 50%;
+}
+@media (max-width: 992px) {
+  .coursers_swiper .swiper-slide h3,
+  .coursers_swiper .swiper-slide p {
+    width: 80%;
+  }
+}
+@media (max-width: 450px) {
+  .coursers_swiper .swiper-slide h3,
+  .coursers_swiper .swiper-slide p {
+    width: 100%;
+  }
+}
+.coursers_swiper .swiper-slide::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.3) 100%);
+}
+.coursers_swiper .background {
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+@media (max-width: 1100px) {
+  section.our-lectures .wrapper {
+    flex-direction: column;
+  }
+}
+section.our-lectures .wrapper .right span {
+  color: #3f3a64;
+}
+
+section.our-lectures .wrapper .right .info {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+@media (max-width: 450px) {
+  section.our-lectures .wrapper .right .info .img {
+    width: 30%;
+  }
+}
+
+.gallery {
+  position: relative;
+  height: 100%;
+}
+.gallery .gallerySwiper {
+  width: 100%;
+  height: 100%;
+}
+.gallery .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gallery .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.gallery body {
+  background: #000;
+  color: #000;
+}
+.gallery .gallerySwiper {
+  width: 100%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.gallery .swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+.gallery .gallerySwiper2 {
+  height: 60vh;
+  width: 100%;
+}
+.gallery .gallerySwiper {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+.gallery .gallerySwiper .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+.gallery .gallerySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+.gallery .swiper-slide video,
+.gallery .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.gallery .thumbsSlider-img {
+  height: 10vh !important;
 }
 
 .footer {
@@ -1654,10 +1778,6 @@ span.avatarUsername {
   color: #fdd306;
 }
 
-.web-swiper-button-prev {
-  left: -20px !important;
-}
-
 .text-primary {
   color: #183c56 !important;
 }
@@ -2015,4 +2135,57 @@ iframe {
 
 .Homebg {
   background: url("../imgs/homeBg.png") center/cover no-repeat;
+}
+
+section.descover {
+  background: #d9d9d9;
+  padding: 0;
+}
+
+section.descover .wrapper {
+  margin: 25px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (max-width: 750px) {
+  section.descover .wrapper .item {
+    width: 95%;
+  }
+}
+section.descover .wrapper .item {
+  position: relative;
+  width: 33.3333333333%;
+}
+@media (max-width: 450px) {
+  section.descover .wrapper .item {
+    width: 100%;
+  }
+}
+
+section.descover .wrapper .item img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+section.descover .wrapper .item .details {
+  position: absolute;
+  z-index: 15;
+  bottom: 20px;
+  left: 10px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+section.descover .wrapper .item::after {
+  content: "";
+  position: absolute;
+  z-index: 10;
+  inset: 0;
+  background: linear-gradient(34deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
 }/*# sourceMappingURL=main.css.map */
