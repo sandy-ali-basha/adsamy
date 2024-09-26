@@ -91,3 +91,11 @@ header {
 a#navbarDropdownServices {
   color: #fff;
 }
+
+
+/* Courses */
+.Courses header {
+	background: url(../imgs/courses_bg.jpg) center/cover no-repeat;
+	height: 90vh;
+	border-radius: 0px 0px 250px 250px/0px 0px 70px 70px;
+}
