@@ -73,6 +73,98 @@
   <nav class="navbar sticky-top navbar-expand-lg bg-dark-blue text-white py-2" id="navbar_container"></nav>
   <!-- --Navbar Include -->
 
+    <!-- Main_section -->
+    <main class="home">
+      <div class="wrapper">
+        <div class="item item1">
+          <a name="link" href="./index.html">Branding & Positioning</a>
+          <div class="overlay odd">
+            <span>
+              the unique value that a brand presents to its customer.
+            </span>
+            <a name="link" href="#">More</a>
+          </div>
+          <div class="overlay-image">
+            <img src="./imgs/home/Frame1Mopile.webp" alt="" />
+          </div>
+        </div>
+        <div class="item item2">
+          <a name="link" href="./index.html">Videography</a>
+          <div class="overlay even">
+            <span
+              >the electronic capture of moving images on electronic media</span
+            >
+            <a name="link" href="#">More</a>
+          </div>
+          <div class="overlay-image">
+            <img src="./imgs/home/Frame2Mopile.webp" alt="" />
+          </div>
+        </div>
+        <div class="item item3">
+          <a name="link" href="./index.html">Photography</a>
+          <div class="overlay odd">
+            <span>the process of recording an image, a photograph etc</span>
+            <a name="link" href="#">More</a>
+          </div>
+          <div class="overlay-image">
+            <img
+              loading="lazy"
+              src="./imgs/home/Frame3Mopile.webp"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="item item4">
+          <a name="link" href="./index.html">Social Media Management</a>
+          <div class="overlay even">
+            <span
+              >most important pieces in your social media marketing strategy.
+            </span>
+            <a name="link" href="#">More</a>
+          </div>
+          <div class="overlay-image">
+            <img
+              loading="lazy"
+              src="./imgs/home/Frame4Mopile.webp"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="item item5">
+          <a name="link" href="./index.html">SEO, SEM & SMM</a>
+          <div class="overlay odd">
+            <span
+              >the three mainstream channels to advertise your website.</span
+            >
+            <a name="link" href="#">More</a>
+          </div>
+          <div class="overlay-image">
+            <img
+              loading="lazy"
+              src="./imgs/home/Frame5Mopile.webp"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="item item6">
+          <a name="link" href="./index.html">Web Design & Development</a>
+          <div class="overlay even">
+            <span>
+              make visual assets that add aesthetic value to the site</span
+            >
+            <a name="link" href="#">More</a>
+          </div>
+          <div class="overlay-image">
+            <img
+              loading="lazy"
+              src="./imgs/home/Frame6Mopile.webp"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Main_section -->
 
   <div class="Homebg">
     <section class="container ">
@@ -90,7 +182,7 @@
               </div>
               <div class="col-md-6 d-flex flex-column justify-content-center align-items-start">
                 <h2 class="text-yellow fw-bold mb-2">
-                  Business Setup in UAE & Egypt
+                  Business Setup in UAE
                 </h2>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
@@ -118,35 +210,7 @@
               </div>
               <div class="col-md-6 d-flex flex-column justify-content-center align-items-start">
                 <h2 class="text-yellow fw-bold mb-2">
-                  Business Setup in UAE & Egypt
-                </h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                  elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus
-                  leo.
-                </p>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                  elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus
-                  leo.
-                </p>
-                <div class="btn btn-white text-dark bg-white" data-bs-toggle="modal" data-bs-target="#exampleModal" role="button">Click here</div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="row ">
-              <div class="col-md-6">
-                <div class="screen-frame">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/DmND-QCvftY?si=aET14gLkQBVDWN28"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
-              </div>
-              <div class="col-md-6 d-flex flex-column justify-content-center align-items-start">
-                <h2 class="text-yellow fw-bold mb-2">
-                  Business Setup in UAE & Egypt
+                  Business Setup in Egypt
                 </h2>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
@@ -325,24 +389,9 @@
   <!-- dynamic load fixed parts -->
   <script src="./js/load_fixed_parts.js" crossorigin="anonymous"></script>
 
-  <!-- Add click event in #home_view:hover to change #full_background div background -->
-  <script>
-    $(document).ready(function () {
-      var _home_view = document.getElementById("home_view") ?? null;
-      console.log(_home_view);
-      var _background
-      document.querySelectorAll('.full-background').forEach(_service => {
-        _service.addEventListener('mouseover', () => {
-          _background = $(_service).attr("data-_background") ?? null;
+  <!-- Main View JS -->
+  <script src="./js/home.js"></script>
 
-          console.log(_background);
-          if (_background && _home_view) {
-            $(_home_view).css("background-image", "url(" + _background + ")");
-          }
-        });
-      });
-    });
-  </script>
   <script>
     var homeSwiper = new Swiper('.homeSwiper', {
       loop: true,
