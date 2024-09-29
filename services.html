@@ -26,8 +26,8 @@
     <link rel="stylesheet" href="./css/services.css" />
 
     <!-- Custom Snippets -->
-    <link rel="stylesheet" href="./css/sticky_buttons.css">
-    <link rel="stylesheet" href="./css/buttons.css">
+    <link rel="stylesheet" href="./css/sticky_buttons.css" />
+    <link rel="stylesheet" href="./css/buttons.css" />
 
     <!-- swiper -->
     <link
@@ -699,7 +699,22 @@
     </div>
     <!-- Watch Our Latest Project -->
     <section class="text-center mb-0 LatestProject">
+      
       <h2 class="text-white pt-5">Watch Our Latest Project</h2>
+      <div class="d-flex flex-wrap justify-content-center gap-3 flex-wrap py-3 "></div>
+        <button type="button" class="btn border-white btn-secondary-50 px-5 px-md-2">
+          all
+        </button>
+        <button type="button" class="btn border-white btn-secondary-50 px-5 px-md-2">
+          mobile app design 
+        </button>
+        <button type="button" class="btn border-white btn-secondary-50 px-5 px-md-2">
+          website design
+        </button>
+        <button type="button" class="btn border-white btn-secondary-50 px-5 px-md-2">
+          lorem ipsum
+        </button>
+      </div>
       <div
         class="d-flex flex-column flex-md-row align-items-start container p-5"
       >
@@ -1020,18 +1035,72 @@
       <h1 class="text-white text-center py-2 fw-700  bg-secondary-light">
         Our Friends
       </h1>
-      <div
-        class="d-flex justify-content-around align-items-center p-2 px-4 py-4 "
-      >
-        <img src="./imgs/partners/partner (8).png" class="partner-img" alt="" />
-        <img src="./imgs/partners/partner (2).png" class="partner-img" alt="" />
-        <img src="./imgs/partners/partner (1).png" class="partner-img" alt="" />
-        <img src="./imgs/partners/partner (3).png" class="partner-img" alt="" />
-        <img src="./imgs/partners/partner (4).png" class="partner-img" alt="" />
-        <img src="./imgs/partners/partner (5).png" class="partner-img" alt="" />
-        <img src="./imgs/partners/partner (6).png" class="partner-img" alt="" />
-        <img src="./imgs/partners/partner (7).png" class="partner-img" alt="" />
-        <img src="./imgs/partners/partner (9).png" class="partner-img" alt="" />
+      <div class="swiper friendsSwiper">
+        <div class="swiper-wrapper  p-2 px-4 py-4 ">
+          <div class="swiper-slide">
+            <img
+              src="./imgs/partners/partner (8).png"
+              class="partner-img"
+              alt=""
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./imgs/partners/partner (2).png"
+              class="partner-img"
+              alt=""
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./imgs/partners/partner (1).png"
+              class="partner-img"
+              alt=""
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./imgs/partners/partner (3).png"
+              class="partner-img"
+              alt=""
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./imgs/partners/partner (4).png"
+              class="partner-img"
+              alt=""
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./imgs/partners/partner (5).png"
+              class="partner-img"
+              alt=""
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./imgs/partners/partner (6).png"
+              class="partner-img"
+              alt=""
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./imgs/partners/partner (7).png"
+              class="partner-img"
+              alt=""
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./imgs/partners/partner (9).png"
+              class="partner-img"
+              alt=""
+            />
+          </div>
+        </div>
       </div>
 
       <section class="row py-5  bg-secondary-light">
@@ -1225,7 +1294,12 @@
     <!-- Sticky Button -->
     <div class="sticky-container">
       <ul class="sticky px-0">
-        <li data-bs-toggle="modal" data-bs-target="#exampleModal" class="button-85" role="button">
+        <li
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+          class="button-85"
+          role="button"
+        >
           <img width="50" height="50" title="" alt="" src="./imgs/_logo.webp" />
           <p>Got Quotation</p>
         </li>
@@ -1234,7 +1308,11 @@
     <!-- --Sticky Button -->
 
     <!-- Send Quotation Modal -->
-    <div class="ContactUs" style="padding-top:0;" id="contact_modal_container"></div>
+    <div
+      class="ContactUs"
+      style="padding-top:0;"
+      id="contact_modal_container"
+    ></div>
     <!-- Send Quotation Modal -->
 
     <script
@@ -1254,6 +1332,11 @@
                 prevEl: '.swiper-button-prev',
             },
             slidesPerView: 1,
+      });
+      const friendsSwiper = new Swiper('.friendsSwiper', {
+
+            slidesPerView: 7,
+            spaceBetween:20
       });
       const webSwiper = new Swiper('.webDesign', {
             loop: true,

@@ -393,3 +393,12 @@ section.descover .wrapper .item::after {
     rgba(0, 0, 0, 0) 100%
   );
 }
+.btn-secondary-50{
+  background-color: #2222226b;
+  color: white;
+  &:hover{
+  background-color: #8a8a8a6b;
+
+    color: white;
+  }
+}

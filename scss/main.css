@@ -2228,4 +2228,13 @@ section.descover .wrapper .item::after {
   z-index: 10;
   inset: 0;
   background: linear-gradient(34deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.btn-secondary-50 {
+  background-color: rgba(34, 34, 34, 0.4196078431);
+  color: white;
+}
+.btn-secondary-50:hover {
+  background-color: rgba(138, 138, 138, 0.4196078431);
+  color: white;
 }/*# sourceMappingURL=main.css.map */
