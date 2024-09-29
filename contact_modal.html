@@ -1,0 +1,71 @@
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" style="display: none;"
+  aria-hidden="true">
+  <div class="modal-dialog modal-xl- border-radius-12">
+    <div class="modal-content d-flex align-items-center justify-content-center border-radius-12">
+
+      <section class="border-radius-12 p-0 border-radius-12" style="width: 98%">
+        <div class="row p-4 contactBox border-radius-12">
+
+          <h4><strong>Ready to start your project?</strong></h4>
+
+          <form class="yeacModelForm" enctype="multipart/form-data" id="contact-form" action="/new/en/home"
+            method="post">
+            <input type="hidden"
+              value="YjNufjJlcXd5SmYwc2VvRml0NUF2bEFGYnpKV3hLNVFMwqG50vWFigrq-Jl_pQTpBAMeA9rebB6XqypcJzDfNg=="
+              name="YII_CSRF_TOKEN">
+            <div class="row">
+
+              <div class="col-sm-12 with-12 align-content-start"> <!-- align-content-normal -->
+                <div class="row">
+
+                  <div class="col-12 py-2">
+                    <div class="form-group form-group-inform form-group-for--first_name form-group-normalField">
+                      <input placeholder="Name" class="form-control" maxlength="255"
+                        name="Contact[first_name]" id="Contact_first_name" type="text">
+                      <div class="errorMessage" id="Contact_first_name_em_" style="display:none"></div>
+                    </div><!-- form-group -->
+                  </div>
+
+                  <div class="col-12 py-2">
+                    <div class="form-group form-group-inform form-group-for--email form-group-normalField">
+                      <input placeholder="Email" class="form-control" maxlength="255"
+                        name="Contact[email]" id="Contact_email" type="text">
+                      <div class="errorMessage" id="Contact_email_em_" style="display:none"></div>
+                    </div><!-- form-group -->
+                  </div>
+
+                  <div class="col-12 py-2">
+                    <div class="form-group form-group-inform form-group-for--phone form-group-normalField">
+                      <input placeholder="Phone" class="form-control" maxlength="12" name="Contact[phone]"
+                        id="Contact_phone" type="text">
+                      <div class="errorMessage" id="Contact_phone_em_" style="display:none"></div>
+                    </div><!-- form-group -->
+                  </div>
+
+                  <div class="col-12 py-2">
+                    <div class="form-group form-group-inform form-group-for--about_project form-group-normalField">
+                      <label for="Contact_Tell_us_about_your_project_">Message</label> <textarea
+                        class="form-control" name="Contact[about_project]" id="Contact_about_project"></textarea>
+                      <div class="errorMessage" id="Contact_about_project_em_" style="display:none"></div>
+                    </div><!-- form-group -->
+                  </div>
+
+                </div>
+              </div>
+
+
+            </div>
+
+            <div class="form-group-button-end-of-form" align="center">
+              <button class="btn w-100 mt-3" id="_cotact_modal_form_btn">Send</button>
+            </div>
+
+          </form>
+
+
+        </div>
+      </section>
+    </div>
+  </div>
+</div>

@@ -11,4 +11,5 @@ function includeHTML(url, targetId) {
 $( window ).on( "load", function() {
   includeHTML('navbar.html', 'navbar_container');
   includeHTML('footer.html', 'footer_container');
+  includeHTML('contact_modal.html', 'contact_modal_container');
 } );
