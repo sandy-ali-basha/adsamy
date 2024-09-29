@@ -20,7 +20,7 @@
     />
     <!-- scss -->
     <link rel="stylesheet" href="./scss/main.css" />
-    
+
     <!-- css -->
     <link rel="stylesheet" href="./css/style.css" />
 
@@ -39,19 +39,24 @@
       crossorigin="anonymous"
     ></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
     <!-- bootstrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-
   </head>
   <body class="privacyPolicy">
-
     <!-- Navbar Include -->
-    <nav class="navbar sticky-top navbar-expand-lg bg-dark-blue text-white py-2" id="navbar_container"></nav>
+    <nav
+      class="navbar sticky-top navbar-expand-lg bg-dark-blue text-white py-2"
+      id="navbar_container"
+    ></nav>
     <!-- --Navbar Include -->
 
     <main class="">
@@ -67,8 +72,22 @@
                 of the printing and typesetting industry. Lorem Ipsum has been
                 the industry's standard
               </p>
-              <div class="btn btn-primary text-white">Join Now</div>
-              <div class="btn btn-primary text-white">hire</div>
+              <div
+                class="btn btn-primary text-white"
+                data-bs-toggle="modal"
+                data-bs-target="#join"
+                role="button"
+              >
+                Join Now
+              </div>
+              <div
+                class="btn btn-primary text-white"
+                data-bs-toggle="modal"
+                data-bs-target="#hire"
+                role="button"
+              >
+                hire
+              </div>
             </div>
             <div class="col-md-6  mb-2">
               <img src="./imgs/jobs/job1.png" class="w-100" alt="" />
@@ -162,9 +181,9 @@
               />
             </svg>
 
-            <h5 class="text-white">Commitment As Founder</h5>
+            <h5 class="text-white">Win User’s Hearts</h5>
             <p class="text-light fw-light">
-              Every BugSquad member treats Adsamy as their own company
+              Always go the extra mile to make the customer happy
             </p>
           </div>
           <div
@@ -216,10 +235,8 @@
               </defs>
             </svg>
 
-            <h5 class="text-white">Commitment As Founder</h5>
-            <p class="text-light fw-light">
-              Every BugSquad member treats Adsamy as their own company
-            </p>
+            <h5 class="text-white">Make it Happen</h5>
+            <p class="text-light fw-light">Find a way to overcome challenges</p>
           </div>
           <div
             class="box w-30 d-flex flex-column align-items-center justify-content-center text-center px-2 px-md-5"
@@ -264,9 +281,9 @@
               </defs>
             </svg>
 
-            <h5 class="text-white">Commitment As Founder</h5>
+            <h5 class="text-white">Embrace Openess</h5>
             <p class="text-light fw-light">
-              Every BugSquad member treats Adsamy as their own company
+              An open space for no company politics
             </p>
           </div>
           <div
@@ -312,9 +329,9 @@
               </defs>
             </svg>
 
-            <h5 class="text-white">Commitment As Founder</h5>
+            <h5 class="text-white">No BS</h5>
             <p class="text-light fw-light">
-              Every BugSquad member treats Adsamy as their own company
+              Honest & Direct communication is always the key
             </p>
           </div>
           <div
@@ -354,9 +371,9 @@
               </defs>
             </svg>
 
-            <h5 class="text-white">Commitment As Founder</h5>
+            <h5 class="text-white">Work Hard, Play Hard</h5>
             <p class="text-light fw-light">
-              Every BugSquad member treats Adsamy as their own company
+              Full work mood while in parallel full play mood
             </p>
           </div>
         </div>
@@ -568,11 +585,187 @@
     </main>
 
     <!-- Footer Include -->
-    <footer class="text-center  mt-0 text-lg-start text-white" style="background-color: #1b2b44;" id="footer_container"></footer>
+    <footer
+      class="text-center  mt-0 text-lg-start text-white"
+      style="background-color: #1b2b44;"
+      id="footer_container"
+    ></footer>
     <!-- --Footer Include -->
-    
+
     <!-- End of main -->
-    
+    <div
+      class="modal fade"
+      id="join"
+      tabindex="-1"
+      aria-labelledby="join"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-md">
+        <div
+          class="modal-content d-flex align-items-center justify-content-center"
+        >
+          <section class="border-radius-12 p-3" style="width: 98%">
+            <div class="row">
+              <div class="col-12 p-4 contactBox border-radius-12">
+                <h4><strong>Join Our Team </strong></h4>
+                <small>
+                  Complete the form to get an estimated price. Our team will be
+                  in touch to help you make the best decision for your project.
+                </small>
+                <form action="" class="mt-4">
+                  <div class="input-group mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Name*"
+                      aria-label="Name"
+                      name="Name"
+                      aria-describedby="Name"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <input
+                      type="email"
+                      name="Email"
+                      name="Email"
+                      id=""
+                      class="form-control"
+                      placeholder="Business Email*"
+                    />
+                  </div>
+                  <div class="input-group mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Phone* ex. +971"
+                      aria-label="phone"
+                      name="phone"
+                      aria-describedby="phone"
+                    />
+                  </div>
+                  <div class="input-group mb-3">
+                    <input
+                      type="file"
+                      class="form-control"
+                      placeholder="CV *"
+                      aria-label="CV"
+                      name="CV"
+                      aria-describedby="CV"
+                    />
+                  </div>
+
+                  <div class="form-check mb-3">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                    <label
+                      class="form-check-label text-secondary"
+                      for="flexCheckDefault"
+                    >
+                      Default checkbox
+                    </label>
+                  </div>
+                  <div class="d-flex gap-2 mb-3">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <small>
+                      Your Data Is Protected by Doleep Studios Privacy Policy
+                    </small>
+                  </div>
+                  <button type="submit" class="btn w-100 mt-3">APPLY</button>
+                </form>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="hire"
+      tabindex="-1"
+      aria-labelledby="hire"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-md">
+        <div
+          class="modal-content d-flex align-items-center justify-content-center"
+        >
+          <section class="border-radius-12 p-3" style="width: 98%">
+            <div class="row">
+              <div class="col-12 p-4 contactBox border-radius-12">
+                <h4><strong>Hire our professionals</strong></h4>
+
+                <form action="" class="mt-4">
+                  <div class="input-group mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Name*"
+                      aria-label="Name"
+                      name="Name"
+                      aria-describedby="Name"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <input
+                      type="email"
+                      name="Email"
+                      name="Email"
+                      id=""
+                      class="form-control"
+                      placeholder="Business Email*"
+                    />
+                  </div>
+                  <div class="input-group mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Phone* ex. +971"
+                      aria-label="phone"
+                      name="phone"
+                      aria-describedby="phone"
+                    />
+                  </div>
+                  <div class="input-group mb-3">
+                    <textarea
+                      placeholder="job needed"
+                      name="job_needed"
+                      id="job_needed"
+                      class="form-control"
+                    ></textarea>
+                  </div>
+
+                  <div class="form-check mb-3">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                    <label
+                      class="form-check-label text-secondary"
+                      for="flexCheckDefault"
+                    >
+                      Default checkbox
+                    </label>
+                  </div>
+                  <div class="d-flex gap-2 mb-3">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <small>
+                      Your Data Is Protected by Doleep Studios Privacy Policy
+                    </small>
+                  </div>
+                  <button type="submit" class="btn w-100 mt-3">APPLY</button>
+                </form>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
     <script
       src="https://kit.fontawesome.com/5b9061b1a3.js"
       crossorigin="anonymous"
