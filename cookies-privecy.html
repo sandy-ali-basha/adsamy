@@ -20,13 +20,13 @@
     />
     <!-- scss -->
     <link rel="stylesheet" href="./scss/main.css" />
-    
+
     <!-- css -->
     <link rel="stylesheet" href="./css/style.css" />
 
     <!-- Custom Snippets -->
-    <link rel="stylesheet" href="./css/sticky_buttons.css">
-    <link rel="stylesheet" href="./css/buttons.css">
+    <link rel="stylesheet" href="./css/sticky_buttons.css" />
+    <link rel="stylesheet" href="./css/buttons.css" />
 
     <!-- swiper -->
     <link
@@ -43,19 +43,24 @@
       crossorigin="anonymous"
     ></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
     <!-- bootstrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-
   </head>
   <body style="background:#F0F0F0 " class="privacyPolicy">
-
     <!-- Navbar Include -->
-    <nav class="navbar sticky-top navbar-expand-lg bg-dark-blue text-white py-2" id="navbar_container"></nav>
+    <nav
+      class="navbar sticky-top navbar-expand-lg bg-dark-blue text-white py-2"
+      id="navbar_container"
+    ></nav>
     <!-- --Navbar Include -->
 
     <main class="">
@@ -112,18 +117,21 @@
         </p>
       </article>
       <section class="bg-dark-blue px-4 px-md-0 row py-5">
-        <div class="col-md-6 my-4 text-center border-end  border-light ">
+        <div class="col-md-12 my-4 text-center  ">
           <h3 class="mb-3 text-white text-center">Sign up to our newsletter</h3>
           <p class="mb-3 text-white text-center px-2 px-md-0">
             Stay ahead of the marketing trends with our monthly newsletter.
           </p>
           <button
             class="btn text-white border-light rounded-0 text-center mx-auto mt-4 py-2 px-3"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+            role="button"
           >
             <i class="fa-solid fa-bell mx-1"></i> Subscribe
           </button>
         </div>
-        <div class="col-md-6 my-4 text-center ">
+        <!-- <div class="col-md-6 my-4 text-center ">
           <h3 class="mb-3 text-white text-center">Get in touch</h3>
           <p class="mb-3 text-white text-center px-2 px-md-0">
             Get in touch with us for new business or general enquiries
@@ -133,19 +141,27 @@
           >
             <i class="fa-solid fa-envelope mx-1"></i> CONTACT US
           </button>
-        </div>
+        </div> -->
       </section>
-      
     </main>
-    
+
     <!-- Footer Include -->
-    <footer class="text-center  mt-0 text-lg-start text-white" style="background-color: #1b2b44;" id="footer_container"></footer>
+    <footer
+      class="text-center  mt-0 text-lg-start text-white"
+      style="background-color: #1b2b44;"
+      id="footer_container"
+    ></footer>
     <!-- --Footer Include -->
 
     <!-- Sticky Button -->
     <div class="sticky-container">
       <ul class="sticky px-0">
-        <li data-bs-toggle="modal" data-bs-target="#exampleModal" class="button-85" role="button">
+        <li
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+          class="button-85"
+          role="button"
+        >
           <img width="50" height="50" title="" alt="" src="./imgs/_logo.webp" />
           <p>Got Quotation</p>
         </li>
@@ -154,11 +170,15 @@
     <!-- --Sticky Button -->
 
     <!-- Send Quotation Modal -->
-    <div class="ContactUs" style="padding-top:0;" id="contact_modal_container"></div>
+    <div
+      class="ContactUs"
+      style="padding-top:0;"
+      id="contact_modal_container"
+    ></div>
     <!-- Send Quotation Modal -->
 
     <!-- End of main -->
-    
+
     <script
       src="https://kit.fontawesome.com/5b9061b1a3.js"
       crossorigin="anonymous"
