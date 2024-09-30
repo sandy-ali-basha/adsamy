@@ -1,85 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- for social media sharing links  -->
+    <meta name="theme-color" content="#439299" />
+    <meta property="og:description" content="description" />
+    <meta property="og:title" content="Adsamy" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="website link" />
+    <meta property="og:image" content="website image" />
+    <!-- bootstrap  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- scss -->
+    <link rel="stylesheet" href="./scss/main.css" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- for social media sharing links  -->
-  <meta name="theme-color" content="#439299" />
-  <meta property="og:description" content="description" />
-  <meta property="og:title" content="Adsamy" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="website link" />
-  <meta property="og:image" content="website image" />
-  <!-- bootstrap  -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-  <!-- scss -->
-  <link rel="stylesheet" href="./scss/main.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/services.css" />
 
-  <!-- css -->
-  <link rel="stylesheet" href="./css/style.css" />
-  <link rel="stylesheet" href="./css/services.css" />
+    <!-- Custom Snippets -->
+    <link rel="stylesheet" href="./css/sticky_buttons.css" />
+    <link rel="stylesheet" href="./css/buttons.css" />
 
-  <!-- Custom Snippets -->
-  <link rel="stylesheet" href="./css/sticky_buttons.css">
-  <link rel="stylesheet" href="./css/buttons.css">
+    <!-- swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <!-- testimonials -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bs-brain@2.0.4/components/testimonials/testimonial-4/assets/css/testimonial-4.css"
+    />
+    <title>ADSAMY | Gallery</title>
 
-  <!-- swiper -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-  <!-- testimonials -->
-  <link rel="stylesheet"
-    href="https://unpkg.com/bs-brain@2.0.4/components/testimonials/testimonial-4/assets/css/testimonial-4.css" />
-  <title>ADSAMY | Gallery</title>
+    <!-- jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
 
-  <!-- jquery -->
-  <script src="https://code.jquery.com/jquery-3.6.3.min.js"
-    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <!-- bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-    crossorigin="anonymous"></script>
-  <!-- bootstrap -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-</head>
+  <body class="Blog bg-light">
+    <!-- Navbar Include -->
+    <nav
+      class="navbar sticky-top navbar-expand-lg bg-dark-blue text-white py-2"
+      id="navbar_container"
+    ></nav>
+    <!-- --Navbar Include -->
 
-<body class="Blog bg-light">
-  <!-- Navbar Include -->
-  <nav class="navbar sticky-top navbar-expand-lg bg-dark-blue text-white py-2" id="navbar_container"></nav>
-  <!-- --Navbar Include -->
-
-  <header class="d-flex flex-column justify-content-center align-items-center gap-3">
-    <h2 class="text-white fs-1">Our Social Gallery</h2>
-    <h5 class="text-white fs-6">
-      The Company in the Social Media
-    </h5>
-  </header>
-
-
-
-    <section class="container first- wow bounceInUp">
-
-      <div class="row flex-center">
-        <div class="col-12 flex-center text-center section_head_">
-          <h1 class="badge bg-primary fs-1 social-badge">Follow us in Facebook</h1>
-        </div>
-        <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-        <div class="elfsight-app-58527f0e-000c-489c-b3d2-e5687025220d" data-elfsight-app-lazy></div>
-      </div>
-
-    </section>
-
+    <header
+      class="d-flex flex-column justify-content-center align-items-center gap-3"
+    >
+      <h2 class="text-white fs-1">Our Social Gallery</h2>
+      <h5 class="text-white fs-6">The Company in the Social Media</h5>
+    </header>
 
     <!-- Latest Projects -->
     <section class="bg-gray pt-3">
-      <div class="container d-grid gap-2 d-md-flex justify-content-between my-1">
+      <div
+        class="container d-grid gap-2 d-md-flex justify-content-between my-1"
+      >
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
           <h3 class="text-dark fw-bold">
-            Discover Our <br /><span class="fs-4 text-yellow fw-bold">Latest Projects</span>
+            Discover Our <br /><span class="fs-4 text-yellow fw-bold"
+              >Latest Projects</span
+            >
           </h3>
         </div>
         <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
@@ -114,6 +124,25 @@
     </section>
     <!-- --Latest Projects -->
 
+    <section class="container first- wow bounceInUp">
+      <div class="row flex-center">
+        <div class="col-12 flex-center text-center section_head_">
+          <h1 class="badge bg-primary fs-1 social-badge">
+            Follow us in Facebook <i class="fa-brands fa-square-facebook"></i>
+          </h1>
+        </div>
+        <script
+          src="https://static.elfsight.com/platform/platform.js"
+          data-use-service-core
+          defer
+        ></script>
+        <div
+          class="elfsight-app-58527f0e-000c-489c-b3d2-e5687025220d"
+          data-elfsight-app-lazy
+        ></div>
+      </div>
+    </section>
+
     <!-- Testimonial 4 - Bootstrap Brain Component -->
     <section class="pt-0">
       <div class="py-3 bg-gray">
@@ -132,7 +161,11 @@
               <div class="card-body p-4 p-xxl-5">
                 <figure>
                   <figcaption>
-                    <div class="bsb-ratings text-purple mb-3" data-bsb-star="4" data-bsb-star-off="0"></div>
+                    <div
+                      class="bsb-ratings text-purple mb-3"
+                      data-bsb-star="4"
+                      data-bsb-star-off="0"
+                    ></div>
                     <blockquote class="bsb-blockquote-icon mb-4">
                       We were so impressed with the work they did for us. They
                       were able to take our vision and turn it into a reality,
@@ -142,8 +175,12 @@
                     </blockquote>
                   </figcaption>
                   <div class="d-flex justify-content-start">
-                    <img class="img-fluid rounded rounded-circle mb-4 border border-5" loading="lazy"
-                      src="./imgs/person_1.jpg" alt="Luna John" />
+                    <img
+                      class="img-fluid rounded rounded-circle mb-4 border border-5"
+                      loading="lazy"
+                      src="./imgs/person_1.jpg"
+                      alt="Luna John"
+                    />
                     <div>
                       <h4 class="mb-2">Luna John</h4>
                       <h5 class="fs-6 text-secondary- mb-0">UX Designer</h5>
@@ -159,7 +196,11 @@
               <div class="card-body p-4 p-xxl-5">
                 <figure>
                   <figcaption>
-                    <div class="bsb-ratings text-purple mb-3" data-bsb-star="5" data-bsb-star-off="0"></div>
+                    <div
+                      class="bsb-ratings text-purple mb-3"
+                      data-bsb-star="5"
+                      data-bsb-star-off="0"
+                    ></div>
                     <blockquote class="bsb-blockquote-icon mb-4">
                       We were so impressed with the work they did for us. They
                       were able to take our vision and turn it into a reality,
@@ -169,8 +210,12 @@
                     </blockquote>
                   </figcaption>
                   <div class="d-flex justify-content-start">
-                    <img class="img-fluid rounded rounded-circle mb-4 border border-5" loading="lazy"
-                      src="./imgs/person_1.jpg" alt="Luna John" />
+                    <img
+                      class="img-fluid rounded rounded-circle mb-4 border border-5"
+                      loading="lazy"
+                      src="./imgs/person_1.jpg"
+                      alt="Luna John"
+                    />
                     <div>
                       <h4 class="mb-2">Luna John</h4>
                       <h5 class="fs-6 text-secondary- mb-0">UX Designer</h5>
@@ -186,7 +231,11 @@
               <div class="card-body p-4 p-xxl-5">
                 <figure>
                   <figcaption>
-                    <div class="bsb-ratings text-purple mb-3" data-bsb-star="4" data-bsb-star-off="0"></div>
+                    <div
+                      class="bsb-ratings text-purple mb-3"
+                      data-bsb-star="4"
+                      data-bsb-star-off="0"
+                    ></div>
                     <blockquote class="bsb-blockquote-icon mb-4">
                       We were so impressed with the work they did for us. They
                       were able to take our vision and turn it into a reality,
@@ -196,8 +245,12 @@
                     </blockquote>
                   </figcaption>
                   <div class="d-flex justify-content-start">
-                    <img class="img-fluid rounded rounded-circle mb-4 border border-5" loading="lazy"
-                      src="./imgs/person_1.jpg" alt="Luna John" />
+                    <img
+                      class="img-fluid rounded rounded-circle mb-4 border border-5"
+                      loading="lazy"
+                      src="./imgs/person_1.jpg"
+                      alt="Luna John"
+                    />
                     <div>
                       <h4 class="mb-2">Luna John</h4>
                       <h5 class="fs-6 text-secondary- mb-0">UX Designer</h5>
@@ -211,58 +264,72 @@
       </div>
     </section>
 
-  <!-- Footer Include -->
-  <footer class="text-center  mt-0 text-lg-start text-white" style="background-color: #1b2b44;" id="footer_container">
-  </footer>
-  <!-- --Footer Include -->
+    <!-- Footer Include -->
+    <footer
+      class="text-center  mt-0 text-lg-start text-white"
+      style="background-color: #1b2b44;"
+      id="footer_container"
+    ></footer>
+    <!-- --Footer Include -->
 
-  <!-- Sticky Button -->
-  <div class="sticky-container">
-    <ul class="sticky px-0">
-      <li data-bs-toggle="modal" data-bs-target="#exampleModal" class="button-85" role="button">
-        <img width="50" height="50" title="" alt="" src="./imgs/_logo.webp" />
-        <p>Got Quotation</p>
-      </li>
-    </ul>
-  </div>
-  <!-- --Sticky Button -->
+    <!-- Sticky Button -->
+    <div class="sticky-container">
+      <ul class="sticky px-0">
+        <li
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+          class="button-85"
+          role="button"
+        >
+          <img width="50" height="50" title="" alt="" src="./imgs/_logo.webp" />
+          <p>Got Quotation</p>
+        </li>
+      </ul>
+    </div>
+    <!-- --Sticky Button -->
 
-  <!-- Send Quotation Modal -->
-  <div class="ContactUs" style="padding-top:0;" id="contact_modal_container"></div>
-  <!-- Send Quotation Modal -->
+    <!-- Send Quotation Modal -->
+    <div
+      class="ContactUs"
+      style="padding-top:0;"
+      id="contact_modal_container"
+    ></div>
+    <!-- Send Quotation Modal -->
 
-  <script src="https://kit.fontawesome.com/5b9061b1a3.js" crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/5b9061b1a3.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-  <!-- dynamic load fixed parts -->
-  <script src="./js/load_fixed_parts.js" crossorigin="anonymous"></script>
+    <!-- dynamic load fixed parts -->
+    <script src="./js/load_fixed_parts.js" crossorigin="anonymous"></script>
 
-  <script>
-    const swiper = new Swiper('.mySwiper', {
-      loop: true,
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      slidesPerView: 1,
-      effect: 'fade',
-      fadeEffect: {
-        crossFade: true
-      },
-    });
-    const webSwiper = new Swiper('.webDesign', {
-      loop: true,
-      navigation: {
-        nextEl: '.web-swiper-button-next',
-        prevEl: '.web-swiper-button-prev',
-      },
-      slidesPerView: 1,
-      // effect: 'fade',
-      // fadeEffect: {
-      // crossFade: true
-      //           },
-    });
-  </script>
-</body>
-
+    <script>
+      const swiper = new Swiper('.mySwiper', {
+        loop: true,
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        slidesPerView: 1,
+        effect: 'fade',
+        fadeEffect: {
+          crossFade: true
+        },
+      });
+      const webSwiper = new Swiper('.webDesign', {
+        loop: true,
+        navigation: {
+          nextEl: '.web-swiper-button-next',
+          prevEl: '.web-swiper-button-prev',
+        },
+        slidesPerView: 1,
+        // effect: 'fade',
+        // fadeEffect: {
+        // crossFade: true
+        //           },
+      });
+    </script>
+  </body>
 </html>
