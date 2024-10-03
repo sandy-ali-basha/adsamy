@@ -249,7 +249,9 @@
           <section id="section-two">
             <div class="container my-5">
               <!-- Plans -->
-              <div class="d-flex flex-wrap justify-content-center gap-2 flex-wrap py-3">
+              <div
+                class="d-flex flex-wrap justify-content-center gap-2 flex-wrap py-3"
+              >
                 <button type="button" class="btn btn-package px-5 px-md-2">
                   Plan 1
                 </button>
@@ -308,8 +310,7 @@
                             data-service-id="1"
                             data-price="1000"
                             >Branding &amp; Positioning
-                          </label
-                          >
+                          </label>
                         </button>
                       </h2>
                       <div
@@ -358,8 +359,7 @@
                             data-price="1000"
                           >
                             Videography
-                          </label
-                          >
+                          </label>
                         </button>
                       </h2>
                       <div
@@ -406,8 +406,7 @@
                             data-service-id="3"
                             data-price="1000"
                             >Photography
-                          </label
-                          >
+                          </label>
                         </button>
                       </h2>
                       <div
@@ -457,8 +456,7 @@
                             data-service-id="4"
                             data-price="1000"
                             >Social Media Management
-                          </label
-                          >
+                          </label>
                         </button>
                       </h2>
                       <div
@@ -507,8 +505,7 @@
                             data-service-id="5"
                             data-price="1500"
                             >SEO,SEM &amp; SMM
-                          </label
-                          >
+                          </label>
                         </button>
                       </h2>
                       <div
@@ -557,8 +554,7 @@
                             data-service-id="6"
                             data-price="1000"
                             >Web Design &amp; Development
-                          </label
-                          >
+                          </label>
                         </button>
                       </h2>
                       <div
@@ -699,334 +695,1103 @@
     </div>
     <!-- Watch Our Latest Project -->
     <section class="text-center mb-0 LatestProject">
-      
       <h2 class="text-white pt-5">Watch Our Latest Project</h2>
-      <div class="d-flex flex-wrap justify-content-center gap-3 flex-wrap py-3 "></div>
-        <button type="button" class="btn border-white btn-secondary-50 px-5 px-md-2">
-          all
-        </button>
-        <button type="button" class="btn border-white btn-secondary-50 px-5 px-md-2">
-          mobile app design 
-        </button>
-        <button type="button" class="btn border-white btn-secondary-50 px-5 px-md-2">
-          website design
-        </button>
-        <button type="button" class="btn border-white btn-secondary-50 px-5 px-md-2">
-          lorem ipsum
-        </button>
-      </div>
       <div
-        class="d-flex flex-column flex-md-row align-items-start container p-5"
+        class="d-flex flex-wrap justify-content-center gap-3 flex-wrap py-3 "
       >
-        <div class="tab-content" style="width:70vw" id="v-pills-tabContent">
-          <div
-            class="tab-pane fade show active webDesign"
-            id="Behind-The"
-            role="tabpanel"
-            aria-labelledby="Behind-The"
+        <div
+          class="nav nav-tabs border-bottom-0 gap-2"
+          id="nav-tab"
+          role="tablist"
+        >
+          <button
+            type="button"
+            class="btn border-white btn-secondary-50 px-5 px-md-2 nav-link active"
+            id="nav-all-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-all"
+            type="button"
+            role="tab"
+            aria-controls="nav-all"
+            aria-selected="true"
           >
-            <div class="video-card w-100">
-              <video
-                id="video1"
-                poster="https://via.placeholder.com/351x200"
-                controls
-                class="w-100"
-                preload="none"
+            all
+          </button>
+          <button
+            type="button"
+            class="btn border-white btn-secondary-50 px-5 px-md-2 nav-link"
+            id="nav-mobile-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-mobile"
+            type="button"
+            role="tab"
+            aria-controls="nav-mobile"
+            aria-selected="false"
+          >
+            mobile app design
+          </button>
+          <button
+            type="button"
+            class="btn border-white btn-secondary-50 px-5 px-md-2 nav-link"
+            id="nav-website-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-website"
+            type="button"
+            role="tab"
+            aria-controls="nav-website"
+            aria-selected="false"
+          >
+            website design
+          </button>
+        </div>
+      </div>
+      <div class="tab-content" id="nav-tabContent">
+        <div
+          class="tab-pane fade show active"
+          id="nav-all"
+          role="tabpanel"
+          aria-labelledby="nav-all-tab"
+        >
+          <div
+            class="d-flex flex-column flex-md-row align-items-start container p-5"
+          >
+            <div class="tab-content" style="width:70vw" id="v-pills-tabContent">
+              <div
+                class="tab-pane fade show active webDesign"
+                id="Behind-The"
+                role="tabpanel"
+                aria-labelledby="Behind-The"
               >
-                <source
-                  src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
-                  type="video/mp4"
-                />
-                Your browser does not support the video tag.
-              </video>
-              <button class="play-btn" id="playButton1">
-                <i class="fas fa-play"></i>
-              </button>
-              <button class="play-btn " style="display: none;" id="pausButton1">
-                <i class="fas fa-pause"></i>
-              </button>
+                <div class="video-card w-100">
+                  <video
+                    id="video1"
+                    poster="https://via.placeholder.com/351x200"
+                    controls
+                    class="w-100"
+                    preload="none"
+                  >
+                    <source
+                      src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
+                      type="video/mp4"
+                    />
+                    Your browser does not support the video tag.
+                  </video>
+                  <button class="play-btn" id="playButton1">
+                    <i class="fas fa-play"></i>
+                  </button>
+                  <button
+                    class="play-btn "
+                    style="display: none;"
+                    id="pausButton1"
+                  >
+                    <i class="fas fa-pause"></i>
+                  </button>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade show activ webDesign"
+                id="Video-Portfolio"
+                role="tabpanel"
+                aria-labelledby="Video-Portfolio"
+              >
+                <div class="video-card w-100">
+                  <video
+                    id="video1"
+                    poster="https://via.placeholder.com/351x200"
+                    controls
+                    class="w-100"
+                    preload="none"
+                  >
+                    <source
+                      src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
+                      type="video/mp4"
+                    />
+                    Your browser does not support the video tag.
+                  </video>
+                  <button class="play-btn" id="playButton1">
+                    <i class="fas fa-play"></i>
+                  </button>
+                  <button
+                    class="play-btn "
+                    style="display: none;"
+                    id="pausButton1"
+                  >
+                    <i class="fas fa-pause"></i>
+                  </button>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade show  webDesign"
+                id="Cloud-Seeding"
+                role="tabpanel"
+                aria-labelledby="Cloud-Seeding"
+              >
+                <div class="video-card w-100">
+                  <video
+                    id="video1"
+                    poster="https://via.placeholder.com/351x200"
+                    controls
+                    class="w-100"
+                    preload="none"
+                  >
+                    <source
+                      src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
+                      type="video/mp4"
+                    />
+                    Your browser does not support the video tag.
+                  </video>
+                  <button class="play-btn" id="playButton1">
+                    <i class="fas fa-play"></i>
+                  </button>
+                  <button
+                    class="play-btn "
+                    style="display: none;"
+                    id="pausButton1"
+                  >
+                    <i class="fas fa-pause"></i>
+                  </button>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade show activ webDesign"
+                id="Nahdah-Construction"
+                role="tabpanel"
+                aria-labelledby="Nahdah-Construction"
+              >
+                <div class="video-card w-100">
+                  <video
+                    id="video1"
+                    poster="https://via.placeholder.com/351x200"
+                    controls
+                    class="w-100"
+                    preload="none"
+                  >
+                    <source
+                      src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
+                      type="video/mp4"
+                    />
+                    Your browser does not support the video tag.
+                  </video>
+                  <button class="play-btn" id="playButton1">
+                    <i class="fas fa-play"></i>
+                  </button>
+                  <button
+                    class="play-btn "
+                    style="display: none;"
+                    id="pausButton1"
+                  >
+                    <i class="fas fa-pause"></i>
+                  </button>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade show  webDesign"
+                id="Surgery-Center"
+                role="tabpanel"
+                aria-labelledby="Surgery-Center"
+              >
+                <div class="video-card w-100">
+                  <video
+                    id="video1"
+                    poster="https://via.placeholder.com/351x200"
+                    controls
+                    class="w-100"
+                    preload="none"
+                  >
+                    <source
+                      src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
+                      type="video/mp4"
+                    />
+                    Your browser does not support the video tag.
+                  </video>
+                  <button class="play-btn" id="playButton1">
+                    <i class="fas fa-play"></i>
+                  </button>
+                  <button
+                    class="play-btn "
+                    style="display: none;"
+                    id="pausButton1"
+                  >
+                    <i class="fas fa-pause"></i>
+                  </button>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade show  webDesign"
+                id="FLIR-MIDDLE"
+                role="tabpanel"
+                aria-labelledby="FLIR-MIDDLE"
+              >
+                <div class="video-card w-100">
+                  <video
+                    id="video1"
+                    poster="https://via.placeholder.com/351x200"
+                    controls
+                    class="w-100"
+                    preload="none"
+                  >
+                    <source
+                      src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
+                      type="video/mp4"
+                    />
+                    Your browser does not support the video tag.
+                  </video>
+                  <button class="play-btn" id="playButton1">
+                    <i class="fas fa-play"></i>
+                  </button>
+                  <button
+                    class="play-btn "
+                    style="display: none;"
+                    id="pausButton1"
+                  >
+                    <i class="fas fa-pause"></i>
+                  </button>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade show  webDesign"
+                id="Football-Match"
+                role="tabpanel"
+                aria-labelledby="Football-Match"
+              >
+                <div class="video-card w-100">
+                  <video
+                    id="video1"
+                    poster="https://via.placeholder.com/351x200"
+                    controls
+                    class="w-100"
+                    preload="none"
+                  >
+                    <source
+                      src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
+                      type="video/mp4"
+                    />
+                    Your browser does not support the video tag.
+                  </video>
+                  <button class="play-btn" id="playButton1">
+                    <i class="fas fa-play"></i>
+                  </button>
+                  <button
+                    class="play-btn "
+                    style="display: none;"
+                    id="pausButton1"
+                  >
+                    <i class="fas fa-pause"></i>
+                  </button>
+                </div>
+              </div>
             </div>
-          </div>
-          <div
-            class="tab-pane fade show activ webDesign"
-            id="Video-Portfolio"
-            role="tabpanel"
-            aria-labelledby="Video-Portfolio"
-          >
-            <div class="video-card w-100">
-              <video
-                id="video1"
-                poster="https://via.placeholder.com/351x200"
-                controls
-                class="w-100"
-                preload="none"
+            <div
+              class="nav flex-column nav-pills me-3 navigateBtns"
+              id="v-pills-tab"
+              role="tablist"
+              aria-orientation="vertical"
+            >
+              <button
+                class="nav-link px-2 py-3 d-flex gap-3 ps-3 align-items-center active"
+                id="Behind-The-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#Behind-The"
+                type="button"
+                role="tab"
+                aria-controls="Behind-The"
+                aria-selected="true"
               >
-                <source
-                  src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
-                  type="video/mp4"
-                />
-                Your browser does not support the video tag.
-              </video>
-              <button class="play-btn" id="playButton1">
-                <i class="fas fa-play"></i>
+                <i class="fa-solid fa-circle-play text-white fs-3"></i>
+                <div class="fw-light text-start text-white">
+                  Doleep Studios - Behind The Scenes
+                </div>
               </button>
-              <button class="play-btn " style="display: none;" id="pausButton1">
-                <i class="fas fa-pause"></i>
-              </button>
-            </div>
-          </div>
-          <div
-            class="tab-pane fade show  webDesign"
-            id="Cloud-Seeding"
-            role="tabpanel"
-            aria-labelledby="Cloud-Seeding"
-          >
-            <div class="video-card w-100">
-              <video
-                id="video1"
-                poster="https://via.placeholder.com/351x200"
-                controls
-                class="w-100"
-                preload="none"
+              <button
+                class="nav-link px-2 py-3 d-flex gap-3 ps-3 align-items-center"
+                id="Video-Portfolio-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#Video-Portfolio"
+                type="button"
+                role="tab"
+                aria-controls="Video-Portfolio"
+                aria-selected="true"
               >
-                <source
-                  src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
-                  type="video/mp4"
-                />
-                Your browser does not support the video tag.
-              </video>
-              <button class="play-btn" id="playButton1">
-                <i class="fas fa-play"></i>
+                <i class="fa-solid fa-circle-play text-white fs-3"></i>
+                <div class="fw-light text-start text-white">
+                  Doleep Studios - 2020 Video Portfolio
+                </div>
               </button>
-              <button class="play-btn " style="display: none;" id="pausButton1">
-                <i class="fas fa-pause"></i>
-              </button>
-            </div>
-          </div>
-          <div
-            class="tab-pane fade show activ webDesign"
-            id="Nahdah-Construction"
-            role="tabpanel"
-            aria-labelledby="Nahdah-Construction"
-          >
-            <div class="video-card w-100">
-              <video
-                id="video1"
-                poster="https://via.placeholder.com/351x200"
-                controls
-                class="w-100"
-                preload="none"
+              <button
+                class="nav-link px-2 py-3 d-flex gap-3 ps-3 align-items-center"
+                id="Cloud-Seeding-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#Cloud-Seeding"
+                type="button"
+                role="tab"
+                aria-controls="Cloud-Seeding"
+                aria-selected="true"
               >
-                <source
-                  src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
-                  type="video/mp4"
-                />
-                Your browser does not support the video tag.
-              </video>
-              <button class="play-btn" id="playButton1">
-                <i class="fas fa-play"></i>
+                <i class="fa-solid fa-circle-play text-white fs-3"></i>
+                <div class="fw-light text-start text-white">
+                  Cloud Seeding Story of a life
+                </div>
               </button>
-              <button class="play-btn " style="display: none;" id="pausButton1">
-                <i class="fas fa-pause"></i>
-              </button>
-            </div>
-          </div>
-          <div
-            class="tab-pane fade show  webDesign"
-            id="Surgery-Center"
-            role="tabpanel"
-            aria-labelledby="Surgery-Center"
-          >
-            <div class="video-card w-100">
-              <video
-                id="video1"
-                poster="https://via.placeholder.com/351x200"
-                controls
-                class="w-100"
-                preload="none"
+              <button
+                class="nav-link px-2 py-3 d-flex gap-3 ps-3 align-items-center"
+                id="Nahdah-Construction-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#Nahdah-Construction"
+                type="button"
+                role="tab"
+                aria-controls="Nahdah-Construction"
+                aria-selected="true"
               >
-                <source
-                  src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
-                  type="video/mp4"
-                />
-                Your browser does not support the video tag.
-              </video>
-              <button class="play-btn" id="playButton1">
-                <i class="fas fa-play"></i>
+                <i class="fa-solid fa-circle-play text-white fs-3"></i>
+                <div class="fw-light text-start text-white">
+                  Shafa Al Nahdah Construction
+                </div>
               </button>
-              <button class="play-btn " style="display: none;" id="pausButton1">
-                <i class="fas fa-pause"></i>
-              </button>
-            </div>
-          </div>
-          <div
-            class="tab-pane fade show  webDesign"
-            id="FLIR-MIDDLE"
-            role="tabpanel"
-            aria-labelledby="FLIR-MIDDLE"
-          >
-            <div class="video-card w-100">
-              <video
-                id="video1"
-                poster="https://via.placeholder.com/351x200"
-                controls
-                class="w-100"
-                preload="none"
+              <button
+                class="nav-link px-2 py-3 d-flex gap-3 ps-3 align-items-center"
+                id="Surgery-Center-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#Surgery-Center"
+                type="button"
+                role="tab"
+                aria-controls="Surgery-Center"
+                aria-selected="true"
               >
-                <source
-                  src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
-                  type="video/mp4"
-                />
-                Your browser does not support the video tag.
-              </video>
-              <button class="play-btn" id="playButton1">
-                <i class="fas fa-play"></i>
+                <i class="fa-solid fa-circle-play text-white fs-3"></i>
+                <div class="fw-light text-start text-white">
+                  Burjeel Day Surgery Center
+                </div>
               </button>
-              <button class="play-btn " style="display: none;" id="pausButton1">
-                <i class="fas fa-pause"></i>
-              </button>
-            </div>
-          </div>
-          <div
-            class="tab-pane fade show  webDesign"
-            id="Football-Match"
-            role="tabpanel"
-            aria-labelledby="Football-Match"
-          >
-            <div class="video-card w-100">
-              <video
-                id="video1"
-                poster="https://via.placeholder.com/351x200"
-                controls
-                class="w-100"
-                preload="none"
+              <button
+                class="nav-link px-2 py-3 d-flex gap-3 ps-3 align-items-center"
+                id="FLIR-MIDDLE-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#FLIR-MIDDLE"
+                type="button"
+                role="tab"
+                aria-controls="FLIR-MIDDLE"
+                aria-selected="true"
               >
-                <source
-                  src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
-                  type="video/mp4"
-                />
-                Your browser does not support the video tag.
-              </video>
-              <button class="play-btn" id="playButton1">
-                <i class="fas fa-play"></i>
+                <i class="fa-solid fa-circle-play text-white fs-3"></i>
+                <div class="fw-light text-start text-white">
+                  FLIR MIDDLE EAST Facility
+                </div>
               </button>
-              <button class="play-btn " style="display: none;" id="pausButton1">
-                <i class="fas fa-pause"></i>
+              <button
+                class="nav-link px-2 py-3 d-flex gap-3 ps-3 align-items-center"
+                id="Football-Match-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#Football-Match"
+                type="button"
+                role="tab"
+                aria-controls="Football-Match"
+                aria-selected="true"
+              >
+                <i class="fa-solid fa-circle-play text-white fs-3"></i>
+                <div class="fw-light text-start text-white">
+                  Al Ahly vs A.S Roma Football Match Promoti…
+                </div>
               </button>
             </div>
           </div>
         </div>
         <div
-          class="nav flex-column nav-pills me-3 navigateBtns"
-          id="v-pills-tab"
-          role="tablist"
-          aria-orientation="vertical"
+          class="tab-pane fade"
+          id="nav-mobile"
+          role="tabpanel"
+          aria-labelledby="nav-mobile-tab"
         >
-          <button
-            class="nav-link px-2 py-3 d-flex gap-3 ps-3 align-items-center active"
-            id="Behind-The-tab"
-            data-bs-toggle="pill"
-            data-bs-target="#Behind-The"
-            type="button"
-            role="tab"
-            aria-controls="Behind-The"
-            aria-selected="true"
+          <div
+            class="d-flex flex-column flex-md-row align-items-start container p-5"
           >
-            <i class="fa-solid fa-circle-play text-white fs-3"></i>
-            <div class="fw-light text-start text-white">
-              Doleep Studios - Behind The Scenes
+            <div class="tab-content" style="width:70vw" id="v-pills-tabContent">
+              <div
+                class="tab-pane fade show active webDesign"
+                id="Behind-The"
+                role="tabpanel"
+                aria-labelledby="Behind-The"
+              >
+                <div class="video-card w-100">
+                  <video
+                    id="video1"
+                    poster="https://via.placeholder.com/351x200"
+                    controls
+                    class="w-100"
+                    preload="none"
+                  >
+                    <source
+                      src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
+                      type="video/mp4"
+                    />
+                    Your browser does not support the video tag.
+                  </video>
+                  <button class="play-btn" id="playButton1">
+                    <i class="fas fa-play"></i>
+                  </button>
+                  <button
+                    class="play-btn "
+                    style="display: none;"
+                    id="pausButton1"
+                  >
+                    <i class="fas fa-pause"></i>
+                  </button>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade show activ webDesign"
+                id="Video-Portfolio"
+                role="tabpanel"
+                aria-labelledby="Video-Portfolio"
+              >
+                <div class="video-card w-100">
+                  <video
+                    id="video1"
+                    poster="https://via.placeholder.com/351x200"
+                    controls
+                    class="w-100"
+                    preload="none"
+                  >
+                    <source
+                      src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
+                      type="video/mp4"
+                    />
+                    Your browser does not support the video tag.
+                  </video>
+                  <button class="play-btn" id="playButton1">
+                    <i class="fas fa-play"></i>
+                  </button>
+                  <button
+                    class="play-btn "
+                    style="display: none;"
+                    id="pausButton1"
+                  >
+                    <i class="fas fa-pause"></i>
+                  </button>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade show  webDesign"
+                id="Cloud-Seeding"
+                role="tabpanel"
+                aria-labelledby="Cloud-Seeding"
+              >
+                <div class="video-card w-100">
+                  <video
+                    id="video1"
+                    poster="https://via.placeholder.com/351x200"
+                    controls
+                    class="w-100"
+                    preload="none"
+                  >
+                    <source
+                      src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
+                      type="video/mp4"
+                    />
+                    Your browser does not support the video tag.
+                  </video>
+                  <button class="play-btn" id="playButton1">
+                    <i class="fas fa-play"></i>
+                  </button>
+                  <button
+                    class="play-btn "
+                    style="display: none;"
+                    id="pausButton1"
+                  >
+                    <i class="fas fa-pause"></i>
+                  </button>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade show activ webDesign"
+                id="Nahdah-Construction"
+                role="tabpanel"
+                aria-labelledby="Nahdah-Construction"
+              >
+                <div class="video-card w-100">
+                  <video
+                    id="video1"
+                    poster="https://via.placeholder.com/351x200"
+                    controls
+                    class="w-100"
+                    preload="none"
+                  >
+                    <source
+                      src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
+                      type="video/mp4"
+                    />
+                    Your browser does not support the video tag.
+                  </video>
+                  <button class="play-btn" id="playButton1">
+                    <i class="fas fa-play"></i>
+                  </button>
+                  <button
+                    class="play-btn "
+                    style="display: none;"
+                    id="pausButton1"
+                  >
+                    <i class="fas fa-pause"></i>
+                  </button>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade show  webDesign"
+                id="Surgery-Center"
+                role="tabpanel"
+                aria-labelledby="Surgery-Center"
+              >
+                <div class="video-card w-100">
+                  <video
+                    id="video1"
+                    poster="https://via.placeholder.com/351x200"
+                    controls
+                    class="w-100"
+                    preload="none"
+                  >
+                    <source
+                      src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
+                      type="video/mp4"
+                    />
+                    Your browser does not support the video tag.
+                  </video>
+                  <button class="play-btn" id="playButton1">
+                    <i class="fas fa-play"></i>
+                  </button>
+                  <button
+                    class="play-btn "
+                    style="display: none;"
+                    id="pausButton1"
+                  >
+                    <i class="fas fa-pause"></i>
+                  </button>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade show  webDesign"
+                id="FLIR-MIDDLE"
+                role="tabpanel"
+                aria-labelledby="FLIR-MIDDLE"
+              >
+                <div class="video-card w-100">
+                  <video
+                    id="video1"
+                    poster="https://via.placeholder.com/351x200"
+                    controls
+                    class="w-100"
+                    preload="none"
+                  >
+                    <source
+                      src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
+                      type="video/mp4"
+                    />
+                    Your browser does not support the video tag.
+                  </video>
+                  <button class="play-btn" id="playButton1">
+                    <i class="fas fa-play"></i>
+                  </button>
+                  <button
+                    class="play-btn "
+                    style="display: none;"
+                    id="pausButton1"
+                  >
+                    <i class="fas fa-pause"></i>
+                  </button>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade show  webDesign"
+                id="Football-Match"
+                role="tabpanel"
+                aria-labelledby="Football-Match"
+              >
+                <div class="video-card w-100">
+                  <video
+                    id="video1"
+                    poster="https://via.placeholder.com/351x200"
+                    controls
+                    class="w-100"
+                    preload="none"
+                  >
+                    <source
+                      src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
+                      type="video/mp4"
+                    />
+                    Your browser does not support the video tag.
+                  </video>
+                  <button class="play-btn" id="playButton1">
+                    <i class="fas fa-play"></i>
+                  </button>
+                  <button
+                    class="play-btn "
+                    style="display: none;"
+                    id="pausButton1"
+                  >
+                    <i class="fas fa-pause"></i>
+                  </button>
+                </div>
+              </div>
             </div>
-          </button>
-          <button
-            class="nav-link px-2 py-3 d-flex gap-3 ps-3 align-items-center"
-            id="Video-Portfolio-tab"
-            data-bs-toggle="pill"
-            data-bs-target="#Video-Portfolio"
-            type="button"
-            role="tab"
-            aria-controls="Video-Portfolio"
-            aria-selected="true"
+            <div
+              class="nav flex-column nav-pills me-3 navigateBtns"
+              id="v-pills-tab"
+              role="tablist"
+              aria-orientation="vertical"
+            >
+              <button
+                class="nav-link px-2 py-3 d-flex gap-3 ps-3 align-items-center active"
+                id="Behind-The-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#Behind-The"
+                type="button"
+                role="tab"
+                aria-controls="Behind-The"
+                aria-selected="true"
+              >
+                <i class="fa-solid fa-circle-play text-white fs-3"></i>
+                <div class="fw-light text-start text-white">
+                  Doleep Studios - Behind The Scenes
+                </div>
+              </button>
+              <button
+                class="nav-link px-2 py-3 d-flex gap-3 ps-3 align-items-center"
+                id="Video-Portfolio-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#Video-Portfolio"
+                type="button"
+                role="tab"
+                aria-controls="Video-Portfolio"
+                aria-selected="true"
+              >
+                <i class="fa-solid fa-circle-play text-white fs-3"></i>
+                <div class="fw-light text-start text-white">
+                  Doleep Studios - 2020 Video Portfolio
+                </div>
+              </button>
+              <button
+                class="nav-link px-2 py-3 d-flex gap-3 ps-3 align-items-center"
+                id="Cloud-Seeding-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#Cloud-Seeding"
+                type="button"
+                role="tab"
+                aria-controls="Cloud-Seeding"
+                aria-selected="true"
+              >
+                <i class="fa-solid fa-circle-play text-white fs-3"></i>
+                <div class="fw-light text-start text-white">
+                  Cloud Seeding Story of a life
+                </div>
+              </button>
+              <button
+                class="nav-link px-2 py-3 d-flex gap-3 ps-3 align-items-center"
+                id="Nahdah-Construction-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#Nahdah-Construction"
+                type="button"
+                role="tab"
+                aria-controls="Nahdah-Construction"
+                aria-selected="true"
+              >
+                <i class="fa-solid fa-circle-play text-white fs-3"></i>
+                <div class="fw-light text-start text-white">
+                  Shafa Al Nahdah Construction
+                </div>
+              </button>
+              <button
+                class="nav-link px-2 py-3 d-flex gap-3 ps-3 align-items-center"
+                id="Surgery-Center-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#Surgery-Center"
+                type="button"
+                role="tab"
+                aria-controls="Surgery-Center"
+                aria-selected="true"
+              >
+                <i class="fa-solid fa-circle-play text-white fs-3"></i>
+                <div class="fw-light text-start text-white">
+                  Burjeel Day Surgery Center
+                </div>
+              </button>
+              <button
+                class="nav-link px-2 py-3 d-flex gap-3 ps-3 align-items-center"
+                id="FLIR-MIDDLE-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#FLIR-MIDDLE"
+                type="button"
+                role="tab"
+                aria-controls="FLIR-MIDDLE"
+                aria-selected="true"
+              >
+                <i class="fa-solid fa-circle-play text-white fs-3"></i>
+                <div class="fw-light text-start text-white">
+                  FLIR MIDDLE EAST Facility
+                </div>
+              </button>
+              <button
+                class="nav-link px-2 py-3 d-flex gap-3 ps-3 align-items-center"
+                id="Football-Match-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#Football-Match"
+                type="button"
+                role="tab"
+                aria-controls="Football-Match"
+                aria-selected="true"
+              >
+                <i class="fa-solid fa-circle-play text-white fs-3"></i>
+                <div class="fw-light text-start text-white">
+                  Al Ahly vs A.S Roma Football Match Promoti…
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="nav-website"
+          role="tabpanel"
+          aria-labelledby="nav-website-tab"
+        >
+          <div
+            class="d-flex flex-column flex-md-row align-items-start container p-5"
           >
-            <i class="fa-solid fa-circle-play text-white fs-3"></i>
-            <div class="fw-light text-start text-white">
-              Doleep Studios - 2020 Video Portfolio
+            <div class="tab-content" style="width:70vw" id="v-pills-tabContent">
+              <div
+                class="tab-pane fade show active webDesign"
+                id="Behind-The"
+                role="tabpanel"
+                aria-labelledby="Behind-The"
+              >
+                <div class="video-card w-100">
+                  <video
+                    id="video1"
+                    poster="https://via.placeholder.com/351x200"
+                    controls
+                    class="w-100"
+                    preload="none"
+                  >
+                    <source
+                      src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
+                      type="video/mp4"
+                    />
+                    Your browser does not support the video tag.
+                  </video>
+                  <button class="play-btn" id="playButton1">
+                    <i class="fas fa-play"></i>
+                  </button>
+                  <button
+                    class="play-btn "
+                    style="display: none;"
+                    id="pausButton1"
+                  >
+                    <i class="fas fa-pause"></i>
+                  </button>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade show activ webDesign"
+                id="Video-Portfolio"
+                role="tabpanel"
+                aria-labelledby="Video-Portfolio"
+              >
+                <div class="video-card w-100">
+                  <video
+                    id="video1"
+                    poster="https://via.placeholder.com/351x200"
+                    controls
+                    class="w-100"
+                    preload="none"
+                  >
+                    <source
+                      src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
+                      type="video/mp4"
+                    />
+                    Your browser does not support the video tag.
+                  </video>
+                  <button class="play-btn" id="playButton1">
+                    <i class="fas fa-play"></i>
+                  </button>
+                  <button
+                    class="play-btn "
+                    style="display: none;"
+                    id="pausButton1"
+                  >
+                    <i class="fas fa-pause"></i>
+                  </button>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade show  webDesign"
+                id="Cloud-Seeding"
+                role="tabpanel"
+                aria-labelledby="Cloud-Seeding"
+              >
+                <div class="video-card w-100">
+                  <video
+                    id="video1"
+                    poster="https://via.placeholder.com/351x200"
+                    controls
+                    class="w-100"
+                    preload="none"
+                  >
+                    <source
+                      src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
+                      type="video/mp4"
+                    />
+                    Your browser does not support the video tag.
+                  </video>
+                  <button class="play-btn" id="playButton1">
+                    <i class="fas fa-play"></i>
+                  </button>
+                  <button
+                    class="play-btn "
+                    style="display: none;"
+                    id="pausButton1"
+                  >
+                    <i class="fas fa-pause"></i>
+                  </button>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade show activ webDesign"
+                id="Nahdah-Construction"
+                role="tabpanel"
+                aria-labelledby="Nahdah-Construction"
+              >
+                <div class="video-card w-100">
+                  <video
+                    id="video1"
+                    poster="https://via.placeholder.com/351x200"
+                    controls
+                    class="w-100"
+                    preload="none"
+                  >
+                    <source
+                      src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
+                      type="video/mp4"
+                    />
+                    Your browser does not support the video tag.
+                  </video>
+                  <button class="play-btn" id="playButton1">
+                    <i class="fas fa-play"></i>
+                  </button>
+                  <button
+                    class="play-btn "
+                    style="display: none;"
+                    id="pausButton1"
+                  >
+                    <i class="fas fa-pause"></i>
+                  </button>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade show  webDesign"
+                id="Surgery-Center"
+                role="tabpanel"
+                aria-labelledby="Surgery-Center"
+              >
+                <div class="video-card w-100">
+                  <video
+                    id="video1"
+                    poster="https://via.placeholder.com/351x200"
+                    controls
+                    class="w-100"
+                    preload="none"
+                  >
+                    <source
+                      src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
+                      type="video/mp4"
+                    />
+                    Your browser does not support the video tag.
+                  </video>
+                  <button class="play-btn" id="playButton1">
+                    <i class="fas fa-play"></i>
+                  </button>
+                  <button
+                    class="play-btn "
+                    style="display: none;"
+                    id="pausButton1"
+                  >
+                    <i class="fas fa-pause"></i>
+                  </button>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade show  webDesign"
+                id="FLIR-MIDDLE"
+                role="tabpanel"
+                aria-labelledby="FLIR-MIDDLE"
+              >
+                <div class="video-card w-100">
+                  <video
+                    id="video1"
+                    poster="https://via.placeholder.com/351x200"
+                    controls
+                    class="w-100"
+                    preload="none"
+                  >
+                    <source
+                      src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
+                      type="video/mp4"
+                    />
+                    Your browser does not support the video tag.
+                  </video>
+                  <button class="play-btn" id="playButton1">
+                    <i class="fas fa-play"></i>
+                  </button>
+                  <button
+                    class="play-btn "
+                    style="display: none;"
+                    id="pausButton1"
+                  >
+                    <i class="fas fa-pause"></i>
+                  </button>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade show  webDesign"
+                id="Football-Match"
+                role="tabpanel"
+                aria-labelledby="Football-Match"
+              >
+                <div class="video-card w-100">
+                  <video
+                    id="video1"
+                    poster="https://via.placeholder.com/351x200"
+                    controls
+                    class="w-100"
+                    preload="none"
+                  >
+                    <source
+                      src="https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4"
+                      type="video/mp4"
+                    />
+                    Your browser does not support the video tag.
+                  </video>
+                  <button class="play-btn" id="playButton1">
+                    <i class="fas fa-play"></i>
+                  </button>
+                  <button
+                    class="play-btn "
+                    style="display: none;"
+                    id="pausButton1"
+                  >
+                    <i class="fas fa-pause"></i>
+                  </button>
+                </div>
+              </div>
             </div>
-          </button>
-          <button
-            class="nav-link px-2 py-3 d-flex gap-3 ps-3 align-items-center"
-            id="Cloud-Seeding-tab"
-            data-bs-toggle="pill"
-            data-bs-target="#Cloud-Seeding"
-            type="button"
-            role="tab"
-            aria-controls="Cloud-Seeding"
-            aria-selected="true"
-          >
-            <i class="fa-solid fa-circle-play text-white fs-3"></i>
-            <div class="fw-light text-start text-white">
-              Cloud Seeding Story of a life
+            <div
+              class="nav flex-column nav-pills me-3 navigateBtns"
+              id="v-pills-tab"
+              role="tablist"
+              aria-orientation="vertical"
+            >
+              <button
+                class="nav-link px-2 py-3 d-flex gap-3 ps-3 align-items-center active"
+                id="Behind-The-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#Behind-The"
+                type="button"
+                role="tab"
+                aria-controls="Behind-The"
+                aria-selected="true"
+              >
+                <i class="fa-solid fa-circle-play text-white fs-3"></i>
+                <div class="fw-light text-start text-white">
+                  Doleep Studios - Behind The Scenes
+                </div>
+              </button>
+              <button
+                class="nav-link px-2 py-3 d-flex gap-3 ps-3 align-items-center"
+                id="Video-Portfolio-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#Video-Portfolio"
+                type="button"
+                role="tab"
+                aria-controls="Video-Portfolio"
+                aria-selected="true"
+              >
+                <i class="fa-solid fa-circle-play text-white fs-3"></i>
+                <div class="fw-light text-start text-white">
+                  Doleep Studios - 2020 Video Portfolio
+                </div>
+              </button>
+              <button
+                class="nav-link px-2 py-3 d-flex gap-3 ps-3 align-items-center"
+                id="Cloud-Seeding-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#Cloud-Seeding"
+                type="button"
+                role="tab"
+                aria-controls="Cloud-Seeding"
+                aria-selected="true"
+              >
+                <i class="fa-solid fa-circle-play text-white fs-3"></i>
+                <div class="fw-light text-start text-white">
+                  Cloud Seeding Story of a life
+                </div>
+              </button>
+              <button
+                class="nav-link px-2 py-3 d-flex gap-3 ps-3 align-items-center"
+                id="Nahdah-Construction-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#Nahdah-Construction"
+                type="button"
+                role="tab"
+                aria-controls="Nahdah-Construction"
+                aria-selected="true"
+              >
+                <i class="fa-solid fa-circle-play text-white fs-3"></i>
+                <div class="fw-light text-start text-white">
+                  Shafa Al Nahdah Construction
+                </div>
+              </button>
+              <button
+                class="nav-link px-2 py-3 d-flex gap-3 ps-3 align-items-center"
+                id="Surgery-Center-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#Surgery-Center"
+                type="button"
+                role="tab"
+                aria-controls="Surgery-Center"
+                aria-selected="true"
+              >
+                <i class="fa-solid fa-circle-play text-white fs-3"></i>
+                <div class="fw-light text-start text-white">
+                  Burjeel Day Surgery Center
+                </div>
+              </button>
+              <button
+                class="nav-link px-2 py-3 d-flex gap-3 ps-3 align-items-center"
+                id="FLIR-MIDDLE-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#FLIR-MIDDLE"
+                type="button"
+                role="tab"
+                aria-controls="FLIR-MIDDLE"
+                aria-selected="true"
+              >
+                <i class="fa-solid fa-circle-play text-white fs-3"></i>
+                <div class="fw-light text-start text-white">
+                  FLIR MIDDLE EAST Facility
+                </div>
+              </button>
+              <button
+                class="nav-link px-2 py-3 d-flex gap-3 ps-3 align-items-center"
+                id="Football-Match-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#Football-Match"
+                type="button"
+                role="tab"
+                aria-controls="Football-Match"
+                aria-selected="true"
+              >
+                <i class="fa-solid fa-circle-play text-white fs-3"></i>
+                <div class="fw-light text-start text-white">
+                  Al Ahly vs A.S Roma Football Match Promoti…
+                </div>
+              </button>
             </div>
-          </button>
-          <button
-            class="nav-link px-2 py-3 d-flex gap-3 ps-3 align-items-center"
-            id="Nahdah-Construction-tab"
-            data-bs-toggle="pill"
-            data-bs-target="#Nahdah-Construction"
-            type="button"
-            role="tab"
-            aria-controls="Nahdah-Construction"
-            aria-selected="true"
-          >
-            <i class="fa-solid fa-circle-play text-white fs-3"></i>
-            <div class="fw-light text-start text-white">
-              Shafa Al Nahdah Construction
-            </div>
-          </button>
-          <button
-            class="nav-link px-2 py-3 d-flex gap-3 ps-3 align-items-center"
-            id="Surgery-Center-tab"
-            data-bs-toggle="pill"
-            data-bs-target="#Surgery-Center"
-            type="button"
-            role="tab"
-            aria-controls="Surgery-Center"
-            aria-selected="true"
-          >
-            <i class="fa-solid fa-circle-play text-white fs-3"></i>
-            <div class="fw-light text-start text-white">
-              Burjeel Day Surgery Center
-            </div>
-          </button>
-          <button
-            class="nav-link px-2 py-3 d-flex gap-3 ps-3 align-items-center"
-            id="FLIR-MIDDLE-tab"
-            data-bs-toggle="pill"
-            data-bs-target="#FLIR-MIDDLE"
-            type="button"
-            role="tab"
-            aria-controls="FLIR-MIDDLE"
-            aria-selected="true"
-          >
-            <i class="fa-solid fa-circle-play text-white fs-3"></i>
-            <div class="fw-light text-start text-white">
-              FLIR MIDDLE EAST Facility
-            </div>
-          </button>
-          <button
-            class="nav-link px-2 py-3 d-flex gap-3 ps-3 align-items-center"
-            id="Football-Match-tab"
-            data-bs-toggle="pill"
-            data-bs-target="#Football-Match"
-            type="button"
-            role="tab"
-            aria-controls="Football-Match"
-            aria-selected="true"
-          >
-            <i class="fa-solid fa-circle-play text-white fs-3"></i>
-            <div class="fw-light text-start text-white">
-              Al Ahly vs A.S Roma Football Match Promoti…
-            </div>
-          </button>
+          </div>
         </div>
       </div>
     </section>
