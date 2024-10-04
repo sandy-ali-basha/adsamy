@@ -1,0 +1,55 @@
+/* Footer */
+body.ar footer .row div {
+  text-align: right;
+}
+body.ar footer .container .row {
+  flex-direction: row-reverse;
+}
+/* Footer */
+/* About-us */
+body.ar section .aboutSubTitle::before {
+  right: auto;
+  left: 100%;
+}
+
+body.ar section .blue-card .cardNumber {
+  right: auto;
+  left: 30px;
+}
+
+body.ar header .aboutTitle {
+  color: rgb(109, 107, 107) !important;
+}
+body.ar header h1.text-white {
+  color: rgb(109, 107, 107) !important;
+}
+/* About-us */
+/* Services */
+body.ar .navigateBtns button.nav-link div {
+  text-align: right !important;
+}
+body.ar section .RequestCard .p-3 {
+  padding: 2rem !important;
+}
+body.ar section .card-body.ar .accordion-button::after {
+  margin-left: 0;
+  margin-right: auto;
+}
+body.ar section .card-body.ar .accordion-button input {
+  margin: 8px;
+}
+/* Services */
+/* Job */
+body.ar .LatestProject button.nav-link div {
+  text-align: right !important;
+}
+body.ar .swiper-rtl .swiper-button-prev {
+  left: 10px;
+  right: auto;
+}
+/* Job */
+/* blogs */
+body.ar button .fa-arrow-right {
+  transform: rotate(180deg);
+}
+/* blogs */

@@ -1,4 +1,4 @@
 {
-    "nuxt.isNuxtApp": false,
-    "liveServer.settings.port": 5501
+  "nuxt.isNuxtApp": false,
+  "liveServer.settings.port": 5502
 }
