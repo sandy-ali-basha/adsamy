@@ -1,4 +1,10 @@
 {
+<<<<<<< HEAD
     "nuxt.isNuxtApp": false,
     "liveServer.settings.port": 5502
 }
+=======
+  "nuxt.isNuxtApp": false,
+  "liveServer.settings.port": 5502
+}
+>>>>>>> d77a382f7fac082210bd982a4467afe92d51cd88
